@@ -21,34 +21,7 @@ class XMLReader implements IReader
         } else {
             $root = simplexml_load_string($this->data);
         }
-        return $this->convert($root);
-    }
-
-
-    protected function convert($element)
-    {
-        $attrs = [];
-        foreach ($element->attributes() as $attrKey => $attrValue) {
-            $attrs[$attrKey] = (string)$attrValue;
-        }
-
-        $value = $element->__toString();
-        if ($element->count() > 0) {
-            // non-leaf, trim string value down, if empty, return null (no value)
-            $trimmed = trim($value);
-            if (strlen($trimmed) === 0) {
-                $value = null;;
-            } else {
-                $value = $trimmed;
-            }
-        }
-
-        $children = [];
-        foreach ($element->children() as $child) {
-            $children[] = $this->convert($child);
-        }
-        $node = new Node($element->getName(), $value, $attrs, $children);
-        return $node;
+        return $root;
     }
 
 }
