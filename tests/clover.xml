@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1434579731">
+  <project timestamp="1434579731">
+    <package name="WhatTheField\Node">
+      <file name="/home/tbug/src/whatthefield/src/Node/AbstractNode.php">
+        <class name="AbstractNode" namespace="WhatTheField\Node">
+          <metrics methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="45" coveredelements="45"/>
+        </class>
+        <line num="17" type="method" name="__construct" crap="1" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="29" type="method" name="copyWithNewChildren" crap="1" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="35" type="method" name="getKey" crap="1" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="40" type="method" name="getValue" crap="1" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="45" type="method" name="getAttributes" crap="1" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="50" type="method" name="getAttr" crap="2" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="55" type="method" name="hasValue" crap="1" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="60" type="method" name="hasAttr" crap="1" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="65" type="method" name="__toString" crap="1" count="1"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="70" type="method" name="___toString" crap="5" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="95" type="stmt" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <metrics loc="100" ncloc="90" classes="1" methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="45" coveredelements="45"/>
+      </file>
+      <file name="/home/tbug/src/whatthefield/src/Node/Collection.php">
+        <class name="Collection" namespace="WhatTheField\Node">
+          <metrics methods="10" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="14" elements="37" coveredelements="18"/>
+        </class>
+        <line num="18" type="method" name="__construct" crap="4.12" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="34" type="method" name="copyWithNewChildren" crap="2" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="39" type="method" name="getIterator" crap="1" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="44" type="method" name="count" crap="1" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="49" type="method" name="offsetExists" crap="2" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="54" type="method" name="offsetGet" crap="2" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="59" type="method" name="offsetSet" crap="2" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="64" type="method" name="offsetUnset" crap="2" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="69" type="method" name="__toString" crap="6" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="80" type="method" name="find" crap="4" count="2"/>
+        <line num="82" type="stmt" count="2"/>
+        <line num="83" type="stmt" count="2"/>
+        <line num="84" type="stmt" count="2"/>
+        <line num="85" type="stmt" count="2"/>
+        <line num="86" type="stmt" count="2"/>
+        <line num="87" type="stmt" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <metrics loc="89" ncloc="79" classes="1" methods="10" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="14" elements="37" coveredelements="18"/>
+      </file>
+      <file name="/home/tbug/src/whatthefield/src/Node/Node.php">
+        <class name="Node" namespace="WhatTheField\Node">
+          <metrics methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="3" elements="20" coveredelements="4"/>
+        </class>
+        <line num="7" type="method" name="findByKey" crap="2" count="2"/>
+        <line num="10" type="stmt" count="2"/>
+        <line num="11" type="stmt" count="2"/>
+        <line num="13" type="stmt" count="2"/>
+        <line num="16" type="method" name="findByValue" crap="6" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="33" type="method" name="anonymous function" crap="56" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <metrics loc="49" ncloc="43" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="3" elements="20" coveredelements="4"/>
+      </file>
+    </package>
+    <file name="/home/tbug/src/whatthefield/src/Reader/IReader.php">
+      <metrics loc="9" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="WhatTheField\Reader">
+      <file name="/home/tbug/src/whatthefield/src/Reader/XMLReader.php">
+        <class name="XMLReader" namespace="WhatTheField\Reader">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="23" elements="28" coveredelements="25"/>
+        </class>
+        <line num="12" type="method" name="__construct" crap="1" count="2"/>
+        <line num="14" type="stmt" count="2"/>
+        <line num="15" type="stmt" count="2"/>
+        <line num="17" type="method" name="read" crap="3.58" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="28" type="method" name="convert" crap="5" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <metrics loc="54" ncloc="52" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="23" elements="28" coveredelements="25"/>
+      </file>
+    </package>
+    <metrics files="5" loc="301" ncloc="273" classes="4" methods="26" coveredmethods="17" conditionals="0" coveredconditionals="0" statements="104" coveredstatements="75" elements="130" coveredelements="92"/>
+  </project>
+</coverage>

@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+require dirname(__DIR__) . implode(DIRECTORY_SEPARATOR, [
+    '', 'vendor', 'autoload.php'
+]);
+
+use Symfony\Component\Console\Application;
+
+use WhatTheField\Console\Command\GuessCommand;
+use WhatTheField\Console\Command\QueryFeedCommand;
+
+$application = new Application();
+
+$application->add(new GuessCommand());
+$application->add(new QueryFeedCommand());
+
+
+$application->run();
