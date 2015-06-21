@@ -1,5 +1,5 @@
 .PHONY:
-	dev
+	test
 
 test:
 	vendor/bin/phpunit
