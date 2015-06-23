@@ -5,23 +5,16 @@ namespace WhatTheField\Discovery;
 use FluentDOM\Query;
 use FluentDOM\Nodes;
 
-use WhatTheField\QueryUtils;
-
-class FieldDiscovery implements IDiscovery
+class FieldDiscovery extends AbstractDiscovery implements IDiscovery
 {
     protected $scoreObjects;
     protected $filterObjects;
-    protected $utils;
 
     public function __construct (array $filterObjects, array $scoreObjects)
     {
-
-        $this->utils = new QueryUtils;
         $this->filterObjects = $filterObjects;
         $this->scoreObjects = $scoreObjects;
     }
-
-
 
     /**
      * Discover a list of possible xpaths that are collection items
@@ -30,7 +23,7 @@ class FieldDiscovery implements IDiscovery
      */
     public function discoverScores(Nodes $originalNodes)
     {
-        $utils = $this->utils;
+        $utils = $this->getUtils();
         $nodes = $originalNodes;
         $scoreObjects = $this->scoreObjects;
         // apply filter to limit what we need to score
@@ -41,7 +34,7 @@ class FieldDiscovery implements IDiscovery
         // then for each resulting node, score it
         $xPathScores = [];
         foreach ($nodes as $node) {
-            $nodeXPath = $utils->toXpath($node);
+            $nodeXPath = $utils->toXPath($node);
             $scores = [];    
             foreach ($scoreObjects as $key => $scoreObject) {
                 $scoreKey = "$key:".get_class($scoreObject);

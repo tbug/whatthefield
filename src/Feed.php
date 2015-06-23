@@ -12,12 +12,18 @@ class Feed
     protected $utils;
     protected $collectionDiscovery;
     protected $fieldDiscoveries;
+    protected $log;
 
-    public function __construct(IProvider $provider, IDiscovery $collectionDiscovery, array $fieldDiscoveries)
+    protected $cache;
+
+    public function __construct(IProvider $provider, IDiscovery $collectionDiscovery, array $fieldDiscoveries, $log)
     {
+        $this->log = $log;
         $this->provider = $provider;
-        $this->utils = new QueryUtils;
+        $this->utils = new QueryUtils($log);
         $this->collectionDiscovery = $collectionDiscovery;
+
+        $this->collectionDiscovery->setLogger($log);
 
         // assert the field discoveries are correct
         foreach ($fieldDiscoveries as $fieldName => $discovery) {
@@ -26,15 +32,11 @@ class Feed
             }
         }
         $this->fieldDiscoveries = $fieldDiscoveries;
+        foreach ($fieldDiscoveries as $d) {
+            $d->setLogger($log);
+        }
     }
 
-    /**
-     * return the xpath used to select all items in the feed collection
-     */
-    public function getCollectionXPathExpr()
-    {
-        return $this->collectionDiscovery->discover($this->provider->getQuery());
-    }
 
     /**
      * Return the xpath (grouped by name) if the field called $fieldName
@@ -46,12 +48,73 @@ class Feed
             throw new Exception("Field named '$fieldName' not registered");
         }
         $discovery = $this->fieldDiscoveries[$fieldName];
-        return $discovery->discover($this->findAllCollectionValueNodes());
+        return $discovery->discover($this->findAllCollectionItemValueNodes());
     }
 
-    protected function findAllCollectionValueNodes()
+    protected function discoverCollectionXPath()
     {
-        $collectionExpr = $this->getCollectionXPathExpr();
+        $log = $this->log;
+        $log->debug("Beginning collection discovery");
+        $result = $this->collectionDiscovery->discover($this->provider->getQuery());
+        $log->debug("Ended collection discovery. got: '{$result}'", [
+            'collection_path' => $result
+        ]);
+        return $result;
+    }
+
+    public function getCollectionXPath()
+    {
+        return $this->discoverCollectionXPath();
+    }
+
+    public function discoverRelativeFieldXPaths()
+    {
+        $collectionXPath = $this->discoverCollectionXPath();
+        return $this->discoverFieldXPaths($collectionXPath);
+    }
+
+    public function discoverFieldXPaths($relativeTo='')
+    {
+        $log = $this->log;
+        $valueNodes = $this->findAllCollectionItemValueNodes();
+        $result = [];
+
+        foreach ($this->fieldDiscoveries as $fieldName => $discovery) {
+
+            $log->debug("Beginning field discovery of field: '{$fieldName}'", [
+                'field_name' => $fieldName
+            ]);
+            $result[$fieldName] = $discovery->discover($valueNodes);
+
+            $log->debug("Ended field discovery of field: '{$fieldName}', got: '{$result[$fieldName]}'", [
+                'field_name' => $fieldName,
+                'field_path' => $result[$fieldName]
+            ]);
+        }
+
+        if (strlen($relativeTo) > 0) {
+            $log->debug("Let paths be relative to: '$relativeTo'");
+            $relativeToLength = strlen($relativeTo);
+            $out = [];
+            foreach ($result as $key => $value) {
+                if (strpos($value, $relativeTo) === 0) {
+                    $out[$key] = substr($value, $relativeToLength);
+                }
+            }
+            $log->debug("Completed relative remapping", [
+                'relative_to' => $relativeTo,
+                'relative_to_original' => $result,
+                'relative_to_remapped' => $out,
+            ]);
+            return $out;
+        } else {
+            return $result;
+        }
+    }
+
+    protected function findAllCollectionItemValueNodes()
+    {
+        $collectionExpr = $this->getCollectionXPath();
         $valueNodeExpr = $collectionExpr.'//*[text()]';        
         return $this->provider->getQuery()->find($valueNodeExpr);
     }

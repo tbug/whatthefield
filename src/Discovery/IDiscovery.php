@@ -3,6 +3,8 @@
 namespace WhatTheField\Discovery;
 
 use FluentDOM\Nodes;
+use Psr\Log\LoggerInterface;
+
 
 interface IDiscovery
 {
@@ -25,4 +27,9 @@ interface IDiscovery
      * @return string
      */
     public function discover(Nodes $query);
+
+    /**
+     * Set logger interface
+     */
+    public function setLogger(LoggerInterface $logger=null);
 }

@@ -2,20 +2,11 @@
 
 namespace WhatTheField\Discovery;
 
-
-use WhatTheField\QueryUtils;
 use FluentDOM\Query;
 use FluentDOM\Nodes;
 
-class CollectionDiscovery implements IDiscovery
+class CollectionDiscovery extends AbstractDiscovery implements IDiscovery
 {
-    protected $utils;
-
-    public function __construct ()
-    {
-        $this->utils = new QueryUtils;
-    }
-
     /**
      * Discover a list of possible xpaths that are collection items
      * in sorted order where the first element is the most likely.
@@ -24,7 +15,7 @@ class CollectionDiscovery implements IDiscovery
     public function discoverScores(Nodes $nodes)
     {
         $nonContentNodes = $nodes->find('//*[not(text())]');
-        $maxSibs = $this->utils->getMaxSibCount($nonContentNodes);
+        $maxSibs = $this->getUtils()->getMaxSibCount($nonContentNodes);
         arsort($maxSibs);
         return $maxSibs;
     }
