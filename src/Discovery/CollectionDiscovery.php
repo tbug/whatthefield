@@ -21,25 +21,32 @@ class CollectionDiscovery implements IDiscovery
      * in sorted order where the first element is the most likely.
      * @return array[string]
      */
-    public function discoverAll(Nodes $query)
+    public function discoverScores(Nodes $nodes)
     {
-        $nonContentNodes = $query->find('//*[not(text())]');
+        $nonContentNodes = $nodes->find('//*[not(text())]');
         $maxSibs = $this->utils->getMaxSibCount($nonContentNodes);
         arsort($maxSibs);
-        return array_keys($maxSibs);
+        return $maxSibs;
     }
 
+    public function discoverScore(Nodes $nodes)
+    {
+        $possibles = $this->discoverScores($nodes);
+        if (count($possibles) === 0) {
+            throw new DiscoveryException('Could not find collection');
+        }
+        reset($possibles);
+        return [key($possibles), current($possibles)];
+    }
+
+
     /**
-     * Discover the most likely xpath for the collection in query.
+     * Discover the most likely xpath for the collection in nodes.
      * @return string
      */
-    public function discover(Nodes $query)
+    public function discover(Nodes $nodes)
     {
-        $possibles = $this->discoverAll($query);
-        if (count($possibles) > 0) {
-            return $possibles[0];
-        } else {
-            throw new DiscoveryException('Could not find a collection');
-        }
+        list($path, $score) = $this->discoverScore($nodes);
+        return $path;
     }
 }

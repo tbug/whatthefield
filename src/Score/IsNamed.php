@@ -4,7 +4,7 @@ namespace WhatTheField\Score;
 
 use \DOMNode;
 
-class Named implements IScore
+class IsNamed implements IScore
 {
     protected $names;
     protected $sanitizer;

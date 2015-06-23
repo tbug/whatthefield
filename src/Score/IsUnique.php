@@ -5,7 +5,7 @@ namespace WhatTheField\Score;
 use \DOMNode;
 use WhatTheField\QueryUtils;
 
-class Unique implements IScore
+class IsUnique implements IScore
 {
     static protected $pathCache = [];
 

@@ -4,19 +4,32 @@ namespace WhatTheField\Score;
 
 use \DOMNode;
 
-class Boost implements IScore
+/**
+ * Will multiply all $scorers values with $factor,
+ * then sum and return the score.
+ */
+class Boost extends AbstractScore implements IScore
 {
-    protected $scorer;
+    protected $scorers;
     protected $factor;
 
-    public function __construct($factor, IScore $scorer)
+    /**
+     * @param mixed $factor can be a number or a callable (e.g, IScore)
+     * @param array[callable] $scorers
+     */
+    public function __construct($factor, array $scorers)
     {
-        $this->scorer = $scorer;
+        $this->scorers = $scorers;
         $this->factor = $factor;
     }
 
     public function __invoke(DOMNode $node)
     {
-        return $this->factor * $this->scorer->__invoke($node);
+        $factor = $this->callOrValue($this->factor, $node);
+        $score = 0;
+        foreach ($this->scorers as $scorer) {
+            $score += $scorer($node) * $factor;
+        }
+        return $score;
     }
 }

@@ -4,7 +4,7 @@ namespace WhatTheField\Score;
 
 use \DOMNode;
 
-class Decimal implements IScore
+class IsDecimal implements IScore
 {
     public function __construct()
     {

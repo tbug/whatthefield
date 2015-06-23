@@ -28,7 +28,7 @@ class FieldDiscovery implements IDiscovery
      * in sorted order where the first element is the most likely.
      * @return array[string]
      */
-    public function discoverAll(Nodes $originalNodes)
+    public function discoverScores(Nodes $originalNodes)
     {
         $utils = $this->utils;
         $nodes = $originalNodes;
@@ -61,20 +61,26 @@ class FieldDiscovery implements IDiscovery
         }
 
         arsort($averagedOutXpaths);
-        return array_keys($averagedOutXpaths);
+        return $averagedOutXpaths;
+    }
+
+    public function discoverScore(Nodes $nodes)
+    {
+        $possibles = $this->discoverScores($nodes);
+        if (count($possibles) === 0) {
+            throw new DiscoveryException('Could not find field');
+        }
+        reset($possibles);
+        return [key($possibles), current($possibles)];
     }
 
     /**
-     * Discover the most likely xpath for the collection in query.
+     * Discover the most likely xpath for the collection in nodes.
      * @return string
      */
-    public function discover(Nodes $query)
+    public function discover(Nodes $nodes)
     {
-        $possibles = $this->discoverAll($query);
-        if (count($possibles) > 0) {
-            return $possibles[0];
-        } else {
-            throw new DiscoveryException('Could not find field');
-        }
+        list($path, $score) = $this->discoverScore($nodes);
+        return $path;
     }
 }
