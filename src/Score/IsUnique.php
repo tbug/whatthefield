@@ -9,13 +9,6 @@ class IsUnique implements IScore
 {
     static protected $pathCache = [];
 
-    protected $exponent;
-
-    public function __construct($exponent=1)
-    {
-        $this->exponent = $exponent;
-    }
-
     /**
      * Check if DOMNode is unique (compared to it's siblings)
      */
@@ -37,10 +30,8 @@ class IsUnique implements IScore
             // not unique at all, return 0
             if ($uniqueCount === 1) {
                 $score = 0;
-            } elseif ($this->exponent === 1) {
-                $score = $uniqueCount / $totalCount;
             } else {
-                $score = pow($uniqueCount / $totalCount, $this->exponent);
+                $score = $uniqueCount / $totalCount;
             }
             self::$pathCache[$nodePath] = $score;
         }

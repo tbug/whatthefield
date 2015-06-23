@@ -19,15 +19,15 @@ return [
             new Score\AncestorCount(),
         ]),
         // // tie breaker, by word count. More words == less likely to be the id
-        new Score\Boost(-0.001, [
+        new Score\Boost(-0.05, [
             new Score\MatchCount('/\s+/S'),
         ]),
         // // tie breaker, not a number
-        new Score\Boost(-0.01, [
+        new Score\Boost(-0.25, [
             new Score\IsMatch('/[^\d]+/S'),
         ]),
         // tie breaker, greater than common max numeric postal code
-        new Score\Boost(0.1, [
+        new Score\Boost(0.2, [
             new Score\IsGreaterThan(99999)
         ]),
     ])
