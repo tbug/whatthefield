@@ -32,3 +32,26 @@ return [
         ]),
     ])
 ];
+
+/*
+<field name="id">
+    <isUnique />
+    <boost factor="-1">
+        <match filter="FILTER_VALIDATE_URL" />
+        <max>
+            <constant score="0" />
+            <isDecimal />
+        </max>
+    </boost>
+    <boost factor="-0.001">
+        <ancestorCount />
+        <matchCount expr="/\s+/S" />
+    </boost>
+    <boost factor="-0.01">
+        <isMatch expr="/[^\d]+/S" />
+    </boost>
+    <boost factor="-0.1">
+        <isGreaterThan value="99999" />
+    </boost>
+</field>
+*/
