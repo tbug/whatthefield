@@ -73,17 +73,14 @@ class Feed
 
     public function discoverRelativeFieldXPaths()
     {
-        $collectionXPath = $this->discoverCollectionXPath();
+        $collectionXPath = $this->getCollectionXPath();
         return $this->discoverFieldXPaths($collectionXPath);
     }
 
     public function discoverFieldXPaths($relativeTo='')
     {
         $log = $this->log;
-        $log->debug('Finding collection value nodes');
         $valueNodes = $this->findAllCollectionItemValueNodes();
-        $valueNodesCount = count($valueNodes);
-        $log->debug("Found {$valueNodesCount} value nodes");
         $result = [];
 
         foreach ($this->fieldDiscoveries as $fieldName => $discovery) {
@@ -121,9 +118,14 @@ class Feed
 
     protected function findAllCollectionItemValueNodes()
     {
+        $log = $this->log;
+        $log->debug('Finding collection value nodes');
         $collectionExpr = $this->getCollectionXPath();
         $valueNodeExpr = $collectionExpr.'//*[text()]';        
-        return $this->provider->getQuery()->find($valueNodeExpr);
+        $valueNodes = $this->provider->getQuery()->find($valueNodeExpr);
+        $valueNodesCount = count($valueNodes);
+        $log->debug("Found {$valueNodesCount} value nodes");
+        return $valueNodes;
     }
 
 
