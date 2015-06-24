@@ -72,7 +72,7 @@ class QueryUtils
                 $childAggr[$childNodePath] += 1;
             }
 
-            foreach ($this->maxSibRecursive($child->childNodes, $path) as $key => $value) {
+            foreach ($this->maxSibRecursive($child->childNodes, $childNodePath) as $key => $value) {
                 if (isset($result[$key])) {
                     $result[$key] = max($result[$key], $value);
                 } else {
