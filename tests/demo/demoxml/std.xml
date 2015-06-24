@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+	<offers>
+	
+			<offer>
+			<id>1230</id>
+					<title><![CDATA[ Mamografía en Hospitalet 59€ | SmartSalus ]]></title>
+					<description><![CDATA[Acceda a su radiografía de glándulas mamarias o MAMOGRAFÍA gracias al precio Smart que le consigue SmartSalus en el centro CETIR de Hospitalet de Llobregat. Pruebas diagnósicas a precio Accesible en SmartSalus. ]]></description>
+					<dates>
+							<date type="begin">2015-05-31 22:01:01</date>
+							<date type="end">2030-12-31 00:00:00</date>
+							<date type="expire">2030-12-31 00:00:00</date>
+					</dates>
+					<links>
+							<link type="offer"><![CDATA[ http://www.smartsalus.com/hospitalet-de-llobregat/mamografia-hospitalet-1230 ]]></link>
+							<link type="purchase"><![CDATA[ http://www.smartsalus.com/checkout?id=1230 ]]></link>
+					</links>
+					<images>
+							<image primary="true"><![CDATA[ http://static-smartsalus.com/media/partes-cuerpo/tronco/pecho/mamografia2.jpg ]]></image>
+					</images>
+					<categories>
+							<category><![CDATA[ Radiología ]]></category>
+					</categories>
+					<merchant>
+							<name><![CDATA[ CETIR - Collblanc]]></name>
+							<address1><![CDATA[ Carrer Doctor Jaume Ferran i Clua, 8 ]]></address1>
+							<zip><![CDATA[ 08903 ]]></zip>
+							<city><![CDATA[ hospitalet-de-llobregat ]]></city>
+					</merchant>
+					<price_options>
+							<price_option>
+									<price>59</price>
+									<store_value>59</store_value>
+									<currency><![CDATA[ EUR ]]></currency>
+							</price_option>
+					</price_options>
+					<locations>
+							<location>hospitalet-de-llobregat</location>
+					</locations>
+				</offer>
+			<offer>
+			<id>450</id>
+					<title><![CDATA[ Mamografía Bilateral Digital en San Sebastian (Donostia) ]]></title>
+					<description><![CDATA[SmartSalus le ofrece de la mano del Centro Médico Arrasate 53 la posibilidad de realizar una Mamografía Bilateral a precio Smart.&amp;nbsp; ]]></description>
+					<dates>
+							<date type="begin">2015-05-22 05:01:01</date>
+							<date type="end">2030-12-31 00:00:00</date>
+							<date type="expire">2030-12-31 00:00:00</date>
+					</dates>
+					<links>
+							<link type="offer"><![CDATA[ http://www.smartsalus.com/san-sebastian/mamografia-bilateral-450 ]]></link>
+							<link type="purchase"><![CDATA[ http://www.smartsalus.com/checkout?id=450 ]]></link>
+					</links>
+					<images>
+							<image primary="true"><![CDATA[ http://static-smartsalus.com/media/partes-cuerpo/tronco/pecho/mamografia.jpg ]]></image>
+					</images>
+					<categories>
+							<category><![CDATA[ Radiología ]]></category>
+					</categories>
+					<merchant>
+							<name><![CDATA[ Centro Médico Arrasate 53]]></name>
+							<address1><![CDATA[ Arrasate 53 ]]></address1>
+							<zip><![CDATA[ 20007 ]]></zip>
+							<city><![CDATA[ san-sebastian ]]></city>
+					</merchant>
+					<price_options>
+							<price_option>
+									<price>55</price>
+									<store_value>70</store_value>
+									<currency><![CDATA[ EUR ]]></currency>
+							</price_option>
+					</price_options>
+					<locations>
+							<location>san-sebastian</location>
+					</locations>
+				</offer>
+	</offers>
+	</rss>
