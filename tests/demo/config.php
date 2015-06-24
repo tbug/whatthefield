@@ -34,7 +34,7 @@ return [
     'image' => new FieldDiscovery([], [
         new Score\MatchFilterValidate(FILTER_VALIDATE_URL),
         new Score\IsMatch('/\.(?:jpe?g|png|gif)$/S'),
-        new Score\Boost(-1, [
+        new Score\Boost(-0.5, [
             new Score\IsNamed(['thumbnail'])
         ]),
     ]),
