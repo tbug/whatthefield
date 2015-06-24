@@ -41,7 +41,7 @@ class FieldDiscovery extends AbstractDiscovery implements IDiscovery
         $nextPrint = microtime(true) + $printDeltaTime;
         foreach ($nodes as $node) {
             $nodeXPath = $utils->toXPath($node);
-            $scores = [];    
+            $scores = [];
             foreach ($scoreObjects as $key => $scoreObject) {
                 $scoreKey = "$key:".get_class($scoreObject);
                 $scores[$scoreKey] = $scoreObject($node);
