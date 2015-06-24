@@ -1,5 +1,6 @@
 #!/usr/bin/env php
 <?php
+date_default_timezone_set('UTC');
 require dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
 use WhatTheField\Provider\XMLProvider;
