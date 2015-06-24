@@ -44,7 +44,7 @@ class FieldDiscovery extends AbstractDiscovery implements IDiscovery
             $scores = [];    
             foreach ($scoreObjects as $key => $scoreObject) {
                 $scoreKey = "$key:".get_class($scoreObject);
-                $scores[$scoreKey] = $scoreObject->__invoke($node);
+                $scores[$scoreKey] = $scoreObject($node);
             }
             $sum = array_sum($scores);
             if (!isset($xPathScores[$nodeXPath])) {
