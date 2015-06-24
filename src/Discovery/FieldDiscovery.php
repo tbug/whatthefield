@@ -23,6 +23,7 @@ class FieldDiscovery extends AbstractDiscovery implements IDiscovery
      */
     public function discoverScores(Nodes $originalNodes)
     {
+        $log = $this->getLogger();
         $utils = $this->getUtils();
         $nodes = $originalNodes;
         $scoreObjects = $this->scoreObjects;
@@ -33,6 +34,11 @@ class FieldDiscovery extends AbstractDiscovery implements IDiscovery
 
         // then for each resulting node, score it
         $xPathScores = [];
+        $total = count($nodes);
+        $n = 0;
+        fwrite(STDERR, "Starting discovery ....");
+        $printDeltaTime = 0.5;
+        $nextPrint = microtime(true) + $printDeltaTime;
         foreach ($nodes as $node) {
             $nodeXPath = $utils->toXPath($node);
             $scores = [];    
@@ -46,7 +52,15 @@ class FieldDiscovery extends AbstractDiscovery implements IDiscovery
             } else {
                 $xPathScores[$nodeXPath][] = $sum;
             }
+
+            $n += 1;
+            if (microtime(true) > $nextPrint || $n === $total) {
+                $percentage = number_format($n / $total * 100, 1);
+                fwrite(STDERR, "\rProcessed {$n} of {$total} ({$percentage}%)");
+                $nextPrint = microtime(true) + $printDeltaTime;
+            }
         }
+        fwrite(STDERR, "\n");
 
         $averagedOutXpaths = [];
         foreach ($xPathScores as $key => $values) {
