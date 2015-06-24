@@ -30,8 +30,43 @@ return [
         new Score\Boost(0.2, [
             new Score\IsGreaterThan(99999)
         ]),
-    ])
+    ]),
+    'image' => new FieldDiscovery([], [
+        new Score\MatchFilterValidate(FILTER_VALIDATE_URL),
+        new Score\IsMatch('/\.(?:jpe?g|png|gif)$/S'),
+    ]),
+    'title' => new FieldDiscovery([], [
+        new Score\Boost(-1, [
+            new Score\MatchFilterValidate(FILTER_VALIDATE_URL),
+        ]),
+        new Score\Boost(-2, [
+            new Score\IsMatch('/^\d+$/S'),
+        ]),
+        new Score\Boost(-0.05, [
+            new Score\MatchCount('/\s+/S'),
+        ]),
+        new Score\Boost(2, [
+            new Score\IsMatch('/\s+/S'),
+        ]),
+    ]),
+    'description' => new FieldDiscovery([], [
+        new Score\Boost(-1, [
+            new Score\MatchFilterValidate(FILTER_VALIDATE_URL),
+        ]),
+        new Score\Boost(-2, [
+            new Score\IsMatch('/^\d+$/S'),
+        ]),
+        new Score\Boost(0.05, [
+            new Score\MatchCount('/\s+/S'),
+        ]),
+        new Score\Boost(1, [
+            new Score\IsMatch('/\s+/S'),
+        ]),
+    ]),
 ];
+
+
+
 
 /*
 <field name="id">
