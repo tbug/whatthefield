@@ -64,7 +64,11 @@ class Feed
 
     public function getCollectionXPath()
     {
-        return $this->discoverCollectionXPath();
+        $key = 'collectionXPath';
+        if (!isset($this->cache[$key])) {
+            $this->cache[$key] = $this->discoverCollectionXPath();
+        }
+        return $this->cache[$key];
     }
 
     public function discoverRelativeFieldXPaths()
@@ -76,7 +80,10 @@ class Feed
     public function discoverFieldXPaths($relativeTo='')
     {
         $log = $this->log;
+        $log->debug('Finding collection value nodes');
         $valueNodes = $this->findAllCollectionItemValueNodes();
+        $valueNodesCount = count($valueNodes);
+        $log->debug("Found {$valueNodesCount} value nodes");
         $result = [];
 
         foreach ($this->fieldDiscoveries as $fieldName => $discovery) {
