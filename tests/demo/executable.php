@@ -3,7 +3,6 @@
 date_default_timezone_set('UTC');
 require dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
-use WhatTheField\Provider\XMLProvider;
 use WhatTheField\Feed;
 use WhatTheField\QueryUtils;
 use WhatTheField\Discovery\CollectionDiscovery;
@@ -32,9 +31,8 @@ $script
         $feedPath = $options['feed'];
         $configPath = $options['config'];
         $fieldConfig = require $configPath;
-        $provider = new XMLProvider($feedPath);
 
-        $feed = new Feed($provider, new CollectionDiscovery(), $fieldConfig, $log);
+        $feed = new Feed($feedPath, new CollectionDiscovery(), $fieldConfig, $log);
         $mapping = $feed->discoverFieldXPaths();
 
         var_dump($mapping);

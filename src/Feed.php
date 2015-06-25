@@ -2,61 +2,95 @@
 
 namespace WhatTheField;
 
-use WhatTheField\Provider\IProvider;
+use Psr\Log\LoggerTrait;
+use Psr\Log\LoggerInterface;
+use Psr\Log\LoggerAwareTrait;
+use Psr\Log\LoggerAwareInterface;
+
 use WhatTheField\Discovery\IDiscovery;
+use WhatTheField\Fluent\Utils;
 
+use FluentDOM;
 
-class Feed
+class Feed implements LoggerAwareInterface
 {
-    protected $provider;
-    protected $utils;
-    protected $collectionDiscovery;
-    protected $fieldDiscoveries;
-    protected $log;
+    use LoggerTrait;
+    use LoggerAwareTrait;
+
+
+    protected $document;
+    protected $collectionDiscoveryObject;
+    protected $valueDiscoveryObjects;
 
     protected $cache;
 
-    public function __construct(IProvider $provider, IDiscovery $collectionDiscovery, array $fieldDiscoveries, $log)
+    public function log($level, $message, array $context = array())
     {
-        $this->log = $log;
-        $this->provider = $provider;
-        $this->utils = new QueryUtils($log);
-        $this->collectionDiscovery = $collectionDiscovery;
+        $this->logger->log($level, $message, $context);
+    }
 
-        $this->collectionDiscovery->setLogger($log);
+    public function __construct($path, IDiscovery $collectionDiscoveryObject, array $valueDiscoveryObjects, LoggerInterface $logger)
+    {
+        $this->setLogger($logger);
 
-        // assert the field discoveries are correct
-        foreach ($fieldDiscoveries as $fieldName => $discovery) {
-            if (!($discovery instanceof IDiscovery)) {
-                throw new Exception("$fieldName value not instance of IDiscovery");
+
+        if (!is_file($path)) {
+            throw new Exception("'$path' is not a valid file");
+        }
+        // we have custom logic. Make FluentDOM use our custom loader.
+        Utils::init();
+
+        $this->document = FluentDOM::load($path);
+        if (!$this->document) {
+            throw new Exception("'$path' could not be loaded.");
+        }
+
+        $this->valueDiscoveryObjects = $valueDiscoveryObjects;
+        $this->collectionDiscoveryObject = $collectionDiscoveryObject;
+
+        // apply loggers
+        if ($this->collectionDiscoveryObject instanceof LoggerAwareInterface) {
+            $this->collectionDiscoveryObject->setLogger($logger);
+        }
+        foreach ($this->valueDiscoveryObjects as $obj) {
+            if ($obj instanceof LoggerAwareInterface) {
+                $obj->setLogger($logger);
             }
         }
-        $this->fieldDiscoveries = $fieldDiscoveries;
-        foreach ($fieldDiscoveries as $d) {
-            $d->setLogger($log);
+
+        // assert the field discoveries are correct
+        foreach ($this->valueDiscoveryObjects as $fieldName => $discovery) {
+            if (!($discovery instanceof IDiscovery)) {
+                throw new Exception("'$fieldName' value not instance of IDiscovery");
+            }
         }
+
+    }
+
+    public function getDocument()
+    {
+        return $this->document;
     }
 
 
     /**
      * Return the xpath (grouped by name) if the field called $fieldName
-     * $fieldName must be registered as a valid field name in fieldDiscoveries
+     * $fieldName must be registered as a valid field name in valueDiscoveryObjects
      */
     public function discoverFieldXPath($fieldName)
     {
-        if (!isset($this->fieldDiscoveries[$fieldName])) {
+        if (!isset($this->valueDiscoveryObjects[$fieldName])) {
             throw new Exception("Field named '$fieldName' not registered");
         }
-        $discovery = $this->fieldDiscoveries[$fieldName];
+        $discovery = $this->valueDiscoveryObjects[$fieldName];
         return $discovery->discover($this->findAllCollectionItemValueNodes());
     }
 
     protected function discoverCollectionXPath()
     {
-        $log = $this->log;
-        $log->debug("Beginning collection discovery");
-        $result = $this->collectionDiscovery->discover($this->provider->getQuery());
-        $log->debug("Ended collection discovery. got: '{$result}'", [
+        $this->debug("Beginning collection discovery");
+        $result = $this->collectionDiscoveryObject->discover(FluentDOM($this->getDocument()));
+        $this->debug("Ended collection discovery. got: '{$result}'", [
             'collection_path' => $result
         ]);
         return $result;
@@ -79,25 +113,24 @@ class Feed
 
     public function discoverFieldXPaths($relativeTo='')
     {
-        $log = $this->log;
         $valueNodes = $this->findAllCollectionItemValueNodes();
         $result = [];
 
-        foreach ($this->fieldDiscoveries as $fieldName => $discovery) {
+        foreach ($this->valueDiscoveryObjects as $fieldName => $discovery) {
 
-            $log->debug("Beginning field discovery of field: '{$fieldName}'", [
+            $this->debug("Beginning field discovery of field: '{$fieldName}'", [
                 'field_name' => $fieldName
             ]);
             $result[$fieldName] = $discovery->discover($valueNodes);
 
-            $log->debug("Ended field discovery of field: '{$fieldName}', got: '{$result[$fieldName]}'", [
+            $this->debug("Ended field discovery of field: '{$fieldName}', got: '{$result[$fieldName]}'", [
                 'field_name' => $fieldName,
                 'field_path' => $result[$fieldName]
             ]);
         }
 
         if (strlen($relativeTo) > 0) {
-            $log->debug("Let paths be relative to: '$relativeTo'");
+            $this->debug("Let paths be relative to: '$relativeTo'");
             $relativeToLength = strlen($relativeTo);
             $out = [];
             foreach ($result as $key => $value) {
@@ -105,7 +138,7 @@ class Feed
                     $out[$key] = substr($value, $relativeToLength);
                 }
             }
-            $log->debug("Completed relative remapping", [
+            $this->debug("Completed relative remapping", [
                 'relative_to' => $relativeTo,
                 'relative_to_original' => $result,
                 'relative_to_remapped' => $out,
@@ -118,13 +151,12 @@ class Feed
 
     protected function findAllCollectionItemValueNodes()
     {
-        $log = $this->log;
-        $log->debug('Finding collection value nodes');
+        $this->debug('Finding collection value nodes');
         $collectionExpr = $this->getCollectionXPath();
         $valueOrAttributeNodeExpr = "{$collectionExpr}//@*|{$collectionExpr}//*[text()]";
-        $valueOrAttributeNodes = $this->provider->getQuery()->find($valueOrAttributeNodeExpr);
+        $valueOrAttributeNodes = FluentDOM($this->getDocument())->find($valueOrAttributeNodeExpr);
         $valueOrAttributeNodeCount = count($valueOrAttributeNodes);
-        $log->debug("Found {$valueOrAttributeNodeCount} value/attribute nodes");
+        $this->debug("Found {$valueOrAttributeNodeCount} value/attribute nodes");
         return $valueOrAttributeNodes;
     }
 

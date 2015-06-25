@@ -4,17 +4,18 @@ namespace WhatTheField\Provider;
 
 use FluentDOM;
 
-class XMLProvider implements IProvider
+class XMLProvider extends AbstractProvider implements IProvider
 {
-    protected $docQuery;
+    protected $document;
 
     public function __construct($xmlPath)
     {
-        $this->docQuery = new FluentDOM\Query($xmlPath);
+        parent::__construct();
+        $this->document = FluentDOM::load($xmlPath);
     }
 
-    public function getQuery()
+    public function getDocument()
     {
-        return $this->docQuery;
+        return $this->document;
     }
 }

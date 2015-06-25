@@ -5,8 +5,8 @@ namespace WhatTheField\Provider;
 interface IProvider
 {
     /**
-     * Get the provider document as a FluentDOM\Query
-     * @return FluentDOM\Query
+     * Get the provider document as a \DOMDocument
+     * @return \DOMDocument
      */
-    public function getQuery();
+    public function getDocument();
 }

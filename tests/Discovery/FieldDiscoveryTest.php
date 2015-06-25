@@ -7,13 +7,15 @@ use WhatTheField\Provider\XMLProvider;
 use WhatTheField\Score;
 
 use WhatTheField\Discovery\ValueDiscovery;
+use WhatTheField\Fluent\Utils;
+use FluentDOM;
 
 class ValueDiscoveryTest extends TestCase
 {
+
     public function testCollectionPath()
     {
         $feedPath = $this->getFoodieMultilevelPath();
-        $provider = new XMLProvider($feedPath);
 
         // try some rules that apply to the id field
         $field = new ValueDiscovery([], [
@@ -43,7 +45,7 @@ class ValueDiscoveryTest extends TestCase
             ]),
         ]);
 
-        $valueNodes = $provider->getQuery()->find('/items/item//*[text()]');
+        $valueNodes = FluentDOM::load($feedPath)->find('/items/item//*[text()]');
         
         $discovered = $field->discover($valueNodes);
 

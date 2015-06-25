@@ -3,7 +3,7 @@
 namespace WhatTheField\Score;
 
 use \DOMNode;
-use WhatTheField\QueryUtils;
+use WhatTheField\Fluent\Utils;
 
 class IsUnique implements IScore
 {
@@ -14,14 +14,13 @@ class IsUnique implements IScore
      */
     public function __invoke(DOMNode $node)
     {
-        $utils = QueryUtils::instance();
-        $nodePath = $utils->toXPath($node);
+        $nodePath = Utils::toXPath($node);
 
         // as all nodes with the same path will have the same score,
         // we cache pr. path name
         if (!isset(self::$pathCache[$nodePath])) {
             $collection = FluentDOM($node->ownerDocument)->find($nodePath);
-            $grouped = $utils->groupByContentHash($collection);
+            $grouped = Utils::groupByContentHash($collection);
             
             $totalCount = count($collection);
             $uniqueCount = count($grouped);

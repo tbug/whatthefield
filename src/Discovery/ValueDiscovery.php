@@ -2,7 +2,6 @@
 
 namespace WhatTheField\Discovery;
 
-use FluentDOM\Query;
 use FluentDOM\Nodes;
 
 class ValueDiscovery extends AbstractDiscovery implements IDiscovery
@@ -23,8 +22,6 @@ class ValueDiscovery extends AbstractDiscovery implements IDiscovery
      */
     public function discoverScores(Nodes $originalNodes)
     {
-        $log = $this->getLogger();
-        $utils = $this->getUtils();
         $nodes = $originalNodes;
         $scoreObjects = $this->scoreObjects;
         // apply filter to limit what we need to score
@@ -40,7 +37,7 @@ class ValueDiscovery extends AbstractDiscovery implements IDiscovery
         $printDeltaTime = 0.5;
         $nextPrint = microtime(true) + $printDeltaTime;
         foreach ($nodes as $node) {
-            $nodeXPath = $utils->toXPath($node);
+            $nodeXPath = $node->toXPath();
             $scores = [];
             foreach ($scoreObjects as $key => $scoreObject) {
                 $scoreKey = "$key:".get_class($scoreObject);

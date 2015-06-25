@@ -3,39 +3,21 @@
 namespace WhatTheField\Discovery;
 
 
-use Psr\Log\NullLogger;
-use Psr\Log\LoggerInterface;
 use WhatTheField\QueryUtils;
 
-abstract class AbstractDiscovery implements IDiscovery
+use Psr\Log\NullLogger;
+use Psr\Log\LoggerTrait;
+use Psr\Log\LoggerInterface;
+use Psr\Log\LoggerAwareTrait;
+use Psr\Log\LoggerAwareInterface;
+
+abstract class AbstractDiscovery implements IDiscovery, LoggerAwareInterface
 {
-
-    protected $_utils;
-    protected $_log;
-
-    public function __construct ()
-    {
-        $this->_utils = new QueryUtils;
-        $this->_log = new NullLogger();
-    }
-
-    public function setLogger(LoggerInterface $logger=null)
-    {
-        $this->log = $logger;
-        $this->_utils = new QueryUtils($logger);
-    }
+    use LoggerAwareTrait;
 
     public function getLogger()
     {
-        if (!$this->log) {
-            $this->setLogger(new NullLogger());
-        }
-        return $this->log;
-    }
-
-    public function getUtils()
-    {
-        return $this->_utils;
+        return $this->logger ?: new NullLogger();
     }
 
 }

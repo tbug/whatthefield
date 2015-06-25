@@ -15,7 +15,7 @@ class CollectionDiscovery extends AbstractDiscovery implements IDiscovery
     public function discoverScores(Nodes $nodes)
     {
         $nonContentNodes = $nodes->find('//*[not(text())]');
-        $maxSibs = $this->getUtils()->getMaxSibCount($nonContentNodes);
+        $maxSibs = $nodes->getDocument()->getMaxSibCount($nonContentNodes);
         arsort($maxSibs);
 
         $ancestorCountGrouping = [];

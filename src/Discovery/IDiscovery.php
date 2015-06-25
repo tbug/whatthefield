@@ -27,9 +27,4 @@ interface IDiscovery
      * @return string
      */
     public function discover(Nodes $query);
-
-    /**
-     * Set logger interface
-     */
-    public function setLogger(LoggerInterface $logger=null);
 }
