@@ -5,6 +5,7 @@ namespace WhatTheField;
 use FluentDOM;
 use FluentDOM\Query;
 use FluentDOM\Nodes;
+use DOMAttr;
 use DOMNode;
 use DOMElement;
 use DOMDocument;
@@ -129,8 +130,13 @@ class QueryUtils
         do {
             if ($node instanceof DOMDocument) {
                 break;
+            } elseif ($node instanceof DOMElement) {
+                $ancestors[] = $node->nodeName;
+            } elseif ($node instanceof DOMAttr) {
+                $ancestors[] = '@'.$node->nodeName;
+            } else {
+                throw new Exception('Node type not known: '.$node->nodeType);
             }
-            $ancestors[] = $node->nodeName;
         } while ($node = $node->parentNode);
         return '/'.implode('/', array_reverse($ancestors));
     }
