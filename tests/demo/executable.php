@@ -33,8 +33,18 @@ $script
         $fieldConfig = require $configPath;
 
         $feed = new Feed($feedPath, new CollectionDiscovery(), $fieldConfig, $log);
+        $collectionPath = $feed->discoverCollectionXPath();
         $mapping = $feed->discoverFieldXPaths();
 
-        var_dump($mapping);
+        $longestKey = 0;
+        foreach ($mapping as $key => $path) {
+            $longestKey = max($longestKey, mb_strlen($key));
+        }
+
+        echo "COLLECTION\t$collectionPath\n";
+        foreach ($mapping as $key => $path) {
+            $key = str_pad($key, $longestKey);
+            echo "KEY\t$key\t$path\n";
+        }
     })
     ->start();

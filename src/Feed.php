@@ -86,7 +86,7 @@ class Feed implements LoggerAwareInterface
         return $discovery->discover($this->findAllCollectionItemValueNodes());
     }
 
-    protected function discoverCollectionXPath()
+    public function discoverCollectionXPath()
     {
         $this->debug("Beginning collection discovery");
         $result = $this->collectionDiscoveryObject->discover(FluentDOM($this->getDocument()));
