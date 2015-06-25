@@ -6,9 +6,9 @@ use WhatTheField\Tests\TestCase;
 use WhatTheField\Provider\XMLProvider;
 use WhatTheField\Score;
 
-use WhatTheField\Discovery\FieldDiscovery;
+use WhatTheField\Discovery\ValueDiscovery;
 
-class FieldDiscoveryTest extends TestCase
+class ValueDiscoveryTest extends TestCase
 {
     public function testCollectionPath()
     {
@@ -16,7 +16,7 @@ class FieldDiscoveryTest extends TestCase
         $provider = new XMLProvider($feedPath);
 
         // try some rules that apply to the id field
-        $field = new FieldDiscovery([], [
+        $field = new ValueDiscovery([], [
             new Score\IsUnique(),
             new Score\Boost(-1, [
                 new Score\MatchFilterValidate(FILTER_VALIDATE_URL),

@@ -9,7 +9,7 @@ use WhatTheField\Feed;
 use WhatTheField\Score;
 
 use WhatTheField\Discovery\CollectionDiscovery;
-use WhatTheField\Discovery\FieldDiscovery;
+use WhatTheField\Discovery\ValueDiscovery;
 
 class FullExampleTest extends TestCase
 {
@@ -22,7 +22,7 @@ class FullExampleTest extends TestCase
             new CollectionDiscovery(),
             [
                 // an ID is unique, 1 word, not decimal and not a URL
-                'id' => new FieldDiscovery([], [
+                'id' => new ValueDiscovery([], [
                         new Score\IsUnique(),
                         new Score\Boost(-1, [
                             new Score\MatchFilterValidate(FILTER_VALIDATE_URL),

@@ -5,6 +5,7 @@ require dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_S
 
 use WhatTheField\Provider\XMLProvider;
 use WhatTheField\Feed;
+use WhatTheField\QueryUtils;
 use WhatTheField\Discovery\CollectionDiscovery;
 
 use Cli\Helpers\DocumentedScript;
@@ -34,7 +35,7 @@ $script
         $provider = new XMLProvider($feedPath);
 
         $feed = new Feed($provider, new CollectionDiscovery(), $fieldConfig, $log);
-        $mapping = $feed->discoverRelativeFieldXPaths();
+        $mapping = $feed->discoverFieldXPaths();
 
         var_dump($mapping);
     })

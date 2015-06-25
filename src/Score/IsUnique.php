@@ -25,7 +25,6 @@ class IsUnique implements IScore
             
             $totalCount = count($collection);
             $uniqueCount = count($grouped);
-
             // special case for uniqueCount 1:
             // not unique at all, return 0
             if ($uniqueCount === 1) {

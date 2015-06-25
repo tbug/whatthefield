@@ -7,7 +7,7 @@ use WhatTheField\Provider\XMLProvider;
 use WhatTheField\Score\IsUnique;
 
 use WhatTheField\Discovery\CollectionDiscovery;
-use WhatTheField\Discovery\FieldDiscovery;
+use WhatTheField\Discovery\ValueDiscovery;
 
 class UniqueTest extends TestCase
 {

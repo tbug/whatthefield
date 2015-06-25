@@ -5,7 +5,7 @@ namespace WhatTheField\Discovery;
 use FluentDOM\Query;
 use FluentDOM\Nodes;
 
-class FieldDiscovery extends AbstractDiscovery implements IDiscovery
+class ValueDiscovery extends AbstractDiscovery implements IDiscovery
 {
     protected $scoreObjects;
     protected $filterObjects;
@@ -75,7 +75,7 @@ class FieldDiscovery extends AbstractDiscovery implements IDiscovery
     {
         $possibles = $this->discoverScores($nodes);
         if (count($possibles) === 0) {
-            throw new DiscoveryException('Could not find field');
+            throw new DiscoveryException('Could not find any value that matches rules');
         }
         reset($possibles);
         return [key($possibles), current($possibles)];

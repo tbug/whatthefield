@@ -121,11 +121,11 @@ class Feed
         $log = $this->log;
         $log->debug('Finding collection value nodes');
         $collectionExpr = $this->getCollectionXPath();
-        $valueNodeExpr = $collectionExpr.'//*[text()]';        
-        $valueNodes = $this->provider->getQuery()->find($valueNodeExpr);
-        $valueNodesCount = count($valueNodes);
-        $log->debug("Found {$valueNodesCount} value nodes");
-        return $valueNodes;
+        $valueOrAttributeNodeExpr = "{$collectionExpr}//@*|{$collectionExpr}//*[text()]";
+        $valueOrAttributeNodes = $this->provider->getQuery()->find($valueOrAttributeNodeExpr);
+        $valueOrAttributeNodeCount = count($valueOrAttributeNodes);
+        $log->debug("Found {$valueOrAttributeNodeCount} value/attribute nodes");
+        return $valueOrAttributeNodes;
     }
 
 

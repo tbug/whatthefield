@@ -1,11 +1,11 @@
 <?php
 
-use WhatTheField\Discovery\FieldDiscovery;
+use WhatTheField\Discovery\ValueDiscovery;
 use WhatTheField\Score;
 
 return [
     // an ID is unique, 1 word, not decimal and not a URL
-    'id' => new FieldDiscovery([], [
+    'id' => new ValueDiscovery([], [
         new Score\IsUnique(),
         new Score\Boost(-1, [
             new Score\MatchFilterValidate(FILTER_VALIDATE_URL),
@@ -31,14 +31,14 @@ return [
             new Score\IsGreaterThan(99999)
         ]),
     ]),
-    'image' => new FieldDiscovery([], [
+    'image' => new ValueDiscovery([], [
         new Score\MatchFilterValidate(FILTER_VALIDATE_URL),
         new Score\IsMatch('/\.(?:jpe?g|png|gif)$/S'),
         new Score\Boost(-0.5, [
             new Score\IsNamed(['thumbnail'])
         ]),
     ]),
-    'title' => new FieldDiscovery([], [
+    'title' => new ValueDiscovery([], [
         new Score\Boost(-1, [
             new Score\MatchFilterValidate(FILTER_VALIDATE_URL),
         ]),
@@ -52,7 +52,7 @@ return [
             new Score\IsMatch('/\s+/S'),
         ]),
     ]),
-    'description' => new FieldDiscovery([], [
+    'description' => new ValueDiscovery([], [
         new Score\Boost(-1, [
             new Score\MatchFilterValidate(FILTER_VALIDATE_URL),
         ]),
@@ -72,7 +72,7 @@ return [
 
 
 /*
-<field name="id">
+<value name="id">
     <isUnique />
     <boost factor="-1">
         <match filter="FILTER_VALIDATE_URL" />
@@ -91,5 +91,5 @@ return [
     <boost factor="-0.1">
         <isGreaterThan value="99999" />
     </boost>
-</field>
+</value>
 */
