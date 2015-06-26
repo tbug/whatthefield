@@ -4,13 +4,16 @@ namespace WhatTheField\Score;
 
 use \DOMNode;
 
-class IsGreaterThan extends AbstractScore implements IScore
+class IsGreaterThan implements IScore
 {
     protected $value;
+    protected $isValueCallable;
 
     public function __construct($value)
     {
         $this->value = $value;
+        $this->isValueCallable = is_callable($value);
+
     }
 
     public function __invoke(DOMNode $node)
@@ -19,7 +22,7 @@ class IsGreaterThan extends AbstractScore implements IScore
             return 0;
         }
         $nodeValue = (float)$node->textContent;
-        $ownValue = $this->callOrValue($this->value, $node);
+        $ownValue = $this->isValueCallable ? $this->value($node) : $this->value;
         if (!is_numeric($ownValue)) {
             return 0;
         }

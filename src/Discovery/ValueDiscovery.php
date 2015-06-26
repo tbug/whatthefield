@@ -3,6 +3,7 @@
 namespace WhatTheField\Discovery;
 
 use FluentDOM\Nodes;
+use WhatTheField\Utils;
 
 class ValueDiscovery extends AbstractDiscovery implements IDiscovery
 {
@@ -37,7 +38,7 @@ class ValueDiscovery extends AbstractDiscovery implements IDiscovery
         $printDeltaTime = 0.5;
         $nextPrint = microtime(true) + $printDeltaTime;
         foreach ($nodes as $node) {
-            $nodeXPath = $node->toXPath();
+            $nodeXPath = (new Utils)->toXPath($node);
             $scores = [];
             foreach ($scoreObjects as $key => $scoreObject) {
                 $scoreKey = "$key:".get_class($scoreObject);

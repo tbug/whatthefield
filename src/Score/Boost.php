@@ -8,10 +8,11 @@ use \DOMNode;
  * Will multiply all $scorers values with $factor,
  * then sum and return the score.
  */
-class Boost extends AbstractScore implements IScore
+class Boost implements IScore
 {
     protected $scorers;
     protected $factor;
+    protected $isFactorCallable;
 
     /**
      * @param mixed $factor can be a number or a callable (e.g, IScore)
@@ -21,11 +22,16 @@ class Boost extends AbstractScore implements IScore
     {
         $this->scorers = $scorers;
         $this->factor = $factor;
+        $this->isFactorCallable = is_callable($factor);
     }
 
     public function __invoke(DOMNode $node)
     {
-        $factor = $this->callOrValue($this->factor, $node);
+        if ($this->isFactorCallable) {
+            $factor = $this->factor($node);
+        } else {
+            $factor = $this->factor;
+        }
         $score = 0;
         foreach ($this->scorers as $scorer) {
             $score += $scorer($node) * $factor;

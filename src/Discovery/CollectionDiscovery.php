@@ -4,6 +4,7 @@ namespace WhatTheField\Discovery;
 
 use FluentDOM\Query;
 use FluentDOM\Nodes;
+use WhatTheField\Utils;
 
 class CollectionDiscovery extends AbstractDiscovery implements IDiscovery
 {
@@ -15,7 +16,7 @@ class CollectionDiscovery extends AbstractDiscovery implements IDiscovery
     public function discoverScores(Nodes $nodes)
     {
         $nonContentNodes = $nodes->find('//*[not(text())]');
-        $maxSibs = $nodes->getDocument()->getMaxSibCount($nonContentNodes);
+        $maxSibs = (new Utils)->getMaxSibCount($nodes->getDocument(), $nonContentNodes);
         arsort($maxSibs);
 
         $ancestorCountGrouping = [];

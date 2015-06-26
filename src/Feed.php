@@ -8,8 +8,6 @@ use Psr\Log\LoggerAwareTrait;
 use Psr\Log\LoggerAwareInterface;
 
 use WhatTheField\Discovery\IDiscovery;
-use WhatTheField\Fluent\Utils;
-
 use FluentDOM;
 
 class Feed implements LoggerAwareInterface
@@ -37,8 +35,6 @@ class Feed implements LoggerAwareInterface
         if (!is_file($path)) {
             throw new Exception("'$path' is not a valid file");
         }
-        // we have custom logic. Make FluentDOM use our custom loader.
-        Utils::init();
 
         $this->document = FluentDOM::load($path);
         if (!$this->document) {

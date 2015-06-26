@@ -2,7 +2,7 @@
 
 namespace WhatTheField\Tests;
 
-use WhatTheField\Fluent\Utils;
+use WhatTheField\Utils;
 
 abstract class TestCase extends \PHPUnit_Framework_TestCase
 {
@@ -16,10 +16,4 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
     {
         return __DIR__.self::DS.'testfeeds'.self::DS.'foodieMultilevel.xml';
     }
-
-    public function setUp()
-    {
-        Utils::init();
-    }
-
 }
