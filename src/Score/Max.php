@@ -15,7 +15,11 @@ class Max implements IScore
     {
         $score = 0;
         foreach ($this->scorers as $scorer) {
-            $score = max($scorer->__invoke($node), $score);
+            if (is_numeric($scorer)) {
+                $score = max($scorer, $score);
+            } else {
+                $score = max($scorer($node), $score);
+            }
         }
         return $score;
     }

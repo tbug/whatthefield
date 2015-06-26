@@ -10,7 +10,7 @@ return [
         new Score\Boost(-1, [
             new Score\MatchFilterValidate(FILTER_VALIDATE_URL),
             new Score\Max([
-                new Score\Constant(0),
+                0,
                 new Score\IsDecimal(),
             ]),
         ]),
