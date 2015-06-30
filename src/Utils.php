@@ -43,7 +43,7 @@ class Utils
         $conditions=[];
         foreach ($attributes as $attrName => $attrObj) {
             if ((bool)round($this->scoreGroupAttribute($attrObj, $cacheObject))) {
-                $conditions[] = '@' . $attrName . '="' . (string)$attrObj . '"';
+                $conditions[] = '@' . $attrObj->nodeName . '="' . (string)$attrObj . '"';
             }
         }
         if (count($conditions) > 0) {
@@ -85,7 +85,9 @@ class Utils
         });
         list($parentNodeCount, $totalCount, $valueDistribution) = $result;
 
-
+        if ($totalCount === 0) {
+            throw new Exception('totalCount=0 should not be possible. Path is: '.$path);
+        }
 
         // score indicating on how many possible nodes do we see the attr
         $availability = $totalCount / $parentNodeCount;
