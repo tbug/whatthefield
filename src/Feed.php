@@ -39,6 +39,17 @@ class Feed implements LoggerAwareInterface
         $contentType = $this->guessContentType($path);
         $this->document = FluentDOM::load($path, $contentType);
 
+
+        $this->document->registerNamespace('#default', 'urn:default');
+        $this->document->registerNamespace('json', 'urn:carica-json-dom.2013');
+
+        // register all found namespaces
+        foreach ($this->document->find('namespace::*') as $node) {
+            if (!in_array($node->localName, ['xml', 'xmlns'])) {
+                $this->document->registerNamespace($node->localName, $node->nodeValue);
+            }
+        }
+
         if (!$this->document) {
             throw new Exception("'$path' could not be loaded.");
         }
