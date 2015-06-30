@@ -36,7 +36,9 @@ class Feed implements LoggerAwareInterface
             throw new Exception("'$path' is not a valid file");
         }
 
-        $this->document = FluentDOM::load($path);
+        $contentType = $this->guessContentType($path);
+        $this->document = FluentDOM::load($path, $contentType);
+
         if (!$this->document) {
             throw new Exception("'$path' could not be loaded.");
         }
@@ -156,5 +158,18 @@ class Feed implements LoggerAwareInterface
         return $valueOrAttributeNodes;
     }
 
+    protected function guessContentType($filename)
+    {
+        $choices = [
+            '/\.(xml|xslt)$/' => 'text/xml',
+            '/\.(js|json)$/' => 'application/json',
+        ];
+        foreach ($choices as $pattern => $type) {
+            if (preg_match($pattern, $filename)) {
+                return $type;
+            }
+        }
+        return 'text/xml';
+    }
 
 }
