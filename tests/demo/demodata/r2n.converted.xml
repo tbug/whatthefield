@@ -1,0 +1,2661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<json:json xmlns:json="urn:carica-json-dom.2013" json:type="array">
+  <_>
+    <id>399</id>
+    <name>Nepali Bhancha</name>
+    <address>Tagensvej 102</address>
+    <zipcode>2200</zipcode>
+    <city>København N</city>
+    <avgPrice>232</avgPrice>
+    <latlng json:type="array">
+      <_>55.7034263</_>
+      <_>12.547729600000025</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35858595/nepali-bhancha-1.r2nv.1431792644.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/nepali-bhancha</r2nLink>
+    <atmosphere>Restauranten sætter nogle gode rammer til en dejlig aften, hvor man kan indtage en ægte nepalesisk middag.</atmosphere>
+    <linkMenucard>nepalibhancha.dk/wp-content/uploads/2015/05/Nepali_bhanchha_Menukort.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">5.5</evaluationAvg>
+    <numberOfEvaluations>10</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Vi har sat stor fokus på økologiske varer og bruger derfor kun økologi, så vidt som muligt. Derfor serverer vi økologiske øl (fra Nørrebro bryghus), kaffe og te. Desuden arbejder vi hele tiden på at få flere økologiske varer i køkkenet.</others>
+    <cuisines json:type="array">
+      <_>asiatisk</_>
+      <_>indisk</_>
+      <_>nepalesisk</_>
+    </cuisines>
+    <locationText>Nepali Bhancha er en nepalesisk restaurant i København, som bringer smagene fra bjergene til Nørrebro.</locationText>
+    <foodText>Oversat til dansk betyder Nepali Bhancha nepalesisk køkken. Vi serverer autentisk nepalesiske retter, som er inspireret af forskellige storbyer i Nepal. Nepal er et lille land, som ligger mellem to af verdens største lande Kina og Indien. Af samme gru</foodText>
+    <offerTitle>Oplev en ægte nepalesisk middag på hyggelige Nepali Bhancha på Nørrebro. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435174200</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435172850</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>64</id>
+    <name>Den Tatoverede Enke</name>
+    <address>Gothersgade 8 D</address>
+    <zipcode>1123</zipcode>
+    <city>København K</city>
+    <avgPrice>383</avgPrice>
+    <latlng json:type="array">
+      <_>55.681665</_>
+      <_>12.584501</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33918877/den-tatoverede-enke-1.r2nv.1422924920.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/den-tatoverede-enke</r2nLink>
+    <atmosphere>Velkommen til en bar og et brasserie med fokus på det simple, men nøjagtige. Oplev de bedste belgiske øl og få en god historie fra vores kyndige tjenere. Vores bar har 16 fadølshaner og over 100 forskellige flaskeøl, så her er noget for enhver smag.</atmosphere>
+    <linkMenucard>www.dentatoveredeenke.dk/Content/Pdf/current-a-la-carte-menu.da.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.dentatoveredeenke.dk/Content/Pdf/wine.da.pdf</linkMenucardWine>
+    <evaluationAvg json:type="number">5.2</evaluationAvg>
+    <numberOfEvaluations>40</numberOfEvaluations>
+    <discountToday>10</discountToday>
+    <others>Vi glæder os til at give dig en sublim aften i sikre hænder på Den Tatoverede Enke. Velbekomme!</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>brasserie</_>
+      <_>øl cuisine</_>
+    </cuisines>
+    <locationText>I de rustikke omgivelser der er Baron Boltens tidligere stalde (1767), inviteres der til en oplevelse i øllets og madens vidunderlige verden.</locationText>
+    <foodText>Køkkenet har fokuseret på en enkel og præcis tilberedning, som til fulde harmonerer med smagsindtrykkene fra vores belgiske øl. De skandinaviske råvarer er dominerende i køkkenet året rundt. I maden bruger vi de fineste belgiske øl.</foodText>
+    <offerTitle>Den Tatoverede Enke i indre by har fokus på det simple, men nøjagtige. De skandinaviske råvarer er dominerende i køkkenet året rundt. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>27</id>
+    <name>La Rocca</name>
+    <address>Vendersgade 23-25</address>
+    <zipcode>1363</zipcode>
+    <city>København K</city>
+    <avgPrice>400</avgPrice>
+    <latlng json:type="array">
+      <_>55.684831</_>
+      <_>12.566258</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33146655/restaurant-la-rocca-koebenhavn-1.r2nv.1422924925.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-la-rocca-koebenhavn</r2nLink>
+    <atmosphere>Lokalerne er indrettet i klassisk italiensk stil, og malet i skønne cafélatte-toner. Restauranten er ligeså velegnet til store selskaber og firmafester som "Dinner for two".</atmosphere>
+    <linkMenucard>www.larocca.dk/larocca_alacarte/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">5.1</evaluationAvg>
+    <numberOfEvaluations>15</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Børn er meget velkomne hos La Rocca. De har Deres eget værelse med miniature-møbler, legetøj og fjernsyn med video til at underholde dem. Vores hyggelige gårdhave er åben fra maj til september, og byder på hyggelig italiensk steming.</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+      <_>vegetar</_>
+      <_>fisk og skaldyr</_>
+    </cuisines>
+    <locationText>La Rocca ligger tæt ved Peblingesøen (Dronning Louises Bro) og i gåafstand til Nørreport station og Torvehallerne</locationText>
+    <foodText>På menukortet finder du et bredt udvalg af autentiske italienske retter, som vores italienske kokke tilbereder med friske råvarer Udover den faste menu er der også dagsaktuelle tilbud.</foodText>
+    <offerTitle>La Rocca på Nørrebro er italiensk til fingerspidserne. Menukortet er autentisk med et bredt udvalg af italienske retter. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1435140000</newsletterDate>
+  </_>
+  <_>
+    <id>7</id>
+    <name>Trattoria Da Salvo</name>
+    <address>Gammel Kongevej 41</address>
+    <zipcode>1610</zipcode>
+    <city>København V</city>
+    <avgPrice>369</avgPrice>
+    <latlng json:type="array">
+      <_>55.67407</_>
+      <_>12.551995</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33235041/trattoria-da-salvo-1.r2nv.1422924931.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/trattoria-da-salvo</r2nLink>
+    <atmosphere>Da Salvo er et typisk syditaliensk Trattoria, med specialiteter fra Calabria, Sicilien, Rom og nedefter. Køkkenchefen Salvatore er selv fra Syditalien og laver mad efter de traditionelle foreskrifter kombineret med moderne gastronomi.</atmosphere>
+    <linkMenucard>www.trattoria-dasalvo.dk/vores-menu/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">5.1</evaluationAvg>
+    <numberOfEvaluations>91</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Da Salvo ligger på Vesterbro nær Vesterport station og i gåafstand til Rådhuspladsen, Tivoli og Det Ny Teater.</locationText>
+    <foodText>Hver dag finder vi de bedste råvarer, hvilket betyder, at der hver dag er noget nyt på menuen. Et trattoria er nemlig et sted, hvor man kommer ind og får præsenteret nogle forskellige dagens retter af tjeneren. Derudfra træffer man sit valg. Derfor har vi ikke et fast menukort... Vi serverer 2, 3 og 4 retters menuer, men man kan også nøjes med en forret eller dagens ret til den mindre sult.</foodText>
+    <offerTitle>Da Salvo er et typisk Trattoria, med specialiteter fra Calabria, Sicilien, Rom og nedefter beliggende på Vesterbro. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>362</id>
+    <name>Le Petit Gourmet</name>
+    <address>Blegdamsvej 70</address>
+    <zipcode>2100</zipcode>
+    <city>København Ø</city>
+    <avgPrice>412.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.695038</_>
+      <_>12.569340000000011</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35249017/le-petit-gourmet-1.r2nv.1425465977.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/le-petit-gourmet</r2nLink>
+    <atmosphere>Det er vigtigt for os, at vores personale er engageret og yder vores gæster den bedst mulige service. Restaurantens indretning er rustik og hyggelig.</atmosphere>
+    <linkMenucard>www.lepetitgourmet.dk/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.lepetitgourmet.dk/</linkMenucardWine>
+    <evaluationAvg json:type="number">5.1</evaluationAvg>
+    <numberOfEvaluations>32</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Indehaver Nils Lodahl har igennem mere end 25 år arbejdet med det franske køkken i både Danmark og udlandet. Internationalt har Niels blandt andet arbejdet privat for Victor Borge i USA, i Frankrig på Restaurant Copenhague (Paris) og før Le Petite Gourmet var Nils køkkenchef på Resturant Le Sommelier i København.</others>
+    <cuisines json:type="array">
+      <_>fransk</_>
+      <_>bistro</_>
+    </cuisines>
+    <locationText>Le Petit Gourmet ligger på Blegdamsvej på Østerbro i København. Her er gode parketingsmuligheder og adgang med bus.</locationText>
+    <foodText>Til frokost byder vi på et godt udvalg af enkle og smagfulde anretninger fra både det danske og franske køkken. Aftenens spisekort byder både på 3-retters middag og á la carte. Kortet indeholder spændende specialiteter som fx. snegle, vagtel og kanin og skifter jævnligt så hold øje med menuen.</foodText>
+    <offerTitle>Le Petit Gourmet byder på et godt udvalg af enkle og smagfulde anretninger fra både det danske og franske køkken. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435173300</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171950</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>321</id>
+    <name>La Lanterna</name>
+    <address>H.C. Ørstedsvej 28</address>
+    <zipcode>1879</zipcode>
+    <city>Frederiksberg C</city>
+    <avgPrice>402.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.678855</_>
+      <_>12.547499</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33313300/ristorante-la-lanterna-1.r2nv.1422924926.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/ristorante-la-lanterna</r2nLink>
+    <atmosphere>Kom og nyd en middag "hjemme" hos os på La Lanterna. Politikens anmelder var meget tilfreds med sit besøg hos os og skrev bl.a.: "Der er en god oplevelse i vente til dem, der finder vej til La Lanterna på H.C. Ørstedsvej." Kom selv og oplev det!</atmosphere>
+    <linkMenucard>www.lalanterna.dk/hovedretter/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">5</evaluationAvg>
+    <numberOfEvaluations>47</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Endnu et udpluk fra politikens anmeldelse: "Familien Gentile gør sig mere end umage, og er en værdig repræsentant for det uforfalskede ærkeitalienske køkken, som man gerne valfarter til Frederiksberg for at smage igen."</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>La Lanterna er en autentisk italiensk familierestaurant, der blev etableret i 1988. Beliggenheden centralt på Frederiksberg gør restauranten til et oplagt valg inden en tur i teateret, Forum eller Falkoner.</locationText>
+    <foodText>Menukortet indeholder et indbydende udvalg af retter afstemt efter sæsonen. Endvidere forbereder køkkenchefen dagligt en 5-retters menu baseret på markedets bedste råvarer.</foodText>
+    <offerTitle>La Lanterna på Frederiksberg tilbyder et indbydende udvalg af italienske retter afstemt efter sæsonen. Endvidere forbereder køkkenchefen dagligt en 5-retters menu baseret på markedets bedste råvarer. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>315</id>
+    <name>Brasserie Granberg</name>
+    <address>Ny Adelgade 3</address>
+    <zipcode>1264</zipcode>
+    <city>København K</city>
+    <avgPrice>365</avgPrice>
+    <latlng json:type="array">
+      <_>55.681131</_>
+      <_>12.58404900000005</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33124532/brasserie-granberg-1.r2nv.1423737867.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/brasserie-granberg</r2nLink>
+    <atmosphere>Indretningen er charmerende med dybe mørke farver, træ og hvide duge. Hér er tale om et rigtig hyggeligt og intimt rum - perfekt til at nyde en lækker middag og en god flaske vin.</atmosphere>
+    <linkMenucard>brasseriegranberg.dk/index.php?page=aften</linkMenucard>
+    <linkMenucardLunch>brasseriegranberg.dk/index.php?page=frokost</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">5</evaluationAvg>
+    <numberOfEvaluations>167</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Brasserie Granberg er opkaldt efter ballonskipperen Granberg, der i 1857 drømte om at flyve fra Danmark til Sverige i en luftballon. Samme år steg han til vejrs i sin ballon, men blev desværre taget af vinden og endte på Hofteatrets tag.</others>
+    <cuisines json:type="array">
+      <_>fransk</_>
+      <_>smørrebrød</_>
+      <_>brasserie</_>
+    </cuisines>
+    <locationText>Området omkring Kgs. Nytorv har altid været kendt for sin eksklusive atmosfære med Det Kongelige Teater og Hotel D'Angleterre. Ny Adelgade er ingen undtagelse. Hér er let adgang til metro og kun få meter til Københavns mest populære shoppe-område.</locationText>
+    <foodText>Vores ydmyge drøm er at lave fantastisk mad, der pirrer dine sanser - og grænser! Vi elsker at lave mad, der er traditionelt bundet, selvom vi altid arbejder hårdt på at udfordre os selv ud i gastronomiens kringlede kroge.</foodText>
+    <offerTitle>Brasserie Granberg i indre by har en ydmyg drøm om at lave fantastisk mad, der pirrer dine sanser - og grænser! Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435175100</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435173750</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>180</id>
+    <name>l'Alsace</name>
+    <address>Ny Østergade 9</address>
+    <zipcode>1101</zipcode>
+    <city>København K</city>
+    <avgPrice>460.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.680856</_>
+      <_>12.583022</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33145743/restaurant-alsace-1.r2nv.1422924930.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-alsace</r2nLink>
+    <atmosphere>To veje fører hér til den sikre forførelse: ned af den lille trappe i Ny Østergade ind til en verden af fascinerende kunst eller gennem det fortryllende brostensbelagte Pistolstræde ind i en smuk glasomringet terrasse med servering hele året.</atmosphere>
+    <linkMenucard>www.alsace.dk/dansk/aftenmenu.html</linkMenucard>
+    <linkMenucardLunch>www.alsace.dk/dansk/frokostmenu.html</linkMenucardLunch>
+    <linkMenucardWine>www.alsace.dk/dansk/vinkort.html</linkMenucardWine>
+    <evaluationAvg json:type="number">5</evaluationAvg>
+    <numberOfEvaluations>176</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Det er muligt at nyde menuer fra kr. 320-515 afhængig af hvor mange retter der ønskes.</others>
+    <cuisines json:type="array">
+      <_>fransk</_>
+      <_>gourmet</_>
+    </cuisines>
+    <locationText>l'Alsace ligger i hjertet af København kun få skridt fra Strøget.</locationText>
+    <foodText>Menukortet med sine rødder i Frankrig og Østrig bliver jævnligt inspireret af nye ideer og tiltag. Terrine de foie gras, Salat med skiver af håndskåret parmaskinke og grillet gedeost, Bouillabaisse og Tournedos Rossini er blot et lille udpluk.</foodText>
+    <offerTitle>l'Alsace i indre by har sine rødder i Frankrig og Østrig. Hér bliver du budt på flotte anretninger af de bedste råvarer og en hyggelig personlig service. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>208</id>
+    <name>Sukiyaki</name>
+    <address>Vesterbrogade 13, 1. sal</address>
+    <zipcode>1620</zipcode>
+    <city>København V</city>
+    <avgPrice>320</avgPrice>
+    <latlng json:type="array">
+      <_>55.673234</_>
+      <_>12.560422</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33312312/restaurant-sukiyaki-1.r2nv.1422924922.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-sukiyaki</r2nLink>
+    <atmosphere>Restauranten er en af de få japanske restauranter i København, som er japansk ejet og har teppanyaki borde, hvor maden tilberedes på en stor stegeplade, som gæsterne sidder omkring. Der er selvfølgelig også mulighed for at sidde ved alm. borde</atmosphere>
+    <linkMenucard>sukiyaki.dk/html/dk_forside.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.9</evaluationAvg>
+    <numberOfEvaluations>41</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Smag desuden en af de tre forskellige japanske øl, som Sukiyaki fører - Kirin, Asahi og Sapporo. Det skal bemærkes at der af og til kan være specielle tilbuds/discount menuer, hvor R2N rabatten ikke gælder. Velbekommen</others>
+    <cuisines json:type="array">
+      <_>japansk</_>
+      <_>fisk og skaldyr</_>
+      <_>sushi</_>
+    </cuisines>
+    <locationText>Restaurant Sukiyaki ligger på Vesterbrogade 13, første sal, ikke langt fra Hovedbanegården.</locationText>
+    <foodText>Japansk mad er meget andet end sushi. På menuen er der bl.a. grillet fisk, dybstegte tigerrejer, grillet ål, nuddelsuppe, traditionel japansk gryderet og meget mere. Naturligvis tilbyder Sukiyaki også kvalitetssushi af de bedste råvarer.</foodText>
+    <offerTitle>Sukiyaki på Vesterbro er en af de få japanske restauranter i København, som er japansk ejet og har teppanyaki borde, hvor maden tilberedes på en stor stegeplade, som gæsterne sidder omkring. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>326</id>
+    <name>Tandoori Masala Nørrebro</name>
+    <address>Nørrebrogade 35</address>
+    <zipcode>2200</zipcode>
+    <city>København N</city>
+    <avgPrice>209.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.6884631</_>
+      <_>12.558787400000028</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35353527/tandoori-masala-noerrebro-1.r2nv.1422924929.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/tandoori-masala-noerrebro</r2nLink>
+    <atmosphere>Ejerne har drevet restaurant siden 1995, og har fået ros af mange anmeldere gennem tiden. Stemningen i restauranten er autentisk og hyggelig. Indretningen er stilren og krydret med enkelte indiske genstande.</atmosphere>
+    <linkMenucard>www.tandoori-masala.dk/alarcarte_noerrebrogade.html</linkMenucard>
+    <linkMenucardLunch>www.tandoori-masala.dk/frokost_noerrebrogade.html</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.9</evaluationAvg>
+    <numberOfEvaluations>34</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Titlen ”Great Curry Master” givet af Burning Ring Worldwide Gourmet Association betyder, at Tandoori Masalas madlavning er af en høj standard, samt at der ydes god service.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+      <_>vegetar</_>
+      <_>pakistansk</_>
+    </cuisines>
+    <locationText>Restauranten på Nørrebrogade er en af tre Tandoori Masala restauranter i København. Beliggenheden er central i forhold til Sankt Hans Torv, Dronning Louises Bro og Nørrebro Teater.</locationText>
+    <foodText>Udvalget er bredt, og ønsker man en god introduktion til det indiske køkken, anbefaler vi, at man prøver en af de sammensatte menuer. De meget rimelige priser og den gode smag gør Tandoori Masala restauranterne til nogle af Københavns mest populære.</foodText>
+    <offerTitle>Hos Tandoori Masala på Nørrebro er udvalget bredt, og ønsker man en god introduktion til det indiske køkken, anbefaler vi, at man prøver en af de sammensatte menuer. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>343</id>
+    <name>Shezan</name>
+    <address>Viktoriagade 22</address>
+    <zipcode>1655</zipcode>
+    <city>København V</city>
+    <avgPrice>175.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.67098859999999</_>
+      <_>12.558464400000048</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33247888/restaurant-shezan-1.r2nv.1422924921.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-shezan</r2nLink>
+    <atmosphere>Shezan er en autentisk pakistansk restaurant, som forkæler sine gæster med traditionelle pakistanske specialiteter, hyggelig atmosfære og god service.</atmosphere>
+    <linkMenucard>www.shezan.dk/menu_pop.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.9</evaluationAvg>
+    <numberOfEvaluations>37</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Pakistansk mad er som oftest ret stærk, og hér er retterne ikke tilpasset scandinaviske ganer. Tilgengæld kan man selvfølgelig vælge mellem forskellige styrker.</others>
+    <cuisines json:type="array">
+      <_>pakistansk</_>
+    </cuisines>
+    <locationText>Restaurant Shezan ligger på hjørnet af Viktoriagade og Istedgade centralt på Vesterbro. Hovedbanegården er 5 min til fods og det samme er Det Ny teater og Kødbyen.</locationText>
+    <foodText>Restaurant Shezan forkæler dine smagssanser og giver dig en oplevelse du sent vil glemme. Vores kokke tilbereder maden efter de gamle pakistanske traditioner og skikke. På denne måde bliver maden så autentisk som mulig og oplevelsen så meget bedre.</foodText>
+    <offerTitle>Shezan på Vesterbro er en autentisk pakistansk restaurant, som forkæler sine gæster med traditionelle pakistanske specialiteter, hyggelig atmosfære og god service. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435176000</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435174650</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>133</id>
+    <name>Kashmir Valby</name>
+    <address>Ålholmvej 17</address>
+    <zipcode>2500</zipcode>
+    <city>Valby</city>
+    <avgPrice>182.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.672095</_>
+      <_>12.488645</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/36178317/restaurant-kashmir-valby-1.r2nv.1422924924.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-kashmir-valby</r2nLink>
+    <atmosphere>Kashmir i Valby byder på en hyggelig og autentisk atmosfære, som afspejler den indiske kultur. I restauranten kan du opleve den samme gode smag og betjening som altid dog i nyere og mere indbydende omgivelser.</atmosphere>
+    <linkMenucard>www.kashmir-restaurant.dk/kashmir-menukort.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>211</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Husets vin koster fra 140 kr. flasken, og serveres også i glas til 36 kr.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+    </cuisines>
+    <locationText>I marts måned 2011 åbnede den succesfulde indiske restaurant Kashmir en ny afdeling i Valby nær damhussøen i gåafstand til Ålholm station.</locationText>
+    <foodText>Vi serverer alle de traditionelle indiske retter som tandoori kylling, lam i karry, indisk kulfi is og meget mere. Vi har desuden nogle lækre sammensatte menuer fra 160 kr., hvor man får lov til at smage mange forskellige retter.</foodText>
+    <offerTitle>Kashmir i Valby byder på en hyggelig og autentisk atmosfære, som afspejler den indiske kultur. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>390</id>
+    <name>Amadeus</name>
+    <address>Store Kongensgade 62</address>
+    <zipcode>1264</zipcode>
+    <city>København K</city>
+    <avgPrice>319.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.683907</_>
+      <_>12.587591299999985</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33323511/1.r2nv.1423146522.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/amadeus</r2nLink>
+    <atmosphere>Gårdhaven, der tilhører restaurant Amadeus, er tidligere blevet kåret til en af Københavns hyggeligste, og er bestemt et besøg værd i sommermånederne.</atmosphere>
+    <linkMenucard>www.cafe-amadeus.dk/menukort/aftenmenu.html</linkMenucard>
+    <linkMenucardLunch>www.cafe-amadeus.dk/menukort/frokostmenu.html</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>66</numberOfEvaluations>
+    <discountToday>30</discountToday>
+    <others>Mandag og tirsdag lukker de tidligere, men her kan bestilles bord til frokost</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>fransk</_>
+    </cuisines>
+    <locationText>Vi ligger kun tre minutters gang fra Kongens Nytorv – tæt på Det Kongelige Teater, Nyhavn, Strøget og båden til det nye Operahus.</locationText>
+    <foodText>Vi kombinerer det bedste fra restaurant, café og konditori. Der er altid friskbagt brød fra vores søsterbutik Gjæstgiveriet, og til frokost serverer vi ægte dansk smørrebrød samt nogle lækre varme retter. Til aften kan man komponere sin egen 2- eller 3-retters menu ud fra et pænt udvalg af a la carte retter. Alle retter tilberedes med friske råvarer af vores dygtige kok. Menukortet byder på både danske og internationale lækkerier.</foodText>
+    <offerTitle>Oplev Københavns hyggeligste gårdhave på Amadeus i indre by, hvor du kan indtage både danske og internationale retter. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1435140000</newsletterDate>
+  </_>
+  <_>
+    <id>28</id>
+    <name>Pintxos</name>
+    <address>Nansensgade 63</address>
+    <zipcode>1366</zipcode>
+    <city>København K</city>
+    <avgPrice>399</avgPrice>
+    <latlng json:type="array">
+      <_>55.684516</_>
+      <_>12.5663</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33935805/restaurant-pintxos1.r2nv.1422924925.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-pintxos</r2nLink>
+    <atmosphere>Pintxos er den perfekte ramme for en middag for to i sofahjørnet, eller selskabet som vil sidde uforstyrret.</atmosphere>
+    <linkMenucard>www.pintxostapas.dk/pintxos_tapas/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>122</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Når vejret er godt spises der udenfor i vores meget hyggelige og solrige gårdhave.</others>
+    <cuisines json:type="array">
+      <_>spansk</_>
+      <_>fisk og skaldyr</_>
+      <_>tapas</_>
+    </cuisines>
+    <locationText>Pintxos er en anderledes og trendy indrettet Tapas-restaurant beliggende i det hyggelige Nansensgadekvarter i gåafstand fra Nørreport station og TOrvehallerne</locationText>
+    <foodText>Med en erfaren spansk kok i køkkenet garanteres autentiske kulinariske oplevelser fra forskellige regioner i Spanien. Menukortet har et varieret udpluk af spændende tapasretter fra de forskellige områder.</foodText>
+    <offerTitle>Pintxos på Nørrebro er den perfekte ramme for en middag for to i sofahjørnet, eller selskabet som vil sidde uforstyrret og nyde lækker tapas. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435176000</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435174650</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>358</id>
+    <name>IL Padrino</name>
+    <address>Jernbane Allé 44</address>
+    <zipcode>2720</zipcode>
+    <city>Vanløse</city>
+    <avgPrice>321</avgPrice>
+    <latlng json:type="array">
+      <_>55.6860946</_>
+      <_>12.491476700000021</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/70272071/il-padrino-1.r2nv.1422924932.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/il-padrino</r2nLink>
+    <atmosphere>På rekordtid har vi fået kæmpe succes med ægte italiensk mad komponeret af vores dygtige italienske chefkok. Indretningen er lys og imødekommende, og vores store åbne køkken er omdrejningspunkt midt i lokalet.</atmosphere>
+    <linkMenucard>www.il-padrino.dk/node/85</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>59</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Vi tilbyder også særlige retter til de små. Vores børnemenu har 4 retter at vælge mellem, som børnene er vilde med. Har man lyst til en cocktail eller en specialøl, kan vores bar tilbyde det hele.</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>IL Padrino er Vanløses eneste italienske restaurant og ligger i Biohuset. Vi ligger kun få meter fra Vanløse S-tog station og Metro. Der er 3 timers gratis parkering i kælder til Føtex. Indgang til restauranten igennem Vanløse Bio.</locationText>
+    <foodText>Vi kan tilbyde alle de mest populære retter fra det klassiske italienske køkken - altid tilberedt fra bunden af nøje udvalgte råvarer. Man kan enten vælge frit fra a la carte kortet eller prøve en af vores sammensatte menuer. Se menukortet for mere info.</foodText>
+    <offerTitle>Il Padrino er Vanløses eneste italienske restaurant. Her tilbydes de mest populære retter fra det italienske køkken. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>158</id>
+    <name>Aristo</name>
+    <address>Islands Brygge 4</address>
+    <zipcode>2300</zipcode>
+    <city>København S</city>
+    <avgPrice>366</avgPrice>
+    <latlng json:type="array">
+      <_>55.669368</_>
+      <_>12.579687</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/32958330/restaurant-aristo-1.r2nv.1424964073.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-aristo</r2nLink>
+    <atmosphere>Aristo har med sine store panorama-vinduer udsigt over den rolige, men livlige havn, samt Københavns flotteste solnedgang. Restauranten er varm, og hyggelig med sin nøje udvalgte røde farve og imødekommende tjenere.</atmosphere>
+    <linkMenucard>www.restaurantaristo.dk/data/uploads/aften.pdf</linkMenucard>
+    <linkMenucardLunch>www.restaurantaristo.dk/data/uploads/frokost.pdf</linkMenucardLunch>
+    <linkMenucardWine>www.restaurantaristo.dk/data/uploads/vinkort.pdf</linkMenucardWine>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>96</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Den store bar der står i midten af restauranten er som et symbol på den store åbenhed og nyskabelse på Islandsbrygge. Det vil glæde os også at kunne åbne dørene for dig.</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>fransk</_>
+    </cuisines>
+    <locationText>Café og Restaurant Aristo ligger ved foden af Langebro i den kendte bygning i starten af Islandsbrygge.</locationText>
+    <foodText>Køkkenchefen Thomas Fischer har sine magtfulde dage i køkkenet, hvor der er sat pris på de bedste råvare og finesser i Dansk - Fransk køkken, hvor han ikke lader noget gå forbi hans øjne og intet er ladt til tilfældighederne.</foodText>
+    <offerTitle>Aristo på Islands Brygge er dansk/fransk inspireret. Nyd en lækker anretning med udsigt over vandet. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>381</id>
+    <name>Asian Pearl</name>
+    <address>Ordrupvej 114</address>
+    <zipcode>2920</zipcode>
+    <city>Charlottenlund</city>
+    <avgPrice>139</avgPrice>
+    <latlng json:type="array">
+      <_>55.75967079999999</_>
+      <_>12.569021499999963</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/39640230/asian-pearl-1.r2nv.1422924924.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/asian-pearl</r2nLink>
+    <atmosphere>Lokalerne er lyse og for nylig renoverede. Dekorationen er stilren krydret med enkelte kinesiske lamper, vaser og skulpturer. Betjeningen er personlig og er man ikke velkendt i det kinesiske køkken eller sushi, hjælper personalet gerne med at finde den ret, der passer bedst.</atmosphere>
+    <linkMenucard>www.asianpearl.dk/retter_menuer.php</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>34</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Til de mindste er der også en børnemenu med 3 retter, som plejer at være et hit.</others>
+    <cuisines json:type="array">
+      <_>kinesisk</_>
+      <_>asiatisk</_>
+    </cuisines>
+    <locationText>Asian Pearl ligger på Ordrupvej i Charlottenlund i lokaler der tidligere har huset Ordrup Kro og Teatret bag Kroen. Hér er gode parkeringsmuligheder og alternativt er der blot 10 min. gang til Charlottenlund station.</locationText>
+    <foodText>Menukortet byder på et bredt udvalg af a la carte retter, men det mest populære valg blandt gæsterne er den Kinesiske Buffet eller nogle af de lækre sushi-menuer - begge til yderst rimelige priser. OBS: Asian Pearl tilbyder også running sushi, men dette skal bestilles på den profil, der hedder: Asian Pearl Running Sushi.</foodText>
+    <offerTitle>Oplev den kinesiske atmosfære hos Asien Pearl i Charlottenlund. Hér kan du både spise kinesisk og sushi, så der er noget for enhver smag. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>127</id>
+    <name>Dubrovnik</name>
+    <address>Studiestræde 32</address>
+    <zipcode>1455</zipcode>
+    <city>København K</city>
+    <avgPrice>293.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.678115</_>
+      <_>12.568181</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33130564/restaurant-dubrovnik-1.r2nv.1422924927.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-dubrovnik</r2nLink>
+    <atmosphere>Vi ønsker at skabe rammerne for en afslappet middag i autentiske rammer. Stemningen i vores restaurant beskrives af vores stamgæster som hyggelig, og betjeningen stræber vi efter at gøre både personlig og nærværende.</atmosphere>
+    <linkMenucard>restaurant-dubrovnik.dk/wordpress/?page_id=412</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>161</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>I køkkenet bruges kun udvalgte råvarer af bedste kvalitet. Det samme gælder vores udvalg af vine. Vi har sammensat vores vinkort med et bredt udvalg af druetyper, der repræsenterer Balkan og andre spændende lande i tankerne. Velkommen!</others>
+    <cuisines json:type="array">
+      <_>andet europæisk</_>
+      <_>middelhavs</_>
+    </cuisines>
+    <locationText>Restaurant Dubrovnik er en gammel familierestaurant beliggende i indre by - kun et stenkast fra Tivoli og Hovedbanegården.</locationText>
+    <foodText>Vores køkken er en god forening af klassisk og moderne kogekunst - inspireret af Balkan lande. "Hvis Balkan kan opleves gennem smagsløgene, så‚ findes Balkan også‚ i Studiestræde 32".</foodText>
+    <offerTitle>Hos Dubrovnik i indre by er køkkenet en god forening af klassisk og moderne kogekunst. Inspirationen stammer fra Balkan. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>222</id>
+    <name>San Giorgio</name>
+    <address>Rosenborggade 7</address>
+    <zipcode>1130</zipcode>
+    <city>København K</city>
+    <avgPrice>470</avgPrice>
+    <latlng json:type="array">
+      <_>55.683484</_>
+      <_>12.574124</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33126120/restaurant-san-giorgio-1.r2nv.1422924928.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-san-giorgio</r2nLink>
+    <atmosphere>I de stemningsfyldte lokaler i det gamle byhus lægger San Giorgio's personale vægt på en varm og uhøjtidelig atmosfære, hvor gæsterne for alvor er i centrum.</atmosphere>
+    <linkMenucard>www.san-giorgio.dk/images/stories/san%20giorgio_menuer.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>46</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Dette er stedet for dem, som ønsker at smage det ægte italienske gourmetkøkken.</others>
+    <cuisines json:type="array">
+      <_>gourmet</_>
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Ristorante San Giorgio ligger midt på Rosenborggade, som er en sidevej til Gothersgade. Restauranten ligger blot 150 meter fra Nørreport station, Kultorvet og Kongens Have.</locationText>
+    <foodText>Hos San Giorgio laves der mad med respekt for traditionerne. Køkkenets udgangspunkt er det klassiske køkken fra Sardinien tilsat det bedste fra resten af Italien. Hér serveres tre, fire eller seks retters menuer af dagfriske råvarer hentet på torve</foodText>
+    <offerTitle>Ristorante San Giorgio i indre by holder til i stemningsfyldte lokaler. Køkkenets udgangspunkt er det klassiske køkken fra Sardinien tilsat det bedste fra resten af Italien. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>16</id>
+    <name>Al-diwan</name>
+    <address>Vesterbrogade 94</address>
+    <zipcode>1620</zipcode>
+    <city>København V</city>
+    <avgPrice>236</avgPrice>
+    <latlng json:type="array">
+      <_>55.672202</_>
+      <_>12.548116</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33231045/restaurant-al-diwan-1.r2nv.1422924927.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-al-diwan</r2nLink>
+    <atmosphere>De store Muguler var kendt for deres kunst, stil og køkken. De byggede store monumenter og paladser som Taj Mahal og Shalimar, der er kendt verden over for deres evige skønhed. På samme vis havde de en stor tradition for madkunst.</atmosphere>
+    <linkMenucard>www.al-diwan.dk/wp-content/uploads/2012/10/Al-Diwan-Menu.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>296</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Madanmelder Adam Price skrev: Et glædeligt gensyn med Al-Diwan - byens måske bedste pakistansk-indiske restaurant. Og så er priserne til og med rimelige - fik 4 kokkehuer i Politiken. http://ibyen.dk/restauranter/kokkehuer-mellem/article76030.ece</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+      <_>pakistansk</_>
+    </cuisines>
+    <locationText>Al-diwan ligger centralt på den travle Vesterbrogade, og byder på det kongelige Mugulske køkken.</locationText>
+    <foodText>Vi er stolte over at kalde os "AL-DIWAN", som betyder sted for kongelig audiens, hvor vi gør vores bedste for at genopleve og vise Mugulernes store køkken. Luksusbuffet til bare 159 ,- ved større selskaber. Prøv også en af vores øvrige menuer.</foodText>
+    <offerTitle>Madanmelder Adam Price skrev: Et glædeligt gensyn med Al-Diwan på Vesterbro - byens måske bedste pakistansk-indiske restaurant. Og så er priserne til og med rimelige. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>297</id>
+    <name>Kung Fu Nørrebro</name>
+    <address>Ravnsborggade 16B</address>
+    <zipcode>2200</zipcode>
+    <city>København N</city>
+    <avgPrice>274</avgPrice>
+    <latlng json:type="array">
+      <_>55.68893509999999</_>
+      <_>12.562578300000041</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/40636976/kung-fu-noerrebro-1.r2nv.1422924927.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/kung-fu-noerrebro</r2nLink>
+    <atmosphere>Kort fortalt er Kung Fu Izakaya Bar en asiatisk kro med en uformel atmosfære, der byder på spændende asiatiske småretter, øl og cocktails. De japanske kroer er dér, hvor japanerne tager hen efter en travl arbejdsdag for at koble af.</atmosphere>
+    <linkMenucard>www.kungfubar.dk/noerrebro/food</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>52</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Vi ønsker at give gæsten det bedste - DU og DINE venners smagsløg skal bombaderes med Asiatisk velsmag. (Bemærk venligst at ved bookings mellem kl. 17.00 og 18.45 har man bordet i 2 timer. Dvs: Har man booket et bord til 18.15 har man det til 20.15)</others>
+    <cuisines json:type="array">
+      <_>asiatisk</_>
+      <_>japansk</_>
+      <_>sushi</_>
+    </cuisines>
+    <locationText>Kung Fu Izakaya Bar ligger på Ravnsborggade - en sidegade til Nørrebrogade. Hér er blot et stenkast til Nørrebro Teater, så kig forbi hvis du skal ind og se en forestilling.</locationText>
+    <foodText>Vores mad er inspireret af det japanske gadekøkken - dog med sidespring til Kina og resten af Asien. Vores stil er uformel, utraditionel og nutidig, men altid med fokus på SMAGEN.</foodText>
+    <offerTitle>Kung Fu på Nørrebro er en asiatisk kro med en uformel atmosfære, der byder på spændende asiatiske småretter, øl og cocktails. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435161600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435160250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>371</id>
+    <name>Himalaya</name>
+    <address>Herluf Trolles gade 5</address>
+    <zipcode>1052</zipcode>
+    <city>København K</city>
+    <avgPrice>225.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.6792378</_>
+      <_>12.589206500000046</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33323708/restaurant-himalaya-1.r2nv.1422924930.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-himalaya</r2nLink>
+    <atmosphere>Smukke buddhistiske stofbilleder Thanka'er og små buddha-figurer sætter én i den rette østerlandske stemning til at indtage en ægte tibetansk eller nepalesisk middag i den hyggelige kælderrestaurant i Herluf Trolles Gade.</atmosphere>
+    <linkMenucard>www.himalayarest.dk/index.php?option=com_content&amp;view=article&amp;id=2&amp;Itemid=17</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.himalayarest.dk/index.php?option=com_content&amp;view=article&amp;id=14&amp;Itemid=15</linkMenucardWine>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>8</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Om du vil kombinere med teater eller blot lade smagsoplevelsen stå alene, så er Restaurant Himalaya et ideelt valg.</others>
+    <cuisines json:type="array">
+      <_>nepalesisk</_>
+      <_>Tibetansk</_>
+    </cuisines>
+    <locationText>Hos Himalaya, bag Det Kongelige Teater bydes der på kulinariske oplevelser, yderst rimelige priser og ægte østerlandsk gæstfrihed.</locationText>
+    <foodText>Det tibetanske køkken er smagsmæssigt rigere og mere pikant krydret i forhold til hvad der ellers tilbydes i det københavnske udvalg af asiatisk mad. Her finder man således både tibetanske så vel som nepalesiske specialiteter. Det indeholder både lækre kødretter og et stort udvalg af vegetarretter. Det hele fremstillet af friske råvarer af høj kvalitet.</foodText>
+    <offerTitle>Oplev en ægte tibetansk eller nepalesisk middag hos hyggelige Himalaya i indre by. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>389</id>
+    <name>Øresund</name>
+    <address>Strandvejen 343</address>
+    <zipcode>2930</zipcode>
+    <city>Klampenborg</city>
+    <avgPrice>278</avgPrice>
+    <latlng json:type="array">
+      <_>55.7642028</_>
+      <_>12.5966234</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/39644050/oeresund-1.r2nv.1422924930.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/oeresund</r2nLink>
+    <atmosphere>De to venner kunne se muligheden i de lokaler, som engang var stamsted for galopryttere, og besluttede at forvandle lokalerne til en lys og indbydende restaurant med plads til alle. ” Stemningen hos os er afslappende, hyggelig og uhøjtidelig, og vi henvender os til alle, hvadenten man er pensionist, børnefamilie, direktør eller håndværker”, siger Jon Jønsson.</atmosphere>
+    <linkMenucard>www.restaurantøresund.dk/menukort/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.restaurantøresund.dk/vinkort/</linkMenucardWine>
+    <evaluationAvg json:type="number">4.8</evaluationAvg>
+    <numberOfEvaluations>12</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Henrik Bakke og Jon Jønsson glæder sig til at byde alle gæster velkommen til Restaurant Øresund.</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>fransk</_>
+    </cuisines>
+    <locationText>Restaurant Øresund er en familiedrevet restaurant med kok Jon Jønsson bag gryderne og tjener Henrik Bakke på gulvet i den hyggelige restaurant på Strandvejen.</locationText>
+    <foodText>Menukortet kan måske kaldes en blanding af moderne fransk og danske klassikere, men gæsterne kan også støde på italienske eller andre europæiske retter. Menuens sammensætning afhænger af årstid og kokkens gode ideer. Men der er noget for enhver smag, også for de små gæster, som kan spise lasagne med masser af gemte grøntsager eller fiskefrikadeller i stedet for den traditionelle fiskefilet med pommes frites.</foodText>
+    <offerTitle>Oplev en blanding af moderne franske og danske klassikere hos hyggelige Café Øresund i Klampenborg. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>169</id>
+    <name>Fru Heiberg</name>
+    <address>Rosenvængets Allé 3</address>
+    <zipcode>2100</zipcode>
+    <city>København Ø</city>
+    <avgPrice>302.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.698733</_>
+      <_>12.578704</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35389100/restaurant-fru-heiberg-1.r2nv.1422924922.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-fru-heiberg</r2nLink>
+    <atmosphere>Indretningen er fransk inspireret med træ og hvide vægge, der skaber hyggelige rammer i det charmerende rum, der har plads til ca. 25 spisende. Vores restaurant er det perfekte sted, hvis du har lyst til et break fra den travle hverdag.</atmosphere>
+    <linkMenucard>fruheiberg.dk/forret.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.7</evaluationAvg>
+    <numberOfEvaluations>241</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Vinkortet er ikke stort, men repræsenterer mange forskellige verdensdele, og har noget for enhver smag. Flasker koster fra 215,- og glas fra 45,-</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>fransk</_>
+      <_>tapas</_>
+    </cuisines>
+    <locationText>Fru Heiberg ligger centralt på Østerbro i København et stenkast fra Trianglen.</locationText>
+    <foodText>Vores menukort har forskellige retter fra det danske og franske køkken. Vi tilbereder alt fra bunden, benytter kun de bedste råvarer, og tilsætter en god portion kærlighed.</foodText>
+    <offerTitle>Fru Heiberg på Østerbro er fransk inspireret. Menukort byder på forskellige retter fra det danske og franske køkken - alle lavet med kærlighed. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>283</id>
+    <name>Quattro Fontane</name>
+    <address>Guldbergsgade 3</address>
+    <zipcode>2200</zipcode>
+    <city>København N</city>
+    <avgPrice>246.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.690903</_>
+      <_>12.559707</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35393931/restaurant-quattro-fontane-1.r2nv.1422924920.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-quattro-fontane</r2nLink>
+    <atmosphere>Hér er tale om en ægte italiensk restaurant med tjenere, der taler italiensk, og betjeningen er personlig og humoristisk. I stueetagen kan man se ind i det åbne køkken og førstesal er bl.a. udsmykket med loftsmalerier og andre charmerende detaljer.</atmosphere>
+    <linkMenucard>www.quattro-fontane.dk/voresmenu.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.7</evaluationAvg>
+    <numberOfEvaluations>146</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Sætter du pris på en pizza, der smager af italien, er dette også stedet - der er 11 forskellige pizzaer at vælge imellem til priser fra 74,- Vinkortet byder på ½flasker fra 149,- og hele flasker fra 249,-</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Restaurant Quattro Fontane på Sankt Hans Torv har til formål at genskabe den romerske italiensk trattoria-stemning.</locationText>
+    <foodText>Et trattoria er symbol på en folkelig restaurant med enkel lokal og velsmagende gastronomi. Priserne holdes på et niveau, som gør det muligt at spise ude lidt oftere. Menukortet byder på alle de populære italienske klassikere samt menu'er fra 219,-</foodText>
+    <offerTitle>Quattro Fontane på Nørrebro inviterer indenfor til en ægte italiensk oplevelse. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435177800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435176450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>122</id>
+    <name>Romarin</name>
+    <address>Ryesgade 90</address>
+    <zipcode>2100</zipcode>
+    <city>København Ø</city>
+    <avgPrice>274</avgPrice>
+    <latlng json:type="array">
+      <_>55.69624</_>
+      <_>12.573385</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35432928/restaurant-romarin-1.r2nv.1422924920.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-romarin</r2nLink>
+    <atmosphere>Ejeren af Romarin hedder Mohammed El Bakkali. Han er blevet rost meget for sin indsats, da han drev restaurant Le Basilic i Arhus, og nu har København glæde af den hyggelige stemning, som er i fokus hos Romarin.</atmosphere>
+    <linkMenucard>www.restaurant-romarin.dk/menu/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.restaurant-romarin.dk/vin/</linkMenucardWine>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>52</numberOfEvaluations>
+    <discountToday>10</discountToday>
+    <others>Hos Romarin kan du desuden medbringe din egen vin, uden at der skal betales proppenge.</others>
+    <cuisines json:type="array">
+      <_>fransk</_>
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Restaurant Romarin ligger mellem Sortedams sø og Fælledparken på Østerbro med gåafstand til trianglen.</locationText>
+    <foodText>Hos Romarin er vi optaget af det fransk - italienske køkken, og dette vil præge menukortet. Retterne bliver tilberedt af de bedste danske råvarer, og der kan nydes alt fra en til fem retter.</foodText>
+    <offerTitle>Restaurant Romarin på Østerbro er optaget af det fransk-italienske køkken til meget rimelige priser. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>292</id>
+    <name>Canton</name>
+    <address>Vesterbrogade 20</address>
+    <zipcode>1620</zipcode>
+    <city>København V</city>
+    <avgPrice>226.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.673119</_>
+      <_>12.558851300000015</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33318136/restaurant-canton-1.r2nv.1422924922.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-canton</r2nLink>
+    <atmosphere>Canton fylder ikke meget i gadebilledet, men så snart man træder ind ad døren, føles det, som om man bliver ført til en helt anden verdensdel. Vægge og møbler er af træ, og rummet er dekoreret med autentiske kinesiske detaljer.</atmosphere>
+    <linkMenucard>www.canton-restaurant.dk/dishes.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>8</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Canton er stedet, som mange kinesere vælger - både herboende og turister, når de ønsker smagen af Kina i København.</others>
+    <cuisines json:type="array">
+      <_>kinesisk</_>
+      <_>asiatisk</_>
+      <_>fisk og skaldyr</_>
+    </cuisines>
+    <locationText>Centralt i København med kort til Hovedbanegården og Tivoli ligger Københavns ældste kinesiske restaurant, Canton.</locationText>
+    <foodText>På menukortet finder man et bredt udvalg af spændende kinesiske retter. Prøv for eksempel en stærk peking suppe, dampkogt fisk efter årstiden, kylling med champignon og bambuskud eller sprødstegte nudler med grøntsager, kød, rejer og blæksprutter.</foodText>
+    <offerTitle>Hos Restaurant Canton på Vesterbro finder man et bredt udvalg af spændende kinesiske retter til gode priser. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435161600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435160250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>74</id>
+    <name>Ponte Vecchio</name>
+    <address>Islands Brygge 33</address>
+    <zipcode>2300</zipcode>
+    <city>København S</city>
+    <avgPrice>313</avgPrice>
+    <latlng json:type="array">
+      <_>55.6656943</_>
+      <_>12.575530100000037</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/32541111/ponte-vecchio-1.r2nv.1422924925.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/ponte-vecchio</r2nLink>
+    <atmosphere>Restauranten ligger med en fin udsigt til havnekajen, og de store vinduer hele vejen rundt om hjørnebygningen gør, at hér er lyst og indbydende. Om sommeren er der også mulighed for at sidde udenfor, da der er sol hele dagen.</atmosphere>
+    <linkMenucard>www.pontevecchio.dk/index.php/aftens-menu</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>93</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Husets vin kommer fra den kendte producent Aldegheri, der er et familieejet vinhus beliggende i Valpolicella-distriktet, Italien. Priserne ligger fra 199,- flasken og 49,- pr glas.</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Ponte Vecchio er opkaldt efter den charmerende gamle bro midt i Firenze, ligger på Islands Brygge i gåafstand fra metro og med gode parkeringsmuligheder.</locationText>
+    <foodText>Menukortet byder på klassisk italiensk mad, og der er et stort udvalg af a la carte retter samt på forhånd sammensatte menuer, som giver en god rundvisning i det italienske køkken.</foodText>
+    <offerTitle>Ponte Vecchio på Christianshavn har en dejlig udsigt til havnekajen. Menukortet byder på alle de klassiske italienske retter. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>288</id>
+    <name>Caffè Italiano</name>
+    <address>Østbanegade 23</address>
+    <zipcode>2100</zipcode>
+    <city>København Ø</city>
+    <avgPrice>312</avgPrice>
+    <latlng json:type="array">
+      <_>55.6961915</_>
+      <_>12.591098800000054</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35383500/caffe-italiano-1.r2nv.1422924929.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/caffe-italiano</r2nLink>
+    <atmosphere>Indretningen er stilren, og stemningen i restauranten er hyggelig og romantisk med pænt dækkede borde og dæmpet belysning, så man rigtig kan nyde hinandens selskab i stearinlysets skær. Den primære dekoration er udvalget af lækre italienske vine.</atmosphere>
+    <linkMenucard>www.caffeitaliano.dk/?page=evening</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>13</numberOfEvaluations>
+    <discountToday>10</discountToday>
+    <others>Caffè Italiano åbnede i november 2011, og er allerede blevet et yndet spisested hos de nærliggende ambassader, hvilket har givet en trofast skare af stamgæster. Vinudvalget stammer fra 3 udvalgte leverandører med priser fra 190,- flasken / 45,- glas</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Tæt på Østerport station ligger den hyggelige restaurant Caffè Italiano. Der siddepladser ude på torvet, hvor den tidlige aftensol kan nydes om sommeren, og gangbroen over til Langelinie giver mulighed for en romantisk gåtur efter maden.</locationText>
+    <foodText>Menukortet er ikke stort, men der er noget for enhver smag til meget rimelige priser. Køkkenchefen sammensætter menuen af friske sæsonråvarer, og kærligheden til det traditionsrige italienske køkken mærker man straks.</foodText>
+    <offerTitle>Caffé Italiano på Østerbro har en hyggelig atmosfære. Menukortet er ikke stort, men der er noget for enhver smag til meget rimelige priser. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435167000</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435165650</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>342</id>
+    <name>Bonjour Vietnam</name>
+    <address>Vesterbrogade 44</address>
+    <zipcode>1620</zipcode>
+    <city>København V</city>
+    <avgPrice>256</avgPrice>
+    <latlng json:type="array">
+      <_>55.6727712</_>
+      <_>12.555303600000002</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/53536797/restaurant-bonjour-vietnam-1.r2nv.1423734285.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-bonjour-vietnam</r2nLink>
+    <atmosphere>Bonjour Vietnam er ikke bare et af Københavns smukkeste spisesteder, men også stedet hvor man kan nyde rigelige portioner af Vietnams anderledes, skønne og friske køkken til priser, som alle kan være med på.</atmosphere>
+    <linkMenucard>bonjourvietnam.dk/vi-tilbyder/a-la-carte</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>564</numberOfEvaluations>
+    <discountToday>30</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>asiatisk</_>
+      <_>fisk og skaldyr</_>
+      <_>vietnamesisk</_>
+    </cuisines>
+    <locationText>Vi ligger lige ved siden af det Ny Teater - under et ½ minut fra teatrets indgang. Efter kl. 18 er der gratis parkering i hele Teaterarkaden indtil kl. 07.00 næste dag.</locationText>
+    <foodText>Restauranten drives af et dansk-vietnamesisk ægtepar, og i det store rum med glasrude mod køkkenregionen kan man følge med i, hvordan den vietnamesiske del af ejerskabet på en systematisk og legende let måde fremtryller velsmagende gedigen mad.</foodText>
+    <offerTitle>Bonjour Vietnam på Vesterbro er ikke bare et af Københavns smukkeste spisesteder, men også stedet hvor man kan nyde rigelige portioner af Vietnams skønne og friske køkken til priser. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435176900</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435175550</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>49</id>
+    <name>TRIBECA NV</name>
+    <address>Bygmestervej 2</address>
+    <zipcode>2400</zipcode>
+    <city>København NV</city>
+    <avgPrice>340</avgPrice>
+    <latlng json:type="array">
+      <_>55.706438</_>
+      <_>12.533815</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35851050/tribeca-nv-1.r2nv.1422924927.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/tribeca-nv</r2nLink>
+    <atmosphere>Restauranten kombinerer stemningen fra den hyggelige romersk-italienske trattoria med den rå og fashionable atmosfære, som man først og fremmest kender fra gaderne i New York.</atmosphere>
+    <linkMenucard>www.tribecanv.dk/#menukort</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>115</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Vores restaurant bærer samme navn som en fascinerende bydel i det centrale Manhattan i New York. Tribeca eller 'TriBeCa', er egentlig en sammentrækning af 'Triangle Below Canal Street', hvilket refererer til områdets placering i byen.</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Vi tillader os gerne at kalde København NV for hovedstadens største uslebne diamant. Menneskene bor og arbejder side om side, hvilket gør København NV til et område, der rummer en mangfoldighed udover det sædvanlige.</locationText>
+    <foodText>Hos TRIBECA NV finder du derfor et køkken, der tilbyder simple retter fra det italienske køkken, i omgivelser du med garanti aldrig har prøvet at opleve før.</foodText>
+    <offerTitle>Tribeca på Nordvest kombinerer stemningen fra den hyggelige romersk-italienske trattoria med den rå og fashionable atmosfære, som man kender fra New York. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>397</id>
+    <name>Fatty Cow - Barbecue &amp; Hot Pot</name>
+    <address>Rådhuspladsen 14</address>
+    <zipcode>1550</zipcode>
+    <city>København V</city>
+    <avgPrice>198</avgPrice>
+    <latlng json:type="array">
+      <_>55.6761892</_>
+      <_>12.567507299999988</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/29926789/1.r2nv.1428404472.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/fatty-cow</r2nLink>
+    <atmosphere>Nyd maden i vores moderne indretning, hvor dekorationen er stilren og der er blå detaljer i loftet. Ideel sammen med venner, familie eller kollegaer, jo flere jo bedre, som man gør i Asien.</atmosphere>
+    <linkMenucard>www.fattycow.dk</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>29</numberOfEvaluations>
+    <discountToday>30</discountToday>
+    <others>Da det er buffet, er der intet menukort. Vores gæster får lov til at kombinere deres egne råvarer fra buffeten, hvorefter de selv skal grille/"lave" deres egen mad, ved de integrerede grillborde. Med det moderne udsugningssystem vil gæsterne opleve en røgfri restaurant uden lugtgener.</others>
+    <cuisines json:type="array">
+      <_>kinesisk</_>
+      <_>asiatisk</_>
+    </cuisines>
+    <locationText>Oplev danmarkspremiere på et helt nyt madkoncept, som tilbyder dig specialiteter fra Sydøstasien, lige ved Rådhuspladsen.</locationText>
+    <foodText>Vær din egen kok for en aften, tilberedt af friske råvarer direkte på de special-designede barbecue / hotpot borde. Du bestemmer selv tempoet, og hvordan du ønsker retten tilberedt, hvad enten det er barbecue eller hotpot. Det vigtigste er, at du får muligheden for at kombinere lige netop det, du ønsker at spise. Maden vil altid være frisk, varm og attraktiv. Vores buffet tilbyder dig forskellige kød, skaldyr, grøntsager, salatbar, og hjemmelavede saucer, der vækker alle sanser.</foodText>
+    <offerTitle>Vær din egen kok for en aften og tilbered de friske råvarer på de special-designet hotpot borde hos Fatty Cow i indre by. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>178</id>
+    <name>Bastionen + Løven</name>
+    <address>Christianshavns Voldgade 50</address>
+    <zipcode>1424</zipcode>
+    <city>København K</city>
+    <avgPrice>367.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.67161</_>
+      <_>12.595642</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/32950940/restaurant-bastionen-loeven-1.r2nv.1422924925.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-bastionen-loeven</r2nLink>
+    <atmosphere>Restauranten holder til i de smukke gamle saloner med lyse vægge, hvor levende lys er med til at skabe den helt rette stemning. Vores personale sørger for, at vores gæster føler sig godt tilpas, og får en fuldendt oplevelse hos os.</atmosphere>
+    <linkMenucard>www.bastionenloven.dk/aften.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>7</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Vi glæder os til at betjene dig i vores grønne, inspirerende omgivelser, hvor hyggen er allestedsnærværende.</others>
+    <cuisines json:type="array">
+      <_>fransk</_>
+      <_>gourmet</_>
+      <_>nordisk</_>
+    </cuisines>
+    <locationText>Lille Mølle er fra 1669, og ligger på Københavns vold. I 1997 blev dørene åbnet for den restaurant, der i dag hedder Bastionen + Løven på Christianhavn.</locationText>
+    <foodText>Vi serverer fransk inspireret gourmetmad baseret på de bedste danske råvarer. Vores ambition er et enkelt og ærligt køkken, der følger sæsonen, og hvor de gode råvarer kommer til deres ret - uden omsvøb.</foodText>
+    <offerTitle>Oplev franskinspireret gourmet baseret på de bedste danske råvarer hos Bastionen + Løven i indre by. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>396</id>
+    <name>UMA</name>
+    <address>Nørre Farimagsgade 13</address>
+    <zipcode>1364</zipcode>
+    <city>København K</city>
+    <avgPrice>393</avgPrice>
+    <latlng json:type="array">
+      <_>55.68138800000001</_>
+      <_>12.564586299999974</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33155015/uma-1.r2nv.1426169543.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/uma</r2nLink>
+    <atmosphere>En bardisk i midten af lokalet er omgivet af lyse træborde, cremefarvede stole og lædersofaer med røde detaljer. Der er plads til ca. 50 gæster i restauranten, som er ganske hyggelig uden på nogen måde at være prangende.</atmosphere>
+    <linkMenucard>issuu.com/restaurantzuma/docs/take_away_menu_issuu_fall?e=13883476/9781815</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>32</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Udover et bredt udvalg af a la carte retter, man kan også vælge at stige om bord på All-You-Can-Eat vognen. Her skal man dog ikke af den grund op til en slunken sushibuffet, men kan i stedet bestille både rå fisk og varme retter via en lille spiseseddel på bordet. (Priser: man – tor: 208,- og fre – søn 238,-) Bemærk: R2N rabatter kan ikke bruges sammen med restaurantens på forhånd nedsatte tilbudsmenuer.</others>
+    <cuisines json:type="array">
+      <_>asiatisk</_>
+      <_>japansk</_>
+      <_>sushi</_>
+    </cuisines>
+    <locationText>Restaurant UMA er placeret i hjertet af København, overfor Ørstedparken, samtidig er vi tæt på både Vesterport og Nørreport St.</locationText>
+    <foodText>Vi laver autentisk japansk mad - fusioneret - med andre spændende køkkener. Dette gør vores mad, og UMA, meget enestående. Vi tror ikke på overpyntede retter, vi tror på og sætter en ære i at servere simple, unikke og velsmagende retter. Intet mindre.</foodText>
+    <offerTitle>Oplev autentisk japansk mad og sushi fusioneret med andre spændende køkkener hos UMA i indre by. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>11</id>
+    <name>Kashmir Østerbro</name>
+    <address>Willemoesgade 75</address>
+    <zipcode>2100</zipcode>
+    <city>København Ø</city>
+    <avgPrice>182.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.698843</_>
+      <_>12.587464</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35434373/restaurant-kashmir-oesterbro-1.r2nv.1422924923.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-kashmir-oesterbro</r2nLink>
+    <atmosphere>Restaurantens indretning er bygget op med kontrastfarverne sort og hvid, der afspejler den seneste mode i Indien. Målet er at skabe en god oplevelse for kunden gennem smag og god betjening.</atmosphere>
+    <linkMenucard>www.kashmir-restaurant.dk/menu_kashmir_oesterbro.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>237</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Restaurant Kashmir er både velkendt og ny. Velkendt fordi den gennem snart 12 år har budt på indiske specialiteter for københavnerne, og ny da et generationsskifte nu har medført, at dette hyggelige spisested fremtræder som en helt ny oplevelse.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+    </cuisines>
+    <locationText>Den populære indiske restaurant på Østerbro har skiftet navn fra Tabak til Kashmir, så den nu deler navn med sin søsterrestaurant, der ligger på Nørrebro.</locationText>
+    <foodText>Der tilbydes eksklusive specialiteter som man ellers skal til Indien for at opleve. Kokkene prioriterer friske råvarer af højeste kvalitet.</foodText>
+    <offerTitle>Kashmir på Østerbro byder på en hyggelig og autentisk atmosfære, som afspejler den indiske kultur. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>253</id>
+    <name>Ambrosia yogarestaurant</name>
+    <address>Nordre Fasanvej 230</address>
+    <zipcode>2200</zipcode>
+    <city>København N</city>
+    <avgPrice>153</avgPrice>
+    <latlng json:type="array">
+      <_>55.699225</_>
+      <_>12.536307</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/21851677/restaurant-ambrosias-have-1.r2nv.1429375266.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-ambrosias-have</r2nLink>
+    <atmosphere>Varm, hyggelig og hjertelig stemning med blid musik og rare omgivelser. Fokus på sundhed og næring til krop, sind og sjæl.</atmosphere>
+    <linkMenucard>www.ambrosiayogarestaurant.dk/?page_id=169</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.6</evaluationAvg>
+    <numberOfEvaluations>18</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Som en lille detalje for bekvemmelighedens skyld er Ambrosia Københavns eneste skofri restaurant. Lækre hjemmelavede drikke og friskpresset juice kan købes. Bemærk: Rabatten er kun gyldig ved køb af fuld buffet!</others>
+    <cuisines json:type="array">
+      <_>vegetar</_>
+    </cuisines>
+    <locationText>3 minutters gang fra Nørrebro Station på Nordre Fasanvej</locationText>
+    <foodText>Skøn og lækker vegetarisk buffet. Alt er hjemmelavet og lavet fra bunden på basis af årstidens grøntsager. En stor del af grøntsagerne og andre råvarer er økologiske, og langt størstedelen af retterne er veganske. Mange glutenfri retter.</foodText>
+    <offerTitle>Ambrosias Have på Nørrebro har fokus på sundhed og næring til krop, sind og sjæl. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>33</id>
+    <name>Maharaja Frb.</name>
+    <address>Gammel Kongevej 86c</address>
+    <zipcode>1850</zipcode>
+    <city>Frederiksberg C</city>
+    <avgPrice>206</avgPrice>
+    <latlng json:type="array">
+      <_>55.674838</_>
+      <_>12.548606</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33211003/restaurant-maharaja-frederiksberg-1.r2nv.1422924929.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-maharaja-frederiksberg</r2nLink>
+    <atmosphere>Maharaja har en del stamgæster, som ofte kommer for at spise i restauranten. Det aflange lokale man først møder, når man træder ind, har en indbydende og varm følelse med en dejlig aroma, der gør, at man føler sig som værende i Indien.</atmosphere>
+    <linkMenucard>restaurantmaharaja.dk/fred_afd/index.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>restaurantmaharaja.dk/fred_afd/vin.html</linkMenucardWine>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>126</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Lyset i rstauranten er blødt og behageligt, og kigger du op, kan du se det gamle, smukke glasloft. På bordene, som står tæt, ligger hvide papirsduge.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+    </cuisines>
+    <locationText>Gammel Kongevej 86c, 1850 Frederiksberg.</locationText>
+    <foodText>På Maharaja er du selv herre over, hvor meget du vil svede, for du kan selv bestemme styrken på den ret, du bestiller. Regn dog med, at Maharajas mad er lige lovlig autentisk for folk, der hader krydret mad, eller er gravide...</foodText>
+    <offerTitle>Hos Maharaja på Frederiksberg bestemmer du selv styrken på den ret, du bestiller. Indisk når det er bedst. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435174200</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435172850</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>348</id>
+    <name>Delfino D’oro</name>
+    <address>Hundige Strandvej 59</address>
+    <zipcode>2670</zipcode>
+    <city>Greve</city>
+    <avgPrice>307.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.594113</_>
+      <_>12.343163</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/43900527/restaurant-delfino-doro-1.r2nv.1422924925.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-delfino-doro</r2nLink>
+    <atmosphere>Delfine D'oro holder fast i traditionerne. Franco er altid klar til at underholde med klassiske melodier fra det gamle italien på guitaren. Betjeningen er hyggelig og personlig - næsten som at være på besøg i et italiensk hjem.</atmosphere>
+    <linkMenucard>www.delfino-doro.dk/index.php/menu-a-la-carte</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.delfino-doro.dk/index.php/vin-kort</linkMenucardWine>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>32</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Har man lyst til at overnatte, har restauranten også 5 dobbeltværelser ovenpå, der udlejes som hotel.</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Delfino D'oro's restaurationslokale ligger i Greve få hudrede meter fra den smukke strand, og hér har de ligget siden 1982. Det tager ca. 15 min at gå til restauranten fra Hundige station, hvor der kører tog direkte fra København.</locationText>
+    <foodText>Hér tillberedes KUN ægte italiensk mad med råvarer af høj kvalitet. Menukortet spænder vidt. Der er alle de bedste italienske klassikere. Et par eksempler kunne være; BRUSCHETTA ROMANA, CARPACCIO, PIZZA, TOURNEDOS, TIRAMISU og meget mere...</foodText>
+    <offerTitle>Hos Ristorante Delfino D'oro i Greve tilberedes der KUN ægte italiensk mad af råvarer i høj kvalitet. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435168800</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>232</id>
+    <name>Plaza Grill</name>
+    <address>Bernstorffsgade 4</address>
+    <zipcode>1577</zipcode>
+    <city>København V</city>
+    <avgPrice>330</avgPrice>
+    <latlng json:type="array">
+      <_>55.673595</_>
+      <_>12.564533</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/22602313/restaurant-plaza-grill-1.r2nv.1422924926.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-plaza-grill</r2nLink>
+    <atmosphere>Hér tilbydes helt unikke eksklusive rammer til såvel romantik som forretningsmiddagen. Der er højt til loftet og dæmpet belysning, men stemningen er uformel med dygtige og venlige tjenere.</atmosphere>
+    <linkMenucard>plazagrill.dk/menukort/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>plazagrill.dk/vin/</linkMenucardWine>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>127</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Før eller efter middagen kan man nyde en cocktail i hotellets berømte Library Bar, der prydes af behagelige Chesterfield-møbler og mørke træpanler. Lørdag aften er der live Jazz - fri entré.</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>fransk</_>
+      <_>steakhouse</_>
+    </cuisines>
+    <locationText>Særtilbud: Spiser man hos Plaza Grill, er der mulighed for at fortsætte aftenen (og regningen med rabat) i den smukke Library Bar. Vores hyggelige restaurant ligger yderst centralt i København - over for Tivoli og tæt på Hovedbanegården.</locationText>
+    <foodText>Restaurant Plaza Grill byder på gode steaks og lækker grillet fisk. ærlig mad, store bøffer til rimelige penge. Vinkortet er nøje udvalgt med rigtigt gode vine, som kan tilfredsstille de flestes smag!</foodText>
+    <offerTitle>Plaza Grill i indre by byder på gode steaks og lækker grillet fisk. Dertil kan du få en nøje udvalgt vin. Alt sammen til meget fornuftige priser. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>236</id>
+    <name>The a la Menthe</name>
+    <address>Rådhusstræde 5</address>
+    <zipcode>1466</zipcode>
+    <city>København K</city>
+    <avgPrice>208.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.676856</_>
+      <_>12.574152</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33330038/the-ala-menthe-1.r2nv.1422924928.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/the-ala-menthe</r2nLink>
+    <atmosphere>Man føler straks efter ankomst, at man er langt væk fra Danmark, og pulsen begynder automatisk at falde. Den afslappede stemning med marokkansk musik og autentisk indretning skaber denne oplevelse. Betjeningen er personlig og venlig.</atmosphere>
+    <linkMenucard/>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>37</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Hos The a la Menthe er oplevelsen i centrum, og skulle du få lyst til at tage lidt af oplevelsen med hjem, er det muligt at købe puder, kander og lignende med hjem. Denne restaurant serverer ikke alkohol. Velkommen til Marrakech i København!</others>
+    <cuisines json:type="array">
+      <_>café</_>
+      <_>marokkansk</_>
+    </cuisines>
+    <locationText>The a la Menthe ligger nær Nytorv centralt i København. Her er tale om en ægte marokkansk tesalon. En oase i den travle hovedstad.</locationText>
+    <foodText>På menukortet finder man lette marokkanske specialiteter (både med kød og til vegetarer), som alle serveres med dagens salater. OBS: R2N-rabatten gælder både mad og drikke, men gives dog kun til spisende gæster.</foodText>
+    <offerTitle>The a la Menthe i indre er en ægte marokkansk tesalon. På menukortet finder man lette marokkanske specialiteter (både med kød og til vegetarer), som alle serveres med dagens salater. Book hér og få rabat på hele regningen!</offerTitle>
+    <lastTimeslotToday json:type="number">1435161600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435160250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>34</id>
+    <name>Maharaja Amager</name>
+    <address>Amagerbrogade 15</address>
+    <zipcode>2300</zipcode>
+    <city>København S</city>
+    <avgPrice>201</avgPrice>
+    <latlng json:type="array">
+      <_>55.667171</_>
+      <_>12.597819</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/32954407/restaurant-maharaja-amager-1.r2nv.1422924925.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-maharaja-amager</r2nLink>
+    <atmosphere>Der er en indisk indretning med elementer af dansk elegance. En overordnet meget hyggelig atmosfære!</atmosphere>
+    <linkMenucard/>
+    <linkMenucardLunch>restaurantmaharaja.dk/ama_afd/menuer.html</linkMenucardLunch>
+    <linkMenucardWine>restaurantmaharaja.dk/fred_afd/vin.html</linkMenucardWine>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>104</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Maharaja har i alt 3 restauranter i Storkøbenhavn beliggende på henholdsvis Frederiksberg, Østerbro og Amager.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+    </cuisines>
+    <locationText>OBS Her skal børn ikke inkluderes i antal af personer, hvis de ikke spiser med, men de er meget velkomne :-) Restauranten ligger på Amagerbrogade 15</locationText>
+    <foodText>Maharaja er en indisk restaurant af høj kvalitet, hvor vi lægger vægt på den indiske madtradition. Vi tilbyder indiske specialiteter, hvor krydderierne tilpasses gæsternes individuelle behov og ønske.</foodText>
+    <offerTitle>Hos Maharaja på Amager får du en autentisk indisk madoplevelse til fornuftige priser. Maden krydres efter ønske, så alle kan være med. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435174200</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435172850</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>246</id>
+    <name>Bistro Kivi</name>
+    <address>Colbjørnsensgade 7</address>
+    <zipcode>1652</zipcode>
+    <city>København V</city>
+    <avgPrice>264</avgPrice>
+    <latlng json:type="array">
+      <_>55.672657</_>
+      <_>12.561813</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33861838/restaurant-bistro-kivi-1.r2nv.1423731757.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-bistro-kivi</r2nLink>
+    <atmosphere>Restauranten er indrettet i 2 etager, og temaet er lyserød lounge stil. Som en ægte vietnamesisk familierestaurant er det bl.a. Trungs mor, der står ved gryderne. Stemningen er afslappet - her gælder det om at føle sig hjemme og nyde den gode mad.</atmosphere>
+    <linkMenucard>www.bistrokivi.dk/a-la-carte-menu</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>69</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Vi serverer også klassiske cocktails som fx Mojito og hjemmelavede drinks såsom bubble tea og friskpresset frugtjuice. Vi glæder os til at byde dig velkommen!</others>
+    <cuisines json:type="array">
+      <_>asiatisk</_>
+      <_>vegetar</_>
+      <_>vietnamesisk</_>
+    </cuisines>
+    <locationText>I sommeren 2010 åbnede Trung Nguyen, som har en fortid hos både Lêlê og michelinrestauranten Kiin Kiin, restaurant Bistro Kivi på Vesterbro nær Hovedbanegården.</locationText>
+    <foodText>Kortet byder bl.a. på friske forårsruller med rejer og svinekød eller den populære Bien Hoa Menu med et udvalg af små hapsere. Af større retter er der bl.a. en stærk oksefiletsalat, den vietnamesiske suppe Pho og risnudelsalat. Se mere i menukortet.</foodText>
+    <offerTitle>Bistro Kivi på Vesterbro er indrettet i to etager, og temaet er lounge stil. Maden er asiatisk og byder på noget for enhver smag. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>325</id>
+    <name>Tandoori Masala City</name>
+    <address>Skt. Peders Stræde 35</address>
+    <zipcode>1453</zipcode>
+    <city>København K</city>
+    <avgPrice>209.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.6789737</_>
+      <_>12.568352300000015</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33153821/tandoori-masala-city-1.r2nv.1422924924.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/tandoori-masala-city</r2nLink>
+    <atmosphere>Ejerne har drevet restaurant siden 1995, og har fået ros af mange anmeldere gennem tiden. Stemningen i restauranten er autentisk og hyggelig. Indretningen er stilren og krydret med enkelte indiske genstande.</atmosphere>
+    <linkMenucard>www.tandoori-masala.dk/alarcarte_sktpeders.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>62</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Titlen ”Great Curry Master” givet af Burning Ring Worldwide Gourmet Association betyder, at Tandoori Masalas madlavning er af en høj standard, samt at der ydes god service.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+      <_>vegetar</_>
+      <_>pakistansk</_>
+    </cuisines>
+    <locationText>Restauranten på Skt. Peders Stræde er en af tre Tandoori Masala restauranter i København. Beliggenheden er central med kort afstand til Nørreport station, Strøget og Rådhuspladsen.</locationText>
+    <foodText>Udvalget er bredt, og ønsker man en god introduktion til det indiske køkken, anbefaler vi, at man prøver en af de sammensatte menuer. De meget rimelige priser og den gode smag gør Tandoori Masala restauranterne til nogle af Københavns mest populære.</foodText>
+    <offerTitle>Hos Tandoori Masala i indre by er udvalget bredt, og ønsker man en god introduktion til det indiske køkken, anbefaler vi, at man prøver en af de sammensatte menuer. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>296</id>
+    <name>Ristorante Avanti</name>
+    <address>Valby Langgade 56</address>
+    <zipcode>2500</zipcode>
+    <city>Valby</city>
+    <avgPrice>251</avgPrice>
+    <latlng json:type="array">
+      <_>55.6665322</_>
+      <_>12.515097200000014</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/36453690/restaurant-avanti-1.r2nv.1422924924.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-avanti</r2nLink>
+    <atmosphere>Lokalerne er hyggeligt indrettet i lyse farver. Om sommeren kan man nyde en frokost eller aftenanretning ude på torvet, hvor der er sol det meste af dagen. Betjeningen er personlig og hyggelig, så dit selskab får en rar og afslappende oplevelse.</atmosphere>
+    <linkMenucard>www.avanti-valby.dk/menu_forslag.htm</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>102</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Ristorante Avanti ligger på det hyggelige brostenstorv på Valby Langgade. Valby station ligger kun et par minutters gang herfra, og der er gode parkeringsmuligheder i området.</locationText>
+    <foodText>Menukortet er meget omfangsrigt. Hér er mulighed for at smage på stort set alle tænkelige italienske retter lige fra pizza og pasta til kronhjortefilet og oksemørbrad. Til dessert er der selvfølgelig tiramisu og andre italienske specialiteter.</foodText>
+    <offerTitle>Ristorante Avanti i Valby har et meget omfangsrigt menukort med stort set alle tænkelige italienske retter - så der er noget for enhver. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>42</id>
+    <name>Gasten &amp; Galionen</name>
+    <address>Nyhavn 23</address>
+    <zipcode>1051</zipcode>
+    <city>København K</city>
+    <avgPrice>447</avgPrice>
+    <latlng json:type="array">
+      <_>55.680269</_>
+      <_>12.589618</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33320999/gasten-galionen-1.r2nv.1422924929.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/gasten-galionen</r2nLink>
+    <atmosphere>Indtil omkring 1800 har huset fortrinsvis været benyttet som bolig, men skiltet over døren fortæller, at her i 1803 var værtshus. Vi synes, at huset bærer præg af kvalitet, hygge og en god atmosfære.</atmosphere>
+    <linkMenucard>galionen.dk/index.php?page=aften</linkMenucard>
+    <linkMenucardLunch>www.galionen.dk/index.php?page=frokost</linkMenucardLunch>
+    <linkMenucardWine>www.galionen.dk/index.php?page=vine</linkMenucardWine>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>237</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>OBS: Vi gør opmærksom på, at der ikke kan reserveres plads udenfor - hverken med eller uden rabat. Pladserne ude er som udgangspunkt forbeholdt forbipasserende i Nyhavn, da disse pladser er meget populære og hurtigt bliver besat. Dette gælder således også, selvom der tilfældigvis måtte være en ledig plads ved ankomst.</others>
+    <cuisines json:type="array">
+      <_>fransk</_>
+      <_>fisk og skaldyr</_>
+      <_>steakhouse</_>
+    </cuisines>
+    <locationText>Restaurant Gasten &amp; Galionen ligger i en af Nyhavns bedst bevarede bygninger - nr. 23.</locationText>
+    <foodText>Vi vil leve op til husets historie ved at servere veltilberedte retter af friske råvarer, gode vine og et glas velskænket fadøl, hvis De ønsker det. Vi ønsker Dem god appetit.. ORIGINAL STEAK &amp; LOBSTER™ RESTAURANT</foodText>
+    <offerTitle>Gasten &amp; Galionen i indre by serverer veltilberedte retter af friske råvarer, gode vine og et glas velskænket fadøl, hvis dette ønskes. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>135</id>
+    <name>Cortigiano</name>
+    <address>Smallegade 20 B</address>
+    <zipcode>2000</zipcode>
+    <city>Frederiksberg</city>
+    <avgPrice>276.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.678897</_>
+      <_>12.529543</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/38112200/restaurant-cortigiano-1.r2nv.1422924923.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-cortigiano</r2nLink>
+    <atmosphere>Cortigiano serverer et fint udvalg af klassiske italienske specialiteter akkompagneret af dertil passende italienske vine i en hyggelig atmosfære. Restauranten er opbygget i to etager, og lokalerne er lyse og indbydende.</atmosphere>
+    <linkMenucard>cortigiano.dk/?page_id=14</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.cortigiano.dk/?page_id=326</linkMenucardWine>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>219</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Husets vin koster 186,- flasken, og serveres i glas til 42,-</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Ristorante Il Cortigiano ligger på Smallegade over for Frederiksberg Rådhus og nær Rialto teateret.</locationText>
+    <foodText>Vi har 3 lækre menuer på kortet hver dag til meget fordelagtige priser samt et varieret à la carte udvalg. Der er noget for enhver smag, og vores fokus på kvalitetsråvarer samt en professionel tilberedning giver den ægte italienske oplevelse.</foodText>
+    <offerTitle>Cortigiani på Frederiksberg serverer et fint udvalg af klassiske italienske specialiteter akkompagneret af dertil passende italienske vine i en hyggelig atmosfære. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>43</id>
+    <name>Heering</name>
+    <address>Nyhavn 15</address>
+    <zipcode>1051</zipcode>
+    <city>København K</city>
+    <avgPrice>412.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.680404</_>
+      <_>12.58912</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33145614/restaurant-heering-1.r2nv.1422924927.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-heering</r2nLink>
+    <atmosphere>Heering hed tidligere SARS Kommandanten, men vil trods fornyelsen bestræbe sig på at leve op til sit ry som et af de pænere spisesteder i Nyhavn.</atmosphere>
+    <linkMenucard>www.restaurantheering.dk/dk/index.php?page=aften</linkMenucard>
+    <linkMenucardLunch>www.restaurantheering.dk/dk/index.php?page=frokost</linkMenucardLunch>
+    <linkMenucardWine>www.restaurantheering.dk/dk/index.php?page=vin</linkMenucardWine>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>144</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>OBS: Vi gør opmærksom på, at der ikke kan reserveres plads udenfor - hverken med eller uden rabat. Pladserne ude er som udgangspunkt forbeholdt forbipasserende i Nyhavn, da disse pladser er meget populære og hurtigt bliver besat. Dette gælder således også, selvom der tilfældigvis måtte være en ledig plads ved ankomst.</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>fransk</_>
+    </cuisines>
+    <locationText>Huset hvor De finder restaurant Heering er bygget år 1765, og har sin helt egen historie. Over vores gadedør sidder et relief af en elefant.</locationText>
+    <foodText>På menukortet kan du finde klassiske danske retter til frokost og et dansk/fransk udbud til aften.</foodText>
+    <offerTitle>Heering i Nyhavn bestræber sig på at være et af Nyhavns pænere spisesteder. Menukortet byder på klassiske danske retter. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>183</id>
+    <name>Hong Fu</name>
+    <address>Østerbrogade 132</address>
+    <zipcode>2100</zipcode>
+    <city>København Ø</city>
+    <avgPrice>198.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.706236</_>
+      <_>12.577462</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35421005/restaurant-hong-fu-1.r2nv.1422924928.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-hong-fu</r2nLink>
+    <atmosphere>Det klassiske tapet med kinesiske tegn, den dæmpede belysning fra de kinesiske lamper og levende lys på bordet bidrager alt sammen til en hyggelige atmosfære.</atmosphere>
+    <linkMenucard>hongfu.dk/?page_id=6</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.4</evaluationAvg>
+    <numberOfEvaluations>65</numberOfEvaluations>
+    <discountToday>10</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>kinesisk</_>
+      <_>asiatisk</_>
+    </cuisines>
+    <locationText>Tilbage i 1991 rykkede ægteparret Lin Yanbiao og Xieye ind i lokalerne på Østerbrogade, som tidligere husede en spansk restaurant. Østerbro tog godt imod det unge ægtepar og deres veltilberedte mad, som altid serveres med et venligt smil.</locationText>
+    <foodText>Det righoldige menukort er stærkt påvirket af Yanbiaos hjemegn, hvor der er tradition for et udsøgt og spændende køkken – hovedsageligt sprødstegte retter og som er fantasifuldt krydret.</foodText>
+    <offerTitle>Restaurant Hong Fu på Østerbro har et menukort, der er stærkt påvirket af ejerens hjemegn, hvor der er tradition for et udsøgt og spændende køkken. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>31</id>
+    <name>Maharaja Østerbro</name>
+    <address>Strandboulevarden 67</address>
+    <zipcode>2100</zipcode>
+    <city>København Ø</city>
+    <avgPrice>215</avgPrice>
+    <latlng json:type="array">
+      <_>55.7043840</_>
+      <_>12.5872007</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35437173/restaurant-maharaja-oesterbro-1.r2nv.1422924921.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-maharaja-oesterbro</r2nLink>
+    <atmosphere>Maharaja Østerbro er et hyggeligt sted, hvor man har kombineret den klassiske indiske indretning med skandinavisk elegance. Restauranten har i alt 5 vinduer med en dejlig udsigt.</atmosphere>
+    <linkMenucard>restaurantmaharaja.dk/indian/kylling.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>restaurantmaharaja.dk/indian/vin.html</linkMenucardWine>
+    <evaluationAvg json:type="number">4.4</evaluationAvg>
+    <numberOfEvaluations>101</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>4 Kokkehuer Politiken: http://ibyen.dk/restauranter/kokkehuer-billigt/article861930.ece 4 Postryttere SYDSVENSKAN: http://sydsvenskan.se/danmark/article617324/Lackert-kryddat-indiskt.html 3 Stjerner Berlingske Tidende i 2009.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+    </cuisines>
+    <locationText>Hyggelig indisk restaurant på Strandboulevarden i Østerbro.</locationText>
+    <foodText>Indisk restaurant af høj kvalitet, hvor vi lægger vægt på den indiske madtradition. Vi har 3 afdelinger i KBH, som tilbyder indiske specialiteter, hvor krydderierne tilpasses gæsternes individuelle behov og ønske. En unik smagsoplevelse!</foodText>
+    <offerTitle>Hos Maharaja på Østerbro er du selv herre over madens styrke, for den tilpasses den enkelte. Indisk mad når det er bedst. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435174200</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435172850</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>96</id>
+    <name>Benny's</name>
+    <address>Guldsmedgade 32</address>
+    <zipcode>8000</zipcode>
+    <city>Aarhus C</city>
+    <avgPrice>274.5</avgPrice>
+    <latlng json:type="array">
+      <_>56.159622</_>
+      <_>10.207748</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/86184488/restaurant-bennys-1.r2nv.1422924926.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-bennys</r2nLink>
+    <atmosphere>Restaurant Benny's fylder ikke meget, når man ser den fra gaden, men den danske restaurant udstråler en rar og afslappet atmosfære, hvor man kan nyde et traditionelt dansk måltid til en meget rimelig pris.</atmosphere>
+    <linkMenucard>www.bennys.dk/menu.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.4</evaluationAvg>
+    <numberOfEvaluations>12</numberOfEvaluations>
+    <discountToday>10</discountToday>
+    <others>Benny's er stedet for dig, hvis du er til tarteletter, stegt flæsk og pandekager med is. Men der serveres også varme supper, fiskeretter og saftige bøffer i enhver størrelse. Velkommen til Restaurant Benny's!</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>steakhouse</_>
+    </cuisines>
+    <locationText>På en af de små ensrettede butiksgader centralt i Århus ligger en hyggelig lokal restaurant.</locationText>
+    <foodText>Til frokost er der et stort spisekort med smørrebrød som specialitet samt lune frokostretter (fra kl. 11-16 hver dag). Om aftenen tilbydes et bredt spise- og vinkort med danske retter og veltilberedte bøffer (fra kl. 17-22 hver dag).</foodText>
+    <offerTitle>Bennys i Aarhus har et meget dansk menukort. Kom og oplev det og mærk den hyggelige stemning. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>235</id>
+    <name>Tapas G</name>
+    <address>Kejsergade 2</address>
+    <zipcode>1155</zipcode>
+    <city>København K</city>
+    <avgPrice>300.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.680144</_>
+      <_>12.575216</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/32207010/tapas-g-1.r2nv.1422924927.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/tapas-g</r2nLink>
+    <atmosphere>Indretningen er moderne, og der er kælet for detaljerne. Møblerne i mørkt træ står i fin kontrast til de hvide vægge, der er udsmykket med farverige malerier. Beliggenheden midt på torvet er ekstra hyggelig med masser af plads ude i sommersolen.</atmosphere>
+    <linkMenucard>www.tapasg.dk/#menu-1</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.tapasg.dk/#menu-5</linkMenucardWine>
+    <evaluationAvg json:type="number">4.4</evaluationAvg>
+    <numberOfEvaluations>111</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Vinkortet er udelukkende spansk med mange vine på glas. I underetagen er der er stort flot separat lokale med pejs, som kan bookes til selskaber.</others>
+    <cuisines json:type="array">
+      <_>spansk</_>
+      <_>tapas</_>
+    </cuisines>
+    <locationText>Tapas G ligger ved Gråbrødre Torv centralt i København. Både Nørreport station og Kgs. Nytorv metro er inden for gåafstand.</locationText>
+    <foodText>På Tapas G kan du få ægte tapas. Både de kolde hapsere på brød, som også kendes som pinxos eller montadidos, samt små lune retter som patatas bravas, stegt chorizo og de sprøde kartoffelcroquetas, som vi elsker dem fra Spanien.</foodText>
+    <offerTitle>Hos Tapas G i indre by får du en ægte tapasoplevelse på det hyggelige Gråbrødretorv. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>286</id>
+    <name>Venezia</name>
+    <address>Nyhavn 31</address>
+    <zipcode>1051</zipcode>
+    <city>København K</city>
+    <avgPrice>296</avgPrice>
+    <latlng json:type="array">
+      <_>55.680156</_>
+      <_>12.590136</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33145844/restaurant-venezia-1.r2nv.1422924926.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-venezia</r2nLink>
+    <atmosphere>Vores hyggelige restaurant er udsmykket med smukke vægmalerier, som man også ser det i Venedig. Vi glæder os til at se Dem til en hyggelig stund i Nyhavn, hvor vi gør alt for, at netop Deres aften bliver en uforglemmelig oplevelse.</atmosphere>
+    <linkMenucard>venezia-nyhavn.dk/dk/index.php?page=bambini</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>venezia-nyhavn.dk/dk/index.php?page=vini</linkMenucardWine>
+    <evaluationAvg json:type="number">4.4</evaluationAvg>
+    <numberOfEvaluations>97</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Vinkortet byder på særligt udvalgt italiensk vin i alle prisniveauer. Husets vin fås fra 219,- flasken / 52,- glas.</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>I det populære Nyhavn finder De restaurant Venezia, der serverer ægte italiensk gastronomi i rigtig god kvalitet.</locationText>
+    <foodText>Det righoldige spisekort kommer godt rundt i hjørnerne af det italienske køkken, og har lagt vægt på rustikke italienske pizzaer - selvfølgelig bagt i stenovn. Desuden tilbyder vi et stort a la carte kort samt særligt børnevenlige retter.</foodText>
+    <offerTitle>Venezia i Nyhavn er en hyggelig italiensk restaurant, der har lagt vægt på rustikke italienske pizzaer - selvfølgelig bagt i stenovn. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>175</id>
+    <name>Thai 4 You</name>
+    <address>Østergade 22</address>
+    <zipcode>3400</zipcode>
+    <city>Hillerød</city>
+    <avgPrice>230</avgPrice>
+    <latlng json:type="array">
+      <_>55.930409</_>
+      <_>12.306204</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/48248530/thai-4-you-1.r2nv.1422924922.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/thai-4-you</r2nLink>
+    <atmosphere>Vi vil gerne invitere dig indenfor i de autentiske lokaler udsmykket med thailandske figurer, billeder og farverige vægge. Vores hyggelige atmosfære og personlige betjening er bestemt et besøg værd.</atmosphere>
+    <linkMenucard>www.thai4you.dk/restaurant/alacarte/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.thai4you.dk/restaurant/vinkort/</linkMenucardWine>
+    <evaluationAvg json:type="number">4.4</evaluationAvg>
+    <numberOfEvaluations>57</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Thaimad er kendt for at være en krydret oplevelse, men hos os vælger man selv styrken, og vi laver ligeledes meget børnevenlige udgaver af de forskellige retter. Vi glæder os til, du kigger forbi.</others>
+    <cuisines json:type="array">
+      <_>thailandsk</_>
+      <_>asiatisk</_>
+      <_>vegetar</_>
+    </cuisines>
+    <locationText>Thai 4 You ligger i gåafstand fra BioCity Hillerød, Hillerød station og gågaden.</locationText>
+    <foodText>Vi har et kæmpe udvalg af traditionelle thailandske retter, der efterlader et velafbalanceret indtryk af krydderi, sødme og ofte også stærk chili, der får det til at kildre på tungen. Se det spændende menukort.</foodText>
+    <offerTitle>Thai 4 You i Hillerød har et kæmpe udvalg af traditionelle thailandske retter, der efterlader et velafbalanceret indtryk af krydderi, sødme og ofte også stærk chili, der får det til at kilde på tungen. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>324</id>
+    <name>Tandoori Masala Vesterbro</name>
+    <address>Halmtorvet 5</address>
+    <zipcode>1700</zipcode>
+    <city>København V</city>
+    <avgPrice>209.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.670797</_>
+      <_>12.562531900000067</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33221430/tandoori-masala-vesterbro-1.r2nv.1422924924.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/tandoori-masala-vesterbro</r2nLink>
+    <atmosphere>Ejerne har drevet restaurant siden 1995, og har fået ros af mange anmeldere gennem tiden. Stemningen i restauranten er autentisk og hyggelig. Indretningen er og krydret med enkelte indiske genstande.</atmosphere>
+    <linkMenucard>www.tandoori-masala.dk/alarcarte_noerrebrogade.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.4</evaluationAvg>
+    <numberOfEvaluations>50</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Titlen ”Great Curry Master” givet af Burning Ring Worldwide Gourmet Association betyder, at Tandoori Masalas madlavning er af en høj standard, samt at der ydes god service.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+      <_>vegetar</_>
+      <_>pakistansk</_>
+    </cuisines>
+    <locationText>Restauranten på Halmtorvet er en af tre Tandoori Masala restauranter i København. Beliggenheden er central med kort afstand til Hovedbanegården, Tivoli og det livlige område omkring Vesterbrogade/Istedgade.</locationText>
+    <foodText>Udvalget er bredt, og ønsker man en god introduktion til det indiske køkken, anbefaler vi, at man prøver en af de sammensatte menuer. De meget rimelige priser og den gode smag, gør Tandoori Masala restauranterne til nogle af Københavns mest populære</foodText>
+    <offerTitle>Hos Tandoori Masala Vesterbro er udvalget bredt, og ønsker man en god introduktion til det indiske køkken, anbefaler vi, at man prøver en af de sammensatte menuer. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>215</id>
+    <name>India Palace</name>
+    <address>H. C. Andersens Boulevard 13</address>
+    <zipcode>1553</zipcode>
+    <city>København V</city>
+    <avgPrice>190.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.677553</_>
+      <_>12.566587</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/22354046/restaurant-india-palace-1.r2nv.1422924929.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-india-palace</r2nLink>
+    <atmosphere>India Palace Restaurant er udsmykket med guldstatuer af diverse indiske guder. Restauranten har også en dæmpet belysning, der skaber en dejlig afslappende atmosfære.</atmosphere>
+    <linkMenucard>www.indiapalace.dk/MainMenu.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.4</evaluationAvg>
+    <numberOfEvaluations>29</numberOfEvaluations>
+    <discountToday>10</discountToday>
+    <others>Rabat gives til børn under 10 år, hvor der er specialpriser pa buffet og menu.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+      <_>pakistansk</_>
+    </cuisines>
+    <locationText>India Palace Restaurant ligger på hjørnet af H.C. Andersens Boulevard og Studiestræde, hvilket må siges at være en fantastisk central beliggenhed.</locationText>
+    <foodText>Menuen består af en kombination af indiske og pakistanske specialiteter, hvor man kan bestille ris og brød til. Udover a la carte retterne tilbyder India Palace Restaurant en stor aftenbuffet for 135,-, hvor retterne varierer fra dag til dag.</foodText>
+    <offerTitle>India Palace ved Rådhuspladsen serverer en kombination af indiske og pakistanske specialiteter, hvor man kan bestille ris og brød til. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435179600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435178250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>108</id>
+    <name>Brunello</name>
+    <address>Abel Cathrines Gade 21A</address>
+    <zipcode>1654</zipcode>
+    <city>København V</city>
+    <avgPrice>321</avgPrice>
+    <latlng json:type="array">
+      <_>55.671617</_>
+      <_>12.55935999999997</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33254010/restaurant-brunello-1.r2nv.1422924932.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-brunello</r2nLink>
+    <atmosphere>De sætter nogle gode rammer til en dejlig aften.</atmosphere>
+    <linkMenucard>www.ristorantebrunello.dk</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.ristorantebrunello.dk</linkMenucardWine>
+    <evaluationAvg json:type="number">4.2</evaluationAvg>
+    <numberOfEvaluations>51</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Restauranten har et stort udvalg af dejlige italienske vine, som er specielt udvalgt til menukortet.</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Ristorante Brunello ligger i starten af Abel Cathrines Gade, nær Istedgade.</locationText>
+    <foodText>Kokken frister med italiensk kogekunst til gode priser, og maden leveres hurtigt fra køkkenet, så man kan sagtens nå 3-4 retter, selv om man f.eks. skal i teatret eller biografen efter middagen.</foodText>
+    <offerTitle>Hos Ristorante Brunello på Vesterbro frister kokken med italiensk kogekunst. Dertil tilbyder de nøje udvalgt vin, der matcher menukortet. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>331</id>
+    <name>Barcelona Cafe</name>
+    <address>Fælledvej 21</address>
+    <zipcode>2200</zipcode>
+    <city>København N</city>
+    <avgPrice>197.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.6898419</_>
+      <_>12.560304599999995</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/41570000/cafe-barcelona-1.r2nv.1422924927.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/cafe-barcelona</r2nLink>
+    <atmosphere>Barcelona Café er samlingspunkt for alle, der sætter pris på en afslappet atmosfære og klassiske cafe-retter til rimelige priser. Om aftenen bliver Barcelona til bar/natklub med live DJ fra kl. 23 hver fre-lør og åbent til kl. 05.</atmosphere>
+    <linkMenucard/>
+    <linkMenucardLunch>restaurantbarcelona.dk/wp-content/uploads/2012/10/NYT-CAFE-KORT-.pdf</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.2</evaluationAvg>
+    <numberOfEvaluations>14</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>I Barcelonas bar kan du nyde en af vores mange lækre hånddrejede cocktails, long drinks, forskellige udenlandske øl, vin, champagne eller nogle af vores varme drikke.</others>
+    <cuisines json:type="array">
+      <_>café</_>
+      <_>steakhouse</_>
+    </cuisines>
+    <locationText>Barcelona Café ligger i stueetagen af Barcelona Steakhouse på Nørrebro - et stenkast fra det populære Skt. Hans Torv med kort til City over Dronning Louises bro. Der er også gode busforbindelser næsten lige til døren.</locationText>
+    <foodText>På menuen finder man alle de klassiske café-retter samt specialiteter som Barcelona Burger m. mør oksefilet eller en lækker tapastallerken. Ønsker man en saftig bøf henviser vi til Barcelona Steakhouse på 1. sal.</foodText>
+    <offerTitle>Barcelona Café på Nørrebro er samlingspunkt for alle, der sætter pris på en afslappet atmosfære og klassiske cafe-retter til rimelige priser. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435170600</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>209</id>
+    <name>Guru</name>
+    <address>Jernbanegade 3</address>
+    <zipcode>1608</zipcode>
+    <city>København V</city>
+    <avgPrice>309.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.6762674</_>
+      <_>12.56635940000001</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33131010/restaurant-guru-1.r2nv.1422924928.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-guru</r2nLink>
+    <atmosphere>Indien møder Skandinavien, moderne decor med dansk design, showkøkken, lounge, bar og meget lyse og smukke omgivelser. Indiske træudskæringer i vægge med lys - helt igennem gennemført og meget chekket.</atmosphere>
+    <linkMenucard>www.taj.dk/MENU/selskaber_menu_dk_2012.pdf</linkMenucard>
+    <linkMenucardLunch>www.taj.dk/MENU/lunch_brunch_menu_2012.pdf</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.2</evaluationAvg>
+    <numberOfEvaluations>43</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>For at give vores selskaber den bedst mulige madoplevelse bedes selskaber over 7 personer forudbestille en af vores 4 menuer. Vi kan ændre lidt i menuerne, hvis I har særlige ønsker eller behov. Ved menuvalg får selskabet en fælles madoplevelse og det er en god måde at gå på oplevelse i det indiske køkken.</others>
+    <cuisines json:type="array">
+      <_>gourmet</_>
+      <_>indisk</_>
+      <_>vegetar</_>
+    </cuisines>
+    <locationText>Guru ligger i hjertet af København, tæt ved Rådhuspladsen, Cirkusbygningen, Tivoli og Dagmar biograf. Restauranten er Skandinaviens første indiske restaurant grundlagt i 1973.</locationText>
+    <foodText>Vi er stolte af vores originale indiske køkken med mere end 60 forskellige retter, som alle tilberedes fra bunden ved brug af friske råvarer. Familiens hemmelige krydderiblandinger der blendes af friske urter og krydderier, gør maden helt særlig.</foodText>
+    <offerTitle>Restaurant Guru i indre by er stolte af deres originale indiske køkken med mere end 60 forskellige retter, som alle tilberedes fra bunden ved brug af friske råvarer. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435176900</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435175550</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>142</id>
+    <name>Gefährlich</name>
+    <address>Fælledvej 7</address>
+    <zipcode>2200</zipcode>
+    <city>København N</city>
+    <avgPrice>297.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.688791</_>
+      <_>12.559907</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/28124794/restaurant-gefahrlich-1.r2nv.1422924921.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-gefahrlich</r2nLink>
+    <atmosphere>Gefährlich er ikke kun en restaurant, men også cocktailbar og natklub. Indtil kl. 23 er der gang i køkkenet og god stemning i restauranten. Senere på aftenen har vi DJ's til at skabe god stemning, og alle musikgenrer er velkomne hos os.</atmosphere>
+    <linkMenucard>www.gefahrlich.dk/menu.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.2</evaluationAvg>
+    <numberOfEvaluations>179</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Vores vinkort er ikke stort, men der er noget for enhver smag og på ethvert prisniveau. Vores cocktails er lækre og koster kun 65,-, så det vil vi anbefale at slutte middagen med. Kig forbi. Her er ikke farligt (trods navnet).</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>fransk</_>
+      <_>vegetar</_>
+    </cuisines>
+    <locationText>Gefährlich ligger centralt på Nørrebro i det hyggelige kvarter omkring Sankt Hans Torv.</locationText>
+    <foodText>Vores køkken serverer danske/franske klassikere til meget rimelige priser. Du kan få alt fra stegt flæsk til kogt torsk og kyllingebryst. Vi har også en lækker vegetarret, hvis man ikke er til kød eller fisk.</foodText>
+    <offerTitle>Gefährlich på Nørrebro serverer danske/franske klassikere til meget rimelige priser. Du kan få alt fra stegt flæsk til kogt torsk og kyllingebryst. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435174200</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435172850</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>45</id>
+    <name>Munter</name>
+    <address>Læderstræde 28</address>
+    <zipcode>1201</zipcode>
+    <city>København K</city>
+    <avgPrice>220.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.678019</_>
+      <_>12.577738</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33338808/cafe-munter-1.r2nv.1422924921.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/cafe-munter</r2nLink>
+    <atmosphere>Hos os er god mad, service og stemning i højsædet. Så kig forbi til en hyggelig frokost eller middag... Vi glæder os til at se dig.</atmosphere>
+    <linkMenucard>www.cafemunter.dk/dk/index.php?page=aften</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.1</evaluationAvg>
+    <numberOfEvaluations>249</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Om sommeren har vi borde udenfor, hvor du kan tage et break fra shoppingturen eller holde en god frokost. Se evt. frokostmenuen på restaurantens hjemmeside.</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>café</_>
+    </cuisines>
+    <locationText>Velkommen til Strædets hyggeligste cafe.</locationText>
+    <foodText>På vores menukort finder du klassiske caféretter som brunch, burgers, sandwiches, salater og et udvalg af varme retter. Vi har et lille, men eksklusivt udvalg af vine, friskpresset juice, espressokaffe, fadøl og udenlandske øl på flaske.</foodText>
+    <offerTitle>Café Munter i indre by serverer god mad i rammer, hvor hyggelig service og god stemning er i højsædet. Menukort byder på alle de klassiske caféretter. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435174200</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435172850</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>227</id>
+    <name>Nyhavns Kroen</name>
+    <address>Nyhavn 47</address>
+    <zipcode>1051</zipcode>
+    <city>København K</city>
+    <avgPrice>430</avgPrice>
+    <latlng json:type="array">
+      <_>55.679819</_>
+      <_>12.591436</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33321419/restaurant-nyhavnskroen-1.r2nv.1422924920.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-nyhavnskroen</r2nLink>
+    <atmosphere>Indretningen er hyggelig med grønternede duge, dæmpede lysekroner og levende lys. Der er kælet for de hyggelige detaljer i den gamle bygning. Kroens tjenere gør altid deres bedste for at skabe rammerne om en hyggelig frokost eller middag.</atmosphere>
+    <linkMenucard>nyhavnskroen.dk/dk/index.php?page=aften</linkMenucard>
+    <linkMenucardLunch>nyhavnskroen.dk/dk/index.php?page=frokost</linkMenucardLunch>
+    <linkMenucardWine>nyhavnskroen.dk/dk/index.php?page=vinkort</linkMenucardWine>
+    <evaluationAvg json:type="number">4.1</evaluationAvg>
+    <numberOfEvaluations>108</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>OBS: Vi gør opmærksom på, at der ikke kan reserveres plads udenfor - hverken med eller uden rabat. Pladserne ude er som udgangspunkt forbeholdt forbipasserende i Nyhavn, da disse pladser er meget populære og hurtigt bliver besat. Dette gælder således også, selvom der tilfældigvis måtte være en ledig plads ved ankomst.</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>steakhouse</_>
+    </cuisines>
+    <locationText>Nyhavnskroen er kro og bøfhus i et. Restauranten ligger ved Nyhavns Broen - hvor Nyhavn krydser Toldbodgade. Nyhavnskroen ligger blot 250 meter fra Kongens Nytorv metro station.</locationText>
+    <foodText>På Nyhavnskroen serveres god og traditionel dansk mad, som mormor lavede den - nogle af retterne er dog tilført Kroens egen smagsoplevelse. Frokost: Smørrebrød, salat og varmeretter. Aften: Danske middagsretter og bøffer. Sætter du pris på en stor og saftig bøf, så tilbydes hér både T-bone, oksemørbrad, oksefilet og dansk Ribeye.</foodText>
+    <offerTitle>Nyhavns Kroen, der som navnet afslører, ligger i Nyhavn, serverer god og traditionel dansk mad, som mormor lavede det. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>382</id>
+    <name>Emil</name>
+    <address>Holte midtpunkt 23</address>
+    <zipcode>2840</zipcode>
+    <city>Holte</city>
+    <avgPrice>248.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.8109811</_>
+      <_>12.4722384</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/45412240/emil-1.r2nv.1422924923.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/emil</r2nLink>
+    <atmosphere>Vores omgivelser er blevet rigtig skønne, efter vi nu har brugt et par uger på en komplet makeover, med nyt køkken, helt nyt barmiljø, lækre nye bløde stole og sofaer - og med en rigtig dejlig lyd fra vor nye hifi.</atmosphere>
+    <linkMenucard>www.cafeemilholte.dk/menu2.html#mix</linkMenucard>
+    <linkMenucardLunch>www.cafeemilholte.dk/menu2.html#mix</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.1</evaluationAvg>
+    <numberOfEvaluations>26</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Hos Café Emil serveres alting med et smil.</others>
+    <cuisines json:type="array">
+      <_>café</_>
+    </cuisines>
+    <locationText>Café Emil er beliggende i Holte, på Holte's mest velkendte indkøbssted - nemlig i Holte Midtpunkt</locationText>
+    <foodText>På Cafe Emil, sætter vi en ære i at servere et godt og let måltid, der skal være velsmagende og sundt, og som ikke sætter alt for dybe spor i pengepungen. Vi bruger altid friske råvarer - og nyder at tilberede disse.</foodText>
+    <offerTitle>Cafe Emil i Holte sætter en ære i at servere et velsmagende og sundt måltid, der ikke sætter dybe spor i pengepungen. Maden bliver altid tilberedt af friske råvarer. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>279</id>
+    <name>Arti'Kok</name>
+    <address>Hvidovrevej 92</address>
+    <zipcode>2650</zipcode>
+    <city>Hvidovre</city>
+    <avgPrice>465</avgPrice>
+    <latlng json:type="array">
+      <_>55.663427</_>
+      <_>12.473675</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/36750741/restaurant-artikok-1.r2nv.1423730816.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-artikok</r2nLink>
+    <atmosphere>En større renovering gør at vi i dag fremstår som en moderne lys og indbydende restaurant. Vi går op i at yde en personlig og professionel service, hvor det vigtigste er, at vores gæster får en helhedsoplevlese, som de ønsker at komme tilbage til.</atmosphere>
+    <linkMenucard>artikok.dk/restaurant/maanedens-menu/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>artikok.dk/restaurant/vinliste/</linkMenucardWine>
+    <evaluationAvg json:type="number">4</evaluationAvg>
+    <numberOfEvaluations>7</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Vi gør det muligt at få en ægte gourmetoplevelse til en pris, der er til at betale, og vi glæder os meget til at byde dig velkommen i restauranten.</others>
+    <cuisines json:type="array">
+      <_>fransk</_>
+      <_>gourmet</_>
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>Arti'kok er en lille gourmetperle i Hvidovre kun 10 minutter fra byen. Hér er godt med parkeringspladser, og så går S-toget lige til døren, hvilket er en fordel, hvis man vil nyde en af vores lækre vine til maden.</locationText>
+    <foodText>Vi laver fransk/italiensk inspireret gourmet, serveret med lækre vine fra det meste af verden. Vi har et lille udvalg af a udvalgte la carte retter, og hver måned sammensættes en menu, hvorfra man kan vælge 3, 4 eller 5 retter med eller uden vinmenu.</foodText>
+    <offerTitle>Restaurant Anti'Kok i Hvidovre tilbyder gourmetoplevelsen til en pris, hvor alle kan være med. Menuerne skifter jævnligt og vinen, der er særlig udvalgt, repræsenterer det meste af verden. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>386</id>
+    <name>Asian Pearl Running Sushi</name>
+    <address>Ordruphøjvej 2</address>
+    <zipcode>2920</zipcode>
+    <city>Charlottenlund</city>
+    <avgPrice>189</avgPrice>
+    <latlng json:type="array">
+      <_>55.75988299999999</_>
+      <_>12.569023700000002</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/31461213/asian-pearl-running-sushi-1.r2nv.1422924927.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/asian-pearl-running-sushi</r2nLink>
+    <atmosphere>Lokalerne er lyse og for nylig renoverede. Dekorationen er stilren krydret med enkelte asiatiske dekorationer. Betjeningen er personlig og hyggelig.</atmosphere>
+    <linkMenucard>www.asianpearl.dk/runningsushi.php</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">3.8</evaluationAvg>
+    <numberOfEvaluations>16</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>OBS: Asian Pearl tilbyder også kinesisk buffet eller a la carte retter. For dette skal man bestille på den profil, der hedder: Asian Pearl.</others>
+    <cuisines json:type="array">
+      <_>asiatisk</_>
+      <_>sushi</_>
+    </cuisines>
+    <locationText>Asian Pearl ligger på Ordruphøjvej i Charlottenlund i lokaler der tidligere har huset Ordrup Kro og Teatret bag Kroen. Hér er gode parkeringsmuligheder og alternativt er der blot 10 min. gang til Charlottenlund station.</locationText>
+    <foodText>Running Sushi giver dig mulighed for selv at vælge lige det stykke sushi, som du har lyst til, da vil være et bredt udvalg, som kører rundt på et bånd. Man vælger således bare, og kan spise så meget, man har lyst til - simpelthen det japanske svar på en buffet som de fleste kender.</foodText>
+    <offerTitle>Hos Asian Pearl i Charlottenlund har du med running sushi konceptet mulighed for at vælge lige de stykker sushi, du har lyst til. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>237</id>
+    <name>The Maroc Café</name>
+    <address>Kompagnistræde 24</address>
+    <zipcode>1208</zipcode>
+    <city>København K</city>
+    <avgPrice>197</avgPrice>
+    <latlng json:type="array">
+      <_>55.676803</_>
+      <_>12.574681</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/41242980/cafe-maroc-1.r2nv.1422924927.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/cafe-maroc</r2nLink>
+    <atmosphere>Indretningen er autentisk dekoreret med farverige vægge, sofaer og puder. Mosaikborde, lanterner og levende lys skaber en afslappende atmosfære, der gør Café Maroc til en oase midt i den travle by.</atmosphere>
+    <linkMenucard/>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">3.8</evaluationAvg>
+    <numberOfEvaluations>21</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Kig forbi i forbindelse med en shoppetur i København eller før en teater- eller biograftur. Man kan reservere borde til frokost fra kl. 12 og hele eftermiddagen frem til en tidlig aftenspisning kl. 18. OBS: Hér serveres ikke alkohol.</others>
+    <cuisines json:type="array">
+      <_>café</_>
+      <_>marokkansk</_>
+    </cuisines>
+    <locationText>Café Maroc ligger på det hyggelige stræde, som ligger midt mellem Gammel Strand og Strøget. Området er kendt for at huse mange hyggelige caféer og små hyggelige specialbutikker. OBS: Rabat gives kun til spisende gæster, men gælder også drikkevarer</locationText>
+    <foodText>Menukortet byder på lette retter, som man finder dem mange steder i Marokko. Samosa, krydret kylling, falafel og pandekager med dagens salater hører bla. til udvalget. Maroc serverer altså et let måltid til yderst rimelige priser.</foodText>
+    <offerTitle>Café Maroc i indre by har et menukort, der byder på lette retter, som man finder dem mange steder i Marokko. Book hér og få rabat på hele regning i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435161600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435160250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>189</id>
+    <name>Señorita</name>
+    <address>Istedgade 49</address>
+    <zipcode>1650</zipcode>
+    <city>København V</city>
+    <avgPrice>221</avgPrice>
+    <latlng json:type="array">
+      <_>55.669589</_>
+      <_>12.554679</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33246454/restaurant-senorita-1.r2nv.1422924926.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-senorita</r2nLink>
+    <atmosphere>Når man træder ind i restauranten, bliver man mødt af en autentisk stemning med farverige tæpper på væggene, træmøbler og en masse hyggelige dekorationer.</atmosphere>
+    <linkMenucard>www.restaurantsenorita.dk/menu.html</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">3.7</evaluationAvg>
+    <numberOfEvaluations>7</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>mexikansk</_>
+    </cuisines>
+    <locationText>Restaurant Señorita ligger midt på Istedgade i gåafstand fra Københavns Hovedbanegård, Kødbyen, Det Ny Teater og spillestedet Vega.</locationText>
+    <foodText>På menukortet finder man alle de mexikanske klassikere som nachos, chimichanga, burritos, og meget andet, som fås i både stærke og milde udgaver. Der er særlige børnemenuer til de mindste. Maden laves selvfølgelig fra bunden af de bedste råvarer.</foodText>
+    <offerTitle>Restaurant Señorita på Vesterbro byder dig velkommen til en autentisk mexicansk stemning og alle de klassiske mexicanske retter, som du kender dem. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435176000</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435174650</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>336</id>
+    <name>Butter Tikka Nørrebro</name>
+    <address>Tagensvej 100</address>
+    <zipcode>2200</zipcode>
+    <city>København N</city>
+    <avgPrice>136</avgPrice>
+    <latlng json:type="array">
+      <_>55.703085</_>
+      <_>12.548111</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35351786/butter-tikka-noerrebro-1.r2nv.1422924926.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/butter-tikka-noerrebro</r2nLink>
+    <atmosphere>Indretningen og stemningen i restauranten er afslappet. Gulve og møbler er i mørkt træ og de mørkmalede vægge er med til at skabe en varm og autentisk stemning. Betjeningen er personlig og tjenerne rådgiver gerne dem, som har behov for det.</atmosphere>
+    <linkMenucard>www.buttertikka.dk/menu.php</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">3.2</evaluationAvg>
+    <numberOfEvaluations>5</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Vi er stolte af vores traditioner, og glæder os til at byde jer.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+      <_>pakistansk</_>
+    </cuisines>
+    <locationText>Butter Tikka startede i december 2008, og har i dag 2 afdelinger i København på henholdsvis Nørrebro og Amager.</locationText>
+    <foodText>På menukortet findes et bredt udvalg af indiske/pakistanske specialiteter, og her er både retter med kylling, lam, oksekød, skaldyr og rene vegetarretter. Blandt de populære er bl.a. Kylling Butter, Lam Rogan Josh, Oksefilet Karahi. Se menukortet!</foodText>
+    <offerTitle>Butter Tikka på Nørrebro tilbyder et bredt udvalg af indiske/pakistanske specialiteter. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>403</id>
+    <name>Namaste Nepal</name>
+    <address>Fredensgade 11</address>
+    <zipcode>2200</zipcode>
+    <city>københavn N</city>
+    <avgPrice>197</avgPrice>
+    <latlng json:type="array">
+      <_>55.6927973</_>
+      <_>12.56774710000002</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35390140/1.r2nv.1432304020.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/namaste-nepal</r2nLink>
+    <atmosphere>Stemningen i restauranten er afslappet og uhøjtidelig. Her er tid til den enkelte gæst og personalet hjælper gerne, hvis man ikke har erfaring med det Nepalesiske køkken.</atmosphere>
+    <linkMenucard>www.namastenepal.dk/chicken/</linkMenucard>
+    <linkMenucardLunch>www.namastenepal.dk/lunch/</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">3</evaluationAvg>
+    <numberOfEvaluations>1</numberOfEvaluations>
+    <discountToday>30</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>indisk</_>
+      <_>pakistansk</_>
+      <_>nepalesisk</_>
+    </cuisines>
+    <locationText>Namaste Nepal er en lille hyggelig restaurant på grænsen mellem Nørrebro og Østerbro et stenkast fra Sortedams Sø. Der er gode parkeringsmuligheder samt adgang med offentlig transport, da flere buslinjer stopper ganske tæt på restauranten.</locationText>
+    <foodText>Hér serveres en blanding af Himalayansk/Nepalesisk og Indisk/pakistansk mad. På menukortet finder du et bredt udvalg af retter med kylling, lam, fisk eller vegetar. Ikke al nepalesisk/indisk mad er stærk, og ønsker man sin mad krydret enten mere eller mindre, er kokken fleksibel. Det er også muligt at spise brunch hos Namaste Nepal. Den består bl.a. af frisk frugt, stegte kartofler, pølse, pandekage, Nepali Masala omelet mv. Inkluderet er også et glas appelsinjuice.</foodText>
+    <offerTitle>Hér serveres en blanding af Himalayansk/Nepalesisk og Indisk/pakistansk mad, så der er noget for enhver. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>384</id>
+    <name>Hansens Café</name>
+    <address>Havnevej 19</address>
+    <zipcode>3100</zipcode>
+    <city>Hornbæk</city>
+    <avgPrice>340</avgPrice>
+    <latlng json:type="array">
+      <_>56.0916994</_>
+      <_>12.4569281</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/49700479/hansens-cafe-1.r2nv.1422924930.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/hansens-cafe</r2nLink>
+    <atmosphere>Hos os er det et must at servere udsøgt, veltillavet mad og yde den bedste betjening så vore gæster får en hyggelig og god oplevelse i behagelige omgivelser. Er vejret til det, dækker vi op i Nordsjællands smukkeste restaurationshave, i tilknytting til restauranten.</atmosphere>
+    <linkMenucard>www.hansenscafe.dk/menu</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4</evaluationAvg>
+    <numberOfEvaluations>1</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others>Restaurant Hansens Café er en a la carte restaurant, meget idyllisk beliggende i et fredet stråtækt bindingsværkshus fra år 1773. Huset er en gammel trelænget strandgård, som havde jord og marker ud til Øresund.</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>café</_>
+    </cuisines>
+    <locationText>Restaurant Hansens Café er indrettet i Hornbæks ældste hus, på Havnevej 19, Hornbæk.</locationText>
+    <foodText>Vores menukort består af 3 forretter, 3 hovedretter og 3 desserter, som er sammensat efter årstiden. I vinterhalvåret har vi derudover en dagens ret. OBS: Mandag serverer vi kun Stegt flæsk.</foodText>
+    <offerTitle>Oplev Nordsjællands smukkeste restaurationshave på Hansens Café i Hornbæk. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>406</id>
+    <name>Club Riva</name>
+    <address>Rungsted Havn 28</address>
+    <zipcode>2960</zipcode>
+    <city>Rungsted</city>
+    <avgPrice>352</avgPrice>
+    <latlng json:type="array">
+      <_>55.885183</_>
+      <_>12.546171</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/45764030/club-riva-1.r2nv.1433514409.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/club-riva</r2nLink>
+    <atmosphere>Med den smukke udsigt direkte til bådene på Rungsted Havn er stemningen allerede lagt. Vores indretning er enkel, lækker og hyggelig og vi sætter en ære i at have den bedste service.</atmosphere>
+    <linkMenucard>www.clubriva.dk/wp-content/uploads/2013/06/RIVA-MENUKORT-2-SIDET.pdf</linkMenucard>
+    <linkMenucardLunch>www.clubriva.dk/wp-content/uploads/2013/06/RIVA-MENUKORT-2-SIDET.pdf</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">0</evaluationAvg>
+    <numberOfEvaluations>0</numberOfEvaluations>
+    <discountToday>25</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>steakhouse</_>
+    </cuisines>
+    <locationText>Club Riva er beliggende i Danmarks ubetinget flotteste og lækreste havn RUNGSTED.</locationText>
+    <foodText>Vores kød er udelukkende krogmodnet oksekød der nøje er udvalgt af vores chefkok Bo Lindhardt. Det er mørt og lækkert og fuld af god smag.</foodText>
+    <offerTitle>Kom og besøg hyggelige Club Riva med udsigt direkte ned til bådene på Rungsted havn. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>402</id>
+    <name>Upstairs</name>
+    <address>Skomagergade 4</address>
+    <zipcode>4000</zipcode>
+    <city>Roskilde</city>
+    <avgPrice>335</avgPrice>
+    <latlng json:type="array">
+      <_>55.641033</_>
+      <_>12.079953</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/46351900/upstairs-roskilde-1.r2nv.1432124046.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/upstairs-roskilde</r2nLink>
+    <atmosphere>Vi er en moderne europæisk restaurant med et varieret menukort såvel til frokost som til aften. Vi bestræber os meget på, sammen med vores personale, at alle vores gæster får en helt igennem god oplevelse. Vi har eksisteret som selvstændige i 8 år. Vores kendetegn er kvalitet samt kvantitet.</atmosphere>
+    <linkMenucard>www.upstairs-roskilde.dk/menukort.html</linkMenucard>
+    <linkMenucardLunch>www.upstairs-roskilde.dk/menukort.html</linkMenucardLunch>
+    <linkMenucardWine>www.upstairs-roskilde.dk/menukort.html</linkMenucardWine>
+    <evaluationAvg json:type="number">5.5</evaluationAvg>
+    <numberOfEvaluations>2</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>fransk</_>
+      <_>International</_>
+    </cuisines>
+    <locationText>Restauranten ligger smuk, lys og venlig på 1. sal i starten af gågaden på rådhustorvet og ejes og drives af Niels Hansen og Susanne Larsen, som begge har været i branchen i en årrække.</locationText>
+    <foodText>Køkkenet arbejder altid med friske råvarer, som købes hjem fra dag til dag. Vores bøffer steges på grill - vi rører selv vores is &amp; vi bager frisk brød hver dag. Både frokost- og aftenmenuer laves fra bunden efter modtagelse af bestilling fra gæsten. VORES AFTEN-MENUKORT SKIFTER MED ÅRSTIDERNE CA. HVER 2. MÅNED.</foodText>
+    <offerTitle>Besøg Restaurant Upstairs og oplev de altid friske råvarer og saftige bøffer blive tilberedt præcis, som du ønsker det. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>387</id>
+    <name>Verandah</name>
+    <address>Havnegade 44</address>
+    <zipcode>1058</zipcode>
+    <city>København K</city>
+    <avgPrice>422.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.67787500000001</_>
+      <_>12.591856699999994</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/72148808/verandah-1.r2nv.1422924921.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/verandah</r2nLink>
+    <atmosphere>Restauranten har plads til 60 gæster i det centrale rum. Verandah Bar og lounge med siddepladser til 24 gæster serverer et udvalg af indisk inspirerede cocktails samt en lille barmenu med et udvalg af vores signaturretter. Sidst men ikke mindst skaber vores udendørs siddepladser med udsigt over kanalen den perfekte ramme for at nyde et godt måltid.</atmosphere>
+    <linkMenucard>www.verandah.dk/menus</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">4.5</evaluationAvg>
+    <numberOfEvaluations>4</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>gourmet</_>
+      <_>indisk</_>
+    </cuisines>
+    <locationText>Verandah ligger i stueetagen i The Standard – for enden af Nyhavn helt ned til vandet.</locationText>
+    <foodText>Som den første moderne indiske restaurant i København serverer Verandah nutidig pan-indisk mad med hovedvægt på regionale, årstidsbestemte råvarer. Et omhyggeligt sammensat vinkort akkompagnerer menuerne, og hver ret er matchet med en udvalgt vin, der fremhæver smagen. Vi er i stand til at imødekomme eventuelle diæter, allergier eller intolerencer. Bedst ved oplysning på forhånd.</foodText>
+    <offerTitle>Hos restaurant Verandah i indre by serveres der pan-indisk mad med hovedvægt på årstidsbestemte råvarer og flotte anretninger. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>375</id>
+    <name>Madam Sprunck</name>
+    <address>Bramstræde 5</address>
+    <zipcode>3000</zipcode>
+    <city>Helsingør</city>
+    <avgPrice>405</avgPrice>
+    <latlng json:type="array">
+      <_>56.034062</_>
+      <_>12.612953999999945</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/49264849/madam sprunck-1.r2nv.1422924920.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/madam-sprunck</r2nLink>
+    <atmosphere>Restaurant Sprunck er flyttet i større lokaler, men dette for at kunne huse og bespise mange gæster på samme tid – ligesom traditionen for Madam Spruncks mor og far. I sommerhalvåret kan maden nydes på terrassen eller i den hyggelige, solrige Gårdhave.</atmosphere>
+    <linkMenucard>www.madamsprunck.dk/#!aften/c1nyh</linkMenucard>
+    <linkMenucardLunch>www.madamsprunck.dk/#!frokost/cdx8</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">3.5</evaluationAvg>
+    <numberOfEvaluations>2</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Ønsker du en aften med mad fra bunden lavet af dygtige kokke og med årstidens råvarer, så skal du kigge forbi Madam Sprunck i Helsingør.</others>
+    <cuisines json:type="array">
+      <_>fransk</_>
+      <_>italiensk</_>
+      <_>spansk</_>
+    </cuisines>
+    <locationText>I centrum af Helsingørs forførende gamle gader ligger Madam Sprunck der emmer af historie og fortid.</locationText>
+    <foodText>Køkkenets filosofi er: gode råvarer og dygtige kokke – så kan næsten alt lade sig gøre! Der serveres klassiske, årstidsbevidste menuer, der henter inspiration fra de spanske, franske og italienske kvalitetskøkkener.</foodText>
+    <offerTitle>Madam Sprunck, som ligger i Helsingør, har en filosofi der hedder: gode råvarer og dygtige kokke - så kan næsten alt lade sig gøre! Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>398</id>
+    <name>Café Castro</name>
+    <address>Nørrebrogade 209</address>
+    <zipcode>2200</zipcode>
+    <city>København N</city>
+    <avgPrice>212.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.6987278</_>
+      <_>12.542163899999991</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/35853585/cafe-castro-1.r2nv.1428589716.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/cafe-castro</r2nLink>
+    <atmosphere>Café Castro er indrettet med originale spændende cubanske rekvisitter og malerier, samt fotos og artikler med blandt andre Che Guevara og Fidel Castro. Her er god plads både inde og ude. Man kan nyde det gode sommervejr ved et af de mange udendørsborde.</atmosphere>
+    <linkMenucard>www.cafecastro.dk/menukort/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.cafecastro.dk/drikkevarer/</linkMenucardWine>
+    <evaluationAvg json:type="number">0</evaluationAvg>
+    <numberOfEvaluations>0</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>café</_>
+    </cuisines>
+    <locationText>Café Castro ligger centralt på Nørrebro, tæt på Jagtvej og 5 min. gang fra Nørrebro st. Alternativt stopper bus 5A lige ved døren.</locationText>
+    <foodText>Menukortet byder på et bredt udvalg af forskellige sandwiches, salater, nachos, burgere og varme retter.</foodText>
+    <offerTitle>Oplev den spændende cubanske atmosfære og lækre mad på Cafe Castro på Nørrebro. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435171500</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435170150</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>332</id>
+    <name>Central Kitchen - Skt. Petri</name>
+    <address>Krystalgade 22</address>
+    <zipcode>1172</zipcode>
+    <city>København K</city>
+    <avgPrice>464</avgPrice>
+    <latlng json:type="array">
+      <_>55.6806822</_>
+      <_>12.571909199999936</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33459820/central-kitchen-skt-petri-1.r2nv.1433150842.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/central-kitchen-skt-petri</r2nLink>
+    <atmosphere>Restauranten og hotellet fremstår stilrent med fokus på design og indretning. Det er køkkenets ønske at ændre vores opfattelse af hotelrestauranter, så ikke kun hotelgæster, men også de fastboende københavnere lægger vejen forbi, når sulten melder sig.</atmosphere>
+    <linkMenucard>www.sktpetri.com/wp-content/uploads/2015/03/17479_sktpetri_resturant_menu_vinkort_DK_UK.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">0</evaluationAvg>
+    <numberOfEvaluations>0</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Er man ikke helt klar til at gå hjem efter middagen, kan man eventuelt fortsætte aftenen med en cocktail i hotellets Bar Rouge ved siden af.</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>nordisk</_>
+      <_>steakhouse</_>
+    </cuisines>
+    <locationText>Central Kitchen er beliggende på Hotel Skt. Petri i latiner kvarteret i hjertet af københavn.</locationText>
+    <foodText>Restauranten tilbyder retter med udspring i det nordiske, med fokus på råvarer, alsidig kombination og smagsindtryk. Menuen ændres hver anden måned og følger sæsonens udbud af råvarer og ingredienser.</foodText>
+    <offerTitle>Central Kitchen i indre by tilbyder retter med udspring i det nordiske, med fokus på råvarer, alsidig kombination og smagsindtryk. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435167000</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435165650</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>153</id>
+    <name>Cave</name>
+    <address>Store Kongensgade 72</address>
+    <zipcode>1264</zipcode>
+    <city>København K</city>
+    <avgPrice>263</avgPrice>
+    <latlng json:type="array">
+      <_>55.684725</_>
+      <_>12.588055</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/32209445/restaurant-cave-1.r2nv.1432729660.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-cave</r2nLink>
+    <atmosphere>Restaurant Cave byder på det bedste af 2 verdner. Hvad end du nyder din middag i vores Mogul Lounge, som er traditionel indrettet i gammel indisk stil eller i vores minimalistisk indrettede hall, kan vi byde på det bedste fra det indiske køkken.</atmosphere>
+    <linkMenucard>www.restaurantcave.dk/files/manager/Documents/Cave%20Menu.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.restaurantcave.dk/files/manager/Documents/Cave%20Menu.pdf</linkMenucardWine>
+    <evaluationAvg json:type="number">0</evaluationAvg>
+    <numberOfEvaluations>0</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others>Indisk madlavning stammer fra en 5000-årig tidslinje, hvor kultur og de geografiske grænser har ændret sig betydeligt. De fleste indiske karryretter er kogt i vegetabilsk olie. De vigtigste eller hyppigt anvendte krydderier i indisk madlavning er chilipeber, sorte sennepskorn (rai), spidskommen (jeera), bukkehorn (methi), asafoetida (hing, perungayam), ingefær (adrak, inji ), koriander (dhania), hvidløg (lehsun, poondu). Populære krydderiblandinger er garam masala. Søde retter er krydret med kardemomme, safran, muskatnød, og rosenblad-essenser.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+      <_>vegetar</_>
+    </cuisines>
+    <locationText>Oplev vores moderne indiske restaurant. Vi bor på Store Kongensgade midt i København, og her er derfor kort til både transportmidler, teater, biograf og meget andet. Perfekt sted at starte en god aften i København.</locationText>
+    <foodText>Vores chefkok har mange års erfaring indenfor indisk mad og mestrer indisk madlavning fra flere forskellige indiske regioner. Så om du er til curry, tikka masala, butter chicken eller krydret mad - så glæder vi os til at byde dig velkommen til en autentisk madoplevelse.</foodText>
+    <offerTitle>Oplev en aften i indisk atmosfære hos hyggelige Cave i indre by. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>391</id>
+    <name>L'lefantino</name>
+    <address>Mosede Strandvej 23</address>
+    <zipcode>2670</zipcode>
+    <city>Greve</city>
+    <avgPrice>311</avgPrice>
+    <latlng json:type="array">
+      <_>55.570894</_>
+      <_>12.2863814</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/43692594/llefantino-1.r2nv.1423234640.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/llefantino</r2nLink>
+    <atmosphere>I de stemningsprægede små fine lokaler, kan I få alt hvad det italienske køkken indebærer.</atmosphere>
+    <linkMenucard>www.llefantino.dk/alacarte.php</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine>www.llefantino.dk/vinkort.php</linkMenucardWine>
+    <evaluationAvg json:type="number">4</evaluationAvg>
+    <numberOfEvaluations>2</numberOfEvaluations>
+    <discountToday>20</discountToday>
+    <others/>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>På hjørnet af Mosede Strandvej, finder i L’lefantino. Et lille fint italiensk mad hus, der serverer alt fra det traditionelle italienske køkken, til nyere italienske retter med et præg af Skandinavien.</locationText>
+    <foodText>Den traditionelle italienske mad er hjemmelavet, og de italienske råvarer er delikate og smagsfulde. Kom og nyd de italienske madoplevelser med en vin fra vores store sortiment af italienske vine.</foodText>
+    <offerTitle>Oplev hjemmelavet traditionelle italienske retter tilberedt på friske råvarer på L'lefantino i Greve. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>114</id>
+    <name>Brigadéren</name>
+    <address>Vesterbro 77</address>
+    <zipcode>9000</zipcode>
+    <city>Aalborg</city>
+    <avgPrice>361.5</avgPrice>
+    <latlng json:type="array">
+      <_>57.048326</_>
+      <_>9.915884</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/98120011/restaurant-brigaderen-1.r2nv.1422924920.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-brigaderen</r2nLink>
+    <atmosphere>Vi har ry for at være en af Aalborgs bedste restauranter, og det er en status, som vi arbejder hårdt på at fastholde. Dette gør vi ved udover det meget høj kvalitet i køkkenet at have et udsøgt vinkort og professionel betjening.</atmosphere>
+    <linkMenucard>www.helnan.dk/phoenix/manedens-menu/</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">5.3</evaluationAvg>
+    <numberOfEvaluations>3</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Om sommeren sætter vi fokus på familien og indretter et særligt legerum til børnene og vi har selvfølgelig særlige børneretter på menukortet.</others>
+    <cuisines json:type="array">
+      <_>dansk</_>
+      <_>gourmet</_>
+      <_>andet europæisk</_>
+    </cuisines>
+    <locationText>Restaurant Brigadéren ligger i tilknytning til Phønix Hotel centralt i Aalborg med bus lige til døren.</locationText>
+    <foodText>Vores menukort byder på danske og internationale specialiteter, tilberedt med omhu og interesse. Hver måned tilbyder vi en ny menu, hvor der kan vælges alt fra en enkelt ret til alle 6 retter, hvis man virkelig ønsker at forkæle sine smagsløg.</foodText>
+    <offerTitle>Brigadéren har et ry for at være en af Aalborgs bedste restauranter. menukort byder på danske og internationale specialiteter, tilberedt med omhu og interesse. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435170600</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435169250</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>310</id>
+    <name>Berg's Steakhouse &amp; Café</name>
+    <address>Greve Strandvej 11</address>
+    <zipcode>2670</zipcode>
+    <city>Greve</city>
+    <avgPrice>374</avgPrice>
+    <latlng json:type="array">
+      <_>55.582529</_>
+      <_>12.31147</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/43901230/restaurant-bergs-steakhouse-1.r2nv.1422924923.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-bergs-steakhouse</r2nLink>
+    <atmosphere>Restauranten ligger i forbindelse med Strandmotellet Greve. Vi fokuserer på at give vores gæster en unik madoplevelse og en god betjening. Glæd dig til at opleve den friske luft og rolige atmosfære.</atmosphere>
+    <linkMenucard>www.bergssteakhouse.dk/steakhouse/index.php/menukort/hele-menukortet</linkMenucard>
+    <linkMenucardLunch>www.bergssteakhouse.dk/steakhouse/index.php/menukort/hele-menukortet</linkMenucardLunch>
+    <linkMenucardWine>www.bergssteakhouse.dk/steakhouse/index.php/menukort/vin2</linkMenucardWine>
+    <evaluationAvg json:type="number">3.8</evaluationAvg>
+    <numberOfEvaluations>4</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Vi glæder os til at se dig i Berg's Steakhouse &amp; Café.</others>
+    <cuisines json:type="array">
+      <_>café</_>
+      <_>steakhouse</_>
+    </cuisines>
+    <locationText>Velkommen til Berg's Steakhouse &amp; Café. Et spisested med charme og sjæl. Vi tilbyder en madoplevelse i særklasse i hyggelige og rolige omgivelser. Et stenkast fra vandet.</locationText>
+    <foodText>Vores kokke har mange års erfaring og viser deres viden og kundskab gennem menuen. Kvaliteten af råvarerne afspejles i madens smag, og derfor benyttes kun de bedste råvarer under tilberedelsen af vores retter.</foodText>
+    <offerTitle>Hos Berg's Steakhouse og Cafe i Greve afspejles kvaliteten af de lækre råvarer i madens smag. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>268</id>
+    <name>La Sirène</name>
+    <address>Nyhavn 51</address>
+    <zipcode>1051</zipcode>
+    <city>København K</city>
+    <avgPrice>303.5</avgPrice>
+    <latlng json:type="array">
+      <_>55.679681</_>
+      <_>12.591957</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33327102/restaurant-la-sirene-1.r2nv.1422924924.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/restaurant-la-sirene</r2nLink>
+    <atmosphere>Hos La Siène kan der nydes italienske specialiteter i sydlandske omgivelser 13 timer om dagen - året rundt. Restauranten er autentisk dekoreret med mange sjove detaljer. Betjeningen er personlig og imødekommende.</atmosphere>
+    <linkMenucard>www.lasirene.dk/menu.php</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">5</evaluationAvg>
+    <numberOfEvaluations>2</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Prøv evt. en af de sammensatte menuer til favorabel pris med enten kød eller fisk til hovedret. Hér får du 3 retter fra 299,- Husets vin fås fra 45,- glasset og 219,- flasken.</others>
+    <cuisines json:type="array">
+      <_>italiensk</_>
+    </cuisines>
+    <locationText>La Sirène ligger på Nyhavns solside med kort til alt, hvad der er værd at besøge i indre København.</locationText>
+    <foodText>La Sirène er kendt for et traditionelt italiensk køkken, og menukortet byder på et bredt udvalg af anti pasti, pastaretter, fiskeretter, kødretter og desserter. Det er også et godt udvalg af pizza og en børnemenu til de mindste.</foodText>
+    <offerTitle>Hos La Siène i Nyhavn kan der nydes italienske specialiteter i sydlandske omgivelser. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>400</id>
+    <name>Café Klimt</name>
+    <address>Frederiksborggade 29</address>
+    <zipcode>1360</zipcode>
+    <city>København K</city>
+    <avgPrice>335</avgPrice>
+    <latlng json:type="array">
+      <_>55.68498959999999</_>
+      <_>12.567750599999954</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33117670/cafe-klimt-1.r2nv.1433858416.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/cafe-klimt</r2nLink>
+    <atmosphere>Indretningen og stemningen er afslappet og hyggelig. Ånden fra den østrigske maler Gustav Klimt er bevaret fra åbningen for 16 år siden i store rustikke malerier af nogle af Klimt’s største værker. I efteråret 2011 kom der en dimension mere på vores hyggelige café. En del energi og kræfter er blevet lagt i for at optimere vores standard af mad og service som gør, at du som gæst får en endnu bedre oplevelse fra du træder ind ad døren hos os. Lad vores søde tjenere tage sig godt af jer og mærk den afslappede atmosfære vi er kendt for på Klimt.</atmosphere>
+    <linkMenucard>www.cafeklimt.dk/menu/</linkMenucard>
+    <linkMenucardLunch>www.cafeklimt.dk/menu/</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">0</evaluationAvg>
+    <numberOfEvaluations>0</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Den specielle afslappede Klimt stemning skal mærkes på egen krop, så håber vi ses på Frederiksborggade 29 til en hyggelig stund!</others>
+    <cuisines json:type="array">
+      <_>café</_>
+    </cuisines>
+    <locationText>Vi ligger centralt, kun 2-3 minutters gang fra Nørreport st., Botanisk have, Søerne og Torvehallerne.</locationText>
+    <foodText>Vi har skiftende spændende retter men altid den gode gamle Klimt burger &amp; Skaldyrssalat på menukortet. Kom ind og prøv vores brunchkoncept hvor du vælger præcis det DU har lyst til ud fra vores store udvalg af sideorders!</foodText>
+    <offerTitle>Kom og oplev hyggelige Cafe Klimt hvor ånden fra den østrigske maler Gustav Klimt er bevaret. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435168800</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435167450</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>294</id>
+    <name>Prags</name>
+    <address>Amagerbrogade 37</address>
+    <zipcode>2300</zipcode>
+    <city>København S</city>
+    <avgPrice>444</avgPrice>
+    <latlng json:type="array">
+      <_>55.664485</_>
+      <_>12.600676900000053</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/32544444/prags-grill-steakhouse-1.r2nv.1422924920.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/prags-grill-steakhouse</r2nLink>
+    <atmosphere>Restauranten er hyggeligt indrettet som et fransk brasseri med lyse vægge, mørke trægulve og store panoramavinduer hele vejen rundt om hjørnebygningen, hvilket skaber et godt lysindfald. Atmosfæren er uhøjtidelig og afslappet.</atmosphere>
+    <linkMenucard>www.prags.dk/grafik/menuer/aftenmenu.pdf</linkMenucard>
+    <linkMenucardLunch>www.prags.dk/grafik/menuer/frokostmenu.pdf</linkMenucardLunch>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">3.5</evaluationAvg>
+    <numberOfEvaluations>2</numberOfEvaluations>
+    <discountToday>15</discountToday>
+    <others>Vinkortet er ikke stort, men når alligevel hele verden rundt. Priserne pr. glas ligger fra 39 til 55 kr. og fra 178 kr./flaske.</others>
+    <cuisines json:type="array">
+      <_>café</_>
+      <_>brasserie</_>
+      <_>steakhouse</_>
+    </cuisines>
+    <locationText>Prags Grill &amp; Steakhouse ligger hvor Prags Boulevard møder Amagerbrogade. Her er gode parkeringsmuligheder og metro næste lige til døren.</locationText>
+    <foodText>Køkkenet tilbyder de bedste bøffer, man kan ønske sig: Amerikansk ribeye eller kroghængt modnet højreb. Til forret kan man fx få varmrøget laksesalat eller tigerrejer i hvidløg og persillesmør, og blandt desserterne er bl.a. nybagt belgisk vaffel.</foodText>
+    <offerTitle>Prags på Christianshavn er indrettet som et hyggeligt fransk brasseri. Køkkenet tilbyder de lækreste bøffer. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435172400</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435171050</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+  <_>
+    <id>103</id>
+    <name>Koh-I-Noor</name>
+    <address>Vesterbrogade 33</address>
+    <zipcode>1620</zipcode>
+    <city>København V</city>
+    <avgPrice>273</avgPrice>
+    <latlng json:type="array">
+      <_>55.672739</_>
+      <_>12.557931</_>
+    </latlng>
+    <image>http://www.r2n.dk/images/restaurants/33246417/1.r2nv.1422924926.jpg</image>
+    <r2nLink>http://www.r2n.dk/restauranter/koh-i-noor</r2nLink>
+    <atmosphere>Kom og oplev krydderiernes magt hos Koh-I-Noor, i det gamle steno apotek. Bygningen er fra 1878 og vi har mere end et kvart århundredes erfaring med det pakistansk indiske køkken. Vores mål er, at levere god mad og god service til en rimelig pris.</atmosphere>
+    <linkMenucard>koh-i-noor.dk/Koh-i-Noor.pdf</linkMenucard>
+    <linkMenucardLunch/>
+    <linkMenucardWine/>
+    <evaluationAvg json:type="number">5.3</evaluationAvg>
+    <numberOfEvaluations>4</numberOfEvaluations>
+    <discountToday>10</discountToday>
+    <others>Husets vin fås for blot 165,- og serveres både i kvarte, halve og hele flasker. I restaurantens kælder ligger natklubben Crystal Club, hvor man kan vælge at nyde en drink efter maden. Natklubben er åben fredag og lørdag fra 23-05.</others>
+    <cuisines json:type="array">
+      <_>indisk</_>
+      <_>pakistansk</_>
+    </cuisines>
+    <locationText>Koh-I-Noor er centralt placeret på Vesterbro ikke langt fra Hovedbanegården. Der er parkeringskælder beliggende ca. 100 meter fra restauranten og ellers godt med busforbindelser.</locationText>
+    <foodText>Koh I Noor tilbyder en masse lækre a la carte retter samt steaks på op til 300g. Der er selvfølgelig også en buffet til blot 119.-, som fås dagligt fra kl. 17.00 til kl. 22.00, hvis du ønsker at prøve lidt forskelligt. Ellers er der menuer fra 179,-</foodText>
+    <offerTitle>Hos KOH-I-NOOR på Vesterbro kan du opleve krydderiernes magt i autentiske omgivelser. Book hér og få rabat på hele regningen i aften!</offerTitle>
+    <lastTimeslotToday json:type="number">1435176000</lastTimeslotToday>
+    <bookingTodayUntil json:type="number">1435174650</bookingTodayUntil>
+    <newsletterDate json:type="number">1434492000</newsletterDate>
+  </_>
+</json:json>
