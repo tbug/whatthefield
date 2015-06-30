@@ -6,6 +6,13 @@ use DOMDocument;
 use DOMNode;
 use FluentDOM\Nodes;
 
+/**
+ * Used for caching information for a DOMDocument.
+ * the static method instance() Accepts DOMNode objects
+ * and automatically converts the identity to the nodes associated DOMDocument,
+ * meaning that you can retrieve the cache for a document via any of it's nodes
+ * with UtilsDocumentCache::instance($myNode);
+ */
 class UtilsDocumentCache
 {
     static private $_instances = [];
@@ -30,6 +37,11 @@ class UtilsDocumentCache
     private $cache;
 
     public function __construct ()
+    {
+        $this->reset();
+    }
+
+    public function reset()
     {
         $this->cache = [];
     }
