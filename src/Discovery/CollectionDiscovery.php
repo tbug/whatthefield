@@ -42,7 +42,7 @@ class CollectionDiscovery extends AbstractDiscovery implements IDiscovery
         return $result;
     }
 
-    public function discoverScore(Nodes $nodes)
+    public function discoverBestScore(Nodes $nodes)
     {
         $possibles = $this->discoverScores($nodes);
         if (count($possibles) === 0) {
@@ -59,7 +59,7 @@ class CollectionDiscovery extends AbstractDiscovery implements IDiscovery
      */
     public function discover(Nodes $nodes)
     {
-        list($path, $score) = $this->discoverScore($nodes);
+        list($path, $score) = $this->discoverBestScore($nodes);
         return $path;
     }
 }

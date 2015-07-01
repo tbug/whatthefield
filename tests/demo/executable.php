@@ -6,6 +6,7 @@ require dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_S
 use WhatTheField\Feed;
 use WhatTheField\QueryUtils;
 use WhatTheField\Discovery\CollectionDiscovery;
+use WhatTheField\Discovery\ValueDiscovery;
 
 use Cli\Helpers\DocumentedScript;
 use Cli\Helpers\Parameter;
@@ -30,21 +31,26 @@ $script
 
         $feedPath = $options['feed'];
         $configPath = $options['config'];
-        $fieldConfig = require $configPath;
-
-        $feed = new Feed($feedPath, new CollectionDiscovery(), $fieldConfig, $log);
-        $collectionPath = $feed->discoverCollectionXPath();
-        $mapping = $feed->discoverFieldXPaths();
-
-        $longestKey = 0;
-        foreach ($mapping as $key => $path) {
-            $longestKey = max($longestKey, mb_strlen($key));
+        $fieldScorers = require $configPath;
+        $valuesDiscoveries = [];
+        foreach ($fieldScorers as $fieldName => $scoreObj) {
+            $valuesDiscoveries[$fieldName] = new ValueDiscovery($scoreObj);
         }
 
+        $feed = new Feed($feedPath, new CollectionDiscovery(), $valuesDiscoveries, $log);
+        $collectionPath = $feed->discoverCollectionXPath();
+        $mapping = $feed->getAllFieldXPathScores();
+
         echo "COLLECTION\t$collectionPath\n";
-        foreach ($mapping as $key => $path) {
-            $key = str_pad($key, $longestKey);
-            echo "KEY\t$key\t$path\n";
+        foreach ($mapping as $key => $scores) {
+            $keys = array_keys(array_filter($scores, function ($item) {
+                return $item > 0;
+            }));
+
+            $strKeys = implode("  ", $keys);
+
+            $key = str_pad($key, 10);
+            echo "KEY\t$key\t$strKeys\n";
         }
     })
     ->start();

@@ -9,6 +9,7 @@ use Psr\Log\LoggerAwareInterface;
 
 use WhatTheField\Discovery\IDiscovery;
 use FluentDOM;
+use FluentDOM\Nodes;
 
 class Feed implements LoggerAwareInterface
 {
@@ -86,13 +87,27 @@ class Feed implements LoggerAwareInterface
      * Return the xpath (grouped by name) if the field called $fieldName
      * $fieldName must be registered as a valid field name in valueDiscoveryObjects
      */
-    public function discoverFieldXPath($fieldName)
+    public function getFieldXPathScores($fieldName, Nodes $nodes)
     {
         if (!isset($this->valueDiscoveryObjects[$fieldName])) {
             throw new Exception("Field named '$fieldName' not registered");
         }
-        $discovery = $this->valueDiscoveryObjects[$fieldName];
-        return $discovery->discover($this->findAllCollectionItemValueNodes());
+
+        $this->debug("Beginning field discovery of field: '{$fieldName}'", [
+            'field_name' => $fieldName
+        ]);
+
+        $results = $this->valueDiscoveryObjects[$fieldName]->discoverScores($nodes);
+
+        $logResults = implode(', ', array_slice(array_map(function ($key, $value) {
+            return "$key=$value";
+        }, array_keys($results), array_values($results)), 0, 3));
+
+        $this->debug("Ended field discovery of field: '{$fieldName}' top-3 maches: $logResults", [
+            'field_name' => $fieldName,
+            'field_paths' => $results
+        ]);
+        return $results;
     }
 
     public function discoverCollectionXPath()
@@ -114,59 +129,29 @@ class Feed implements LoggerAwareInterface
         return $this->cache[$key];
     }
 
-    public function discoverRelativeFieldXPaths()
+    public function getAllFieldXPathScores($relativeTo='')
     {
-        $collectionXPath = $this->getCollectionXPath();
-        return $this->discoverFieldXPaths($collectionXPath);
-    }
-
-    public function discoverFieldXPaths($relativeTo='')
-    {
-        $valueNodes = $this->findAllCollectionItemValueNodes();
-        $result = [];
-
-        foreach ($this->valueDiscoveryObjects as $fieldName => $discovery) {
-
-            $this->debug("Beginning field discovery of field: '{$fieldName}'", [
-                'field_name' => $fieldName
-            ]);
-            $result[$fieldName] = $discovery->discover($valueNodes);
-
-            $this->debug("Ended field discovery of field: '{$fieldName}', got: '{$result[$fieldName]}'", [
-                'field_name' => $fieldName,
-                'field_path' => $result[$fieldName]
-            ]);
+        // populate cache before starting to iterate fields
+        $nodes = $this->findAllCollectionItemValueNodes();
+        $fieldScores = [];
+        foreach ($this->valueDiscoveryObjects as $fieldName => $_) {
+            $fieldScores[$fieldName] = $this->getFieldXPathScores($fieldName, $nodes);
         }
-
-        if (strlen($relativeTo) > 0) {
-            $this->debug("Let paths be relative to: '$relativeTo'");
-            $relativeToLength = strlen($relativeTo);
-            $out = [];
-            foreach ($result as $key => $value) {
-                if (strpos($value, $relativeTo) === 0) {
-                    $out[$key] = substr($value, $relativeToLength);
-                }
-            }
-            $this->debug("Completed relative remapping", [
-                'relative_to' => $relativeTo,
-                'relative_to_original' => $result,
-                'relative_to_remapped' => $out,
-            ]);
-            return $out;
-        } else {
-            return $result;
-        }
+        return $fieldScores;
     }
 
     protected function findAllCollectionItemValueNodes()
     {
-        $this->debug('Finding collection value nodes');
-        $collectionExpr = $this->getCollectionXPath();
-        $valueOrAttributeNodeExpr = "{$collectionExpr}//@*|{$collectionExpr}//*[text()]";
-        $valueOrAttributeNodes = FluentDOM($this->getDocument())->find($valueOrAttributeNodeExpr);
-        $valueOrAttributeNodeCount = count($valueOrAttributeNodes);
-        $this->debug("Found {$valueOrAttributeNodeCount} value/attribute nodes");
-        return $valueOrAttributeNodes;
+        $key = 'findAllCollectionItemValueNodes';
+        if (!isset($this->cache[$key])) {
+            $this->debug('Finding collection value nodes');
+            $collectionExpr = $this->getCollectionXPath();
+            $valueOrAttributeNodeExpr = "{$collectionExpr}//@*|{$collectionExpr}//*[text()]";
+            $this->cache[$key] = FluentDOM($this->getDocument())->find($valueOrAttributeNodeExpr);
+            $count = count($this->cache[$key]);
+            $this->debug("Found {$count} value/attribute nodes");
+        }
+        return $this->cache[$key];
     }
 
     protected function guessContentType($filename)

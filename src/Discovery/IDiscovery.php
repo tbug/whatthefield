@@ -20,7 +20,7 @@ interface IDiscovery
     /**
      * return 2-element array where first key is the xpath and second key is the score.
      */
-    public function discoverScore(Nodes $query);
+    public function discoverBestScore(Nodes $query);
 
     /**
      * Discover the most likely xpath for the IDiscovery impl.

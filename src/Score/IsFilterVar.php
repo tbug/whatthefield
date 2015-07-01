@@ -5,7 +5,7 @@ namespace WhatTheField\Score;
 
 use \DOMNode;
 
-class MatchFilterValidate implements IScore
+class IsFilterVar implements IScore
 {
     protected $filter;
 
