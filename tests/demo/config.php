@@ -25,6 +25,13 @@ $isImageUrl = new Score\Sum([
     new Score\IsMatch('/\.(?:jpe?g|png|gif)$/S'),
 ]);
 
+$isUrlNotImage = new Score\Sum([
+    new Score\IsFilterVar(FILTER_VALIDATE_URL),
+    new Score\Boost(-0.5, [
+        new Score\IsMatch('/\.(?:jpe?g|png|gif)$/S')
+    ]),
+]);
+
 $isTitle = new Score\Sum([
     new Score\Boost(-1, [
         new Score\IsFilterVar(FILTER_VALIDATE_URL),
@@ -61,14 +68,28 @@ $isDescription = new Score\Sum([
     ]),
 ]);
 
+$isName = new Score\Sum([
+    $isTitle,
+    new Score\IsKeyMatch('/name/Si'),
+]);
+
+$isPrice = new Score\Sum([
+    // ideally, we want something like 9,- or 9.50
+    new Score\IsMatch('/^\d+(?:(?:,|\.)\d+|,-)$/S'),
+    //tie-break
+    new Score\Boost(0.1, [
+        new Score\Boost(0.5, [
+            new Score\IsMatch('/^\d+$/S'), // integer, better than nothing
+        ]),
+        new Score\IsMatch('/^\d+[,\.]\d+$/S'), // decimal (multi-seperators), better than nothing
+    ]),
+]);
+
 $isId = new Score\Sum([
     new Score\IsUnique(),
     new Score\Boost(-1, [
         new Score\IsFilterVar(FILTER_VALIDATE_URL),
-        new Score\Max([
-            0,
-            new Score\IsDecimal(),
-        ]),
+        new Score\IsDecimal(),
     ]),
     // // tie breaker on ancestor level 
     new Score\Boost(-0.001, [
@@ -92,13 +113,40 @@ $isId = new Score\Sum([
 ]);
 
 
+// hacky, but we just check by name
+$isAddress = new Score\Sum([
+    new Score\IsKeyMatch('/addr/Si'),
+    new Score\IsKeyMatch('/address/Si'),
+]);
+
+$isZip = new Score\Sum([
+    new Score\IsKeyMatch('/zip/Si'),
+    new Score\IsKeyMatch('/postal/Si'),
+]);
+
+$isCity = new Score\Sum([
+    new Score\IsKeyMatch('/city/Si'),
+]);
+
+$isEmail = new Score\Sum([
+    new Score\IsFilterVar(FILTER_VALIDATE_EMAIL),
+]);
+
+
 return [
     // an ID is unique, 1 word, not decimal and not a URL
     'id' => $isId,
-    'image' => $isImageUrl,
+    'image_url' => $isImageUrl,
+    'url' => $isUrlNotImage,
     'title' => $isTitle,
     'description' => $isDescription,
     'date' => $isDate,
+    'price' => $isPrice,
+    'address' => $isAddress,
+    'city' => $isCity,
+    'zip' => $isZip,
+    'email' => $isEmail,
+    'name' => $isName,
 ];
 
 

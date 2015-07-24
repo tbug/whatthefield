@@ -82,6 +82,39 @@ class Feed implements LoggerAwareInterface
         return $this->document;
     }
 
+    /**
+     * Sample $n nodes of the value found on $path
+     * If you ask for 3 samples and 100 nodes exists matching path,
+     * you will get node number 33, 66 and 99
+     */
+    public function getSampleNodes($n, $path)
+    {
+        $nodes = [];
+        $result = $this->getDocument()->find($path);
+        $total = count($result);
+        $step = floor($total/$n);
+
+        if ($step > 1) {
+            for ($i=0; $i < $n; $i++) { 
+                $nodes[] = $result[$i*$step];
+            }
+        } else {
+            foreach ($result as $node) {
+                $nodes[] = $node;
+            }
+        }
+        return $nodes;
+    }
+
+    public function getSampleValues($n, $path)
+    {
+        $nodes = $this->getSampleNodes($n, $path);
+        $samples = [];
+        foreach ($nodes as $node) {
+            $samples[] = $node->textContent;
+        }
+        return $samples;
+    }
 
     /**
      * Return the xpath (grouped by name) if the field called $fieldName
