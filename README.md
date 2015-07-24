@@ -71,9 +71,9 @@ The primary collection is the outer-most, biggest collection of similar children
 e.g.
 ```xml
 <things>
-  <thing></thing>
-  <thing></thing>
-  <thing></thing>
+  <thing><!-- content --></thing>
+  <thing><!-- content --></thing>
+  <thing><!-- content --></thing>
 </things>
 ```
 Here the collection is `<thing>` in `<things>`, or XPath: `/things/thing`.
