@@ -82,7 +82,7 @@ From the collection of items, WhatTheField searches for fields that best match y
 across the entire feed.
 The result is an array where the key is the configuration name (e.g. `datetime` or `id`) and the value
 is a sorted array of xpath to score mapping:
-```
+```php
 $result = [
   'id' => ['/things/thing/datetime' => 2.2, '/things/thing/looks_a_little_like_datetime' => 0.1],  
   /* ... */
