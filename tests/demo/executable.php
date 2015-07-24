@@ -70,11 +70,11 @@ $script
                     foreach ($samples as $sample) {
                         $length = mb_strlen($sample);
                         if ($length > $truncateN && $truncateN > 0) {
-                            $sample = substr($sample, 0, $truncateN);
+                            $sample = "'" . substr($sample, 0, $truncateN) . "' ...";
                         }
                         $sample = str_replace(["\n", "\t"], ['\n', '\t'], $sample);
                         $lengthStr = str_pad($length, 4);
-                        echo "        SAMPLE\t$key\t'$sample'\n";
+                        echo "        SAMPLE\t$key\t$sample\n";
                     }
                 }
                 echo "\n";

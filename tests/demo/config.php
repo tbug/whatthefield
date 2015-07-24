@@ -3,7 +3,7 @@
 use WhatTheField\Discovery\ValueDiscovery;
 use WhatTheField\Score;
 
-$isDate = new Score\Max([
+$isDatetime = new Score\Max([
     new Score\IsDateTimeFormat(DateTime::ISO8601),
     new Score\IsDateTimeFormat(DateTime::ATOM),
     new Score\IsDateTimeFormat(DateTime::RSS),
@@ -46,7 +46,7 @@ $isTitle = new Score\Sum([
         new Score\IsMatch('/\s+/S'),
     ]),
     new Score\Boost(-1, [
-        $isDate
+        $isDatetime
     ]),
 ]);
 
@@ -64,7 +64,7 @@ $isDescription = new Score\Sum([
         new Score\IsMatch('/\s+/S'),
     ]),
     new Score\Boost(-1, [
-        $isDate
+        $isDatetime
     ]),
 ]);
 
@@ -108,7 +108,7 @@ $isId = new Score\Sum([
         new Score\IsGreaterThan(99999)
     ]),
     new Score\Boost(-1, [
-        $isDate
+        $isDatetime
     ]),
 ]);
 
@@ -140,7 +140,7 @@ return [
     'url' => $isUrlNotImage,
     'title' => $isTitle,
     'description' => $isDescription,
-    'date' => $isDate,
+    'datetime' => $isDatetime,
     'price' => $isPrice,
     'address' => $isAddress,
     'city' => $isCity,
