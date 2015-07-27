@@ -1,12 +1,12 @@
 {
     "name": "tbug/whatthefield",
     "require": {
-        "monolog/monolog": "^1.13@dev",
         "psr/log": "^1.0@dev",
-        "fluentdom/fluentdom": "dev-master",
-        "amercier/cli-helpers": "dev-master"
+        "fluentdom/fluentdom": "dev-master"
     },
     "require-dev": {
+        "amercier/cli-helpers": "dev-master",
+        "monolog/monolog": "^1.13@dev",
         "phpunit/phpunit": "~4.0"
     },
     "authors": [
