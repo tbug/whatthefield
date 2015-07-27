@@ -42,8 +42,6 @@ class Feed implements LoggerAwareInterface
 
 
         $this->document->registerNamespace('#default', 'urn:default');
-        $this->document->registerNamespace('json', 'urn:carica-json-dom.2013');
-
         // register all found namespaces
         foreach ($this->document->find('namespace::*') as $node) {
             if (!in_array($node->localName, ['xml', 'xmlns'])) {
