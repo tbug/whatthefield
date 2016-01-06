@@ -4,8 +4,7 @@ _Detect structures of collections in XML (and other) documents_
 
 ## What
 
-WhatTheField is primarity a library, but a demo CLI exists at `tests/demo/executable.php`
-It searches a DOM (feed) for values (nodes) matching a customizable configuration of value types.
+WhatTheField a library for searchinh a DOM (feed) for values (nodes) matching a customizable configuration of value types.
 
 WhatTheField takes a score approach to value type discovery, where you express the importance of different features.
 The scoring can be compared to the ElasticSearch approach to composable queries.
